@@ -174,6 +174,9 @@ export function sonidoFallo() {
   voz({ freq: 120, tipo: 'square', t: t + 0.09, dur: 0.16, vol: 0.12, filtro: { inicio: 900, fin: 200 } });
 }
 
+// TODO(equipo): Integrante 3 crea variaciones de los efectos (ver TAREAS_EQUIPO.md, "Efectos de sonido"):
+// por ejemplo varios sonidos de acierto que alternen, o un clic distinto para cada botón.
+
 /** Chasquido de acierto: más agudo y brillante si fue "perfecto". */
 export function sonidoAcierto(perfecto) {
   if (!audioDisponible()) return;

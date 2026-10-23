@@ -10,6 +10,8 @@ import { vibrar } from '../vibracion.js';
 import { lanzarConfeti } from '../util/confeti.js';
 import { aviso, esc, miles } from '../util/dom.js';
 
+// TODO(equipo): Integrante 2 agrega aquí el easter egg #5 en resultados (ver TAREAS_EQUIPO.md),
+// por ejemplo un mensaje especial si el puntaje termina en 777.
 export default {
   montar(el, { cancionId, nivelId, resultado: r, esRecord, nuevoDesbloqueo }, nav) {
     const c = cancionPorId(cancionId);

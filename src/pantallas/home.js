@@ -69,6 +69,9 @@ export default {
       $('#entrada-nombre').addEventListener('keydown', (e) => { if (e.key === 'Enter') confirmar(); });
     }
 
+    // TODO(equipo): Integrante 2 agrega aquí el easter egg #4 (ver TAREAS_EQUIPO.md), por ejemplo
+    // tocar el contador de estrellas 5 veces o dejar el dedo 3 segundos sobre el nombre del jugador.
+
     // ----- EASTER EGG #1: 7 toques al logo -----
     let toques = 0;
     let temporizador = null;
