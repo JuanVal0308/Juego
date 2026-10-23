@@ -54,7 +54,7 @@ input[type="range"] { width: 100%; accent-color: var(--magenta); }
 .cancion .disco { width: 52px; height: 52px; flex: none; border-radius: 50%; display: grid; place-items: center; font-size: 1.5rem; background: radial-gradient(circle, #12062b 28%, var(--color) 30%, #12062b 70%); box-shadow: 0 0 14px var(--color); }
 .cancion .info { flex: 1; min-width: 0; }
 .cancion .info b { display: block; font-size: 1.05rem; }
-.cancion .info small { color: var(--texto-suave); display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cancion .info small { color: var(--texto-suave); display: block; line-height: 1.25; }
 .cancion .estrellas { color: var(--amarillo); letter-spacing: 2px; font-size: .95rem; text-shadow: 0 0 8px rgba(255, 216, 74, .5); }
 .cancion.bloqueada { opacity: .5; filter: grayscale(.7); }
 .cancion.secreta { border-image: linear-gradient(90deg, #ff4d6d, #ffd84a, #4dff9a, #22e5ff, #ff2bd6) 1; border-left-width: 5px; }

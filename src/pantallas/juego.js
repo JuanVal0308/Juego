@@ -92,8 +92,7 @@ export default {
         if (n !== ultimoCuenta) { ultimoCuenta = n; c.className = 'cuenta'; c.innerHTML = `<span>${n}</span>`; sonidoCuentaAtras(false); }
       } else if (ultimoCuenta !== 0) {
         ultimoCuenta = 0; c.className = 'cuenta ya'; c.innerHTML = '<span>¡YA!</span>'; sonidoCuentaAtras(true);
-        setTimeout(() => { if (c) c.innerHTML = ''; }, 900);
-      }
+      } else if (partida.tiempo > 900 && c.innerHTML) c.innerHTML = ''; // se quita el "¡YA!" según el reloj del juego
     }
 
     // ---------- Entrada ----------
@@ -165,14 +164,14 @@ export default {
     // ---------- Bucle principal ----------
     let anterior = performance.now();
     let rafId = 0;
-    function paso(dt) {
+    function paso(dt, dibujar = true) {
       if (partida.estado === 'jugando') {
         partida.avanzar(dt);
         fondo.actualizar(partida.tiempo);
         actualizarCuenta();
       }
       lienzo.actualizar(dt, partida);
-      lienzo.dibujar(partida);
+      if (dibujar) lienzo.dibujar(partida);
     }
     function cuadro(ahora) {
       const dt = Math.min(50, ahora - anterior);
@@ -183,6 +182,7 @@ export default {
     if (!MODO_PRUEBA) rafId = requestAnimationFrame(cuadro);
     else lienzo.dibujar(partida);
     actualizarHud();
+    actualizarCuenta();
 
     const alRedimensionar = () => lienzo.redimensionar();
     window.addEventListener('resize', alRedimensionar);
@@ -190,7 +190,8 @@ export default {
     // Ganchos para las pruebas automáticas (pruebas/e2e.py): avanzar el reloj a mano
     window.__nf = {
       partida, lienzo,
-      avanzar(ms) { let r = ms; while (r > 0) { const d = Math.min(16, r); paso(d); r -= d; } },
+      // Avanza el reloj `ms` milisegundos y dibuja un solo cuadro al final (más rápido para pruebas)
+      avanzar(ms, dibujar = true) { let r = ms; while (r > 0) { const d = Math.min(16, r); paso(d, false); r -= d; } if (dibujar) lienzo.dibujar(partida); },
       pulsar: tocarCarril,
     };
 

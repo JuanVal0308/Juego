@@ -39,7 +39,7 @@ export default {
         <button class="boton grande" id="btn-jugar">▶ Jugar</button>
         <div class="home-fila">
           <button class="boton cian" id="btn-puntajes">🏆 Puntajes</button>
-          <button class="boton cian" id="btn-ayuda">❓ Cómo jugar</button>
+          <button class="boton cian" id="btn-ayuda">❓ Ayuda</button>
         </div>
         <button class="boton suave" id="btn-creditos">Créditos</button>
       </div>
