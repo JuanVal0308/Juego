@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800" fill="none">
+<title>NotaFlow - Selección de canción</title>
+<g id="03-seleccion-cancion">
+  <rect id="fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+  <g id="encabezado">
+    <rect id="btn-atras" x="16" y="28" width="40" height="40" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="icono-atras" d="M40 40 L31.2 48 L40 56" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="titulo-pantalla" x="180" y="55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111" text-anchor="middle">Elige una canción</text>
+  </g>
+  <g id="filtros">
+    <g id="chip-todas">
+      <rect id="chip-todas-fondo" x="20" y="90" width="64" height="30" rx="15" fill="#111111"/>
+      <text id="chip-todas-texto" x="52" y="109.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#F5F5F5" text-anchor="middle">Todas</text>
+    </g>
+    <g id="chip-pop">
+      <rect id="chip-pop-fondo" x="92" y="90" width="52" height="30" rx="15" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="chip-pop-texto" x="118" y="109.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#333333" text-anchor="middle">Pop</text>
+    </g>
+    <g id="chip-rock">
+      <rect id="chip-rock-fondo" x="152" y="90" width="52" height="30" rx="15" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="chip-rock-texto" x="178" y="109.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#333333" text-anchor="middle">Rock</text>
+    </g>
+    <g id="chip-clasica">
+      <rect id="chip-clasica-fondo" x="212" y="90" width="72" height="30" rx="15" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="chip-clasica-texto" x="248" y="109.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#333333" text-anchor="middle">Clásica</text>
+    </g>
+  </g>
+  <g id="lista-canciones">
+    <g id="cancion-1">
+      <rect id="cancion-1-fondo" x="20" y="138" width="320" height="100" rx="14" fill="#EBEBEB" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="cancion-1-portada">
+        <rect id="cancion-1-portada-fondo" x="32" y="152" width="72" height="72" rx="10" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="cancion-1-portada-nota">
+          <circle id="cancion-1-portada-nota-cabeza" cx="62.6" cy="198.08" r="7.2" fill="#555555"/>
+          <path id="cancion-1-portada-nota-asta" d="M69.8 198.08 L69.8 172.88" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="cancion-1-portada-nota-bandera" d="M69.8 172.88 L81.68 180.8 L69.8 183.68" fill="none" stroke="#555555" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+      <text id="cancion-1-titulo" x="116" y="169.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Estrella Fugaz</text>
+      <text id="cancion-1-artista" x="116" y="189.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Luna Roja</text>
+      <text id="cancion-1-info" x="116" y="207.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="start">3:12 · 120 BPM</text>
+      <text id="cancion-1-mejor" x="116" y="227.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#555555" text-anchor="start">Mejor:</text>
+      <g id="cancion-1-estrellas">
+        <path id="cancion-1-estrellas-1" d="M161 217 L162.85 221.45 L167.66 221.84 L164 224.97 L165.11 229.66 L161 227.15 L156.89 229.66 L158 224.97 L154.34 221.84 L159.15 221.45 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="cancion-1-estrellas-2" d="M178 217 L179.85 221.45 L184.66 221.84 L181 224.97 L182.11 229.66 L178 227.15 L173.89 229.66 L175 224.97 L171.34 221.84 L176.15 221.45 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="cancion-1-estrellas-3" d="M195 217 L196.85 221.45 L201.66 221.84 L198 224.97 L199.11 229.66 L195 227.15 L190.89 229.66 L192 224.97 L188.34 221.84 L193.15 221.45 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <path id="cancion-1-jugar" d="M311.7 179 L327 188 L311.7 197 Z" fill="#111111" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="cancion-2">
+      <rect id="cancion-2-fondo" x="20" y="250" width="320" height="100" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="cancion-2-portada">
+        <rect id="cancion-2-portada-fondo" x="32" y="264" width="72" height="72" rx="10" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="cancion-2-portada-nota">
+          <circle id="cancion-2-portada-nota-cabeza" cx="62.6" cy="310.08" r="7.2" fill="#555555"/>
+          <path id="cancion-2-portada-nota-asta" d="M69.8 310.08 L69.8 284.88" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="cancion-2-portada-nota-bandera" d="M69.8 284.88 L81.68 292.8 L69.8 295.68" fill="none" stroke="#555555" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+      <text id="cancion-2-titulo" x="116" y="281.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Ritmo Tropical</text>
+      <text id="cancion-2-artista" x="116" y="301.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Los Andes</text>
+      <text id="cancion-2-info" x="116" y="319.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="start">2:48 · 105 BPM</text>
+      <text id="cancion-2-mejor" x="116" y="339.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#555555" text-anchor="start">Mejor:</text>
+      <g id="cancion-2-estrellas">
+        <path id="cancion-2-estrellas-1" d="M161 329 L162.85 333.45 L167.66 333.84 L164 336.97 L165.11 341.66 L161 339.15 L156.89 341.66 L158 336.97 L154.34 333.84 L159.15 333.45 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="cancion-2-estrellas-2" d="M178 329 L179.85 333.45 L184.66 333.84 L181 336.97 L182.11 341.66 L178 339.15 L173.89 341.66 L175 336.97 L171.34 333.84 L176.15 333.45 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="cancion-2-estrellas-3" d="M195 329 L196.85 333.45 L201.66 333.84 L198 336.97 L199.11 341.66 L195 339.15 L190.89 341.66 L192 336.97 L188.34 333.84 L193.15 333.45 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <path id="cancion-2-ir" d="M314.5 293 L321.5 300 L314.5 307" fill="none" stroke="#777777" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="cancion-3">
+      <rect id="cancion-3-fondo" x="20" y="362" width="320" height="100" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="cancion-3-portada">
+        <rect id="cancion-3-portada-fondo" x="32" y="376" width="72" height="72" rx="10" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="cancion-3-portada-nota">
+          <circle id="cancion-3-portada-nota-cabeza" cx="62.6" cy="422.08" r="7.2" fill="#555555"/>
+          <path id="cancion-3-portada-nota-asta" d="M69.8 422.08 L69.8 396.88" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="cancion-3-portada-nota-bandera" d="M69.8 396.88 L81.68 404.8 L69.8 407.68" fill="none" stroke="#555555" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+      <text id="cancion-3-titulo" x="116" y="393.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Noche de Rock</text>
+      <text id="cancion-3-artista" x="116" y="413.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Cuerdas Vivas</text>
+      <text id="cancion-3-info" x="116" y="431.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="start">3:40 · 140 BPM</text>
+      <text id="cancion-3-mejor" x="116" y="451.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#555555" text-anchor="start">Mejor:</text>
+      <g id="cancion-3-estrellas">
+        <path id="cancion-3-estrellas-1" d="M161 441 L162.85 445.45 L167.66 445.84 L164 448.97 L165.11 453.66 L161 451.15 L156.89 453.66 L158 448.97 L154.34 445.84 L159.15 445.45 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="cancion-3-estrellas-2" d="M178 441 L179.85 445.45 L184.66 445.84 L181 448.97 L182.11 453.66 L178 451.15 L173.89 453.66 L175 448.97 L171.34 445.84 L176.15 445.45 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="cancion-3-estrellas-3" d="M195 441 L196.85 445.45 L201.66 445.84 L198 448.97 L199.11 453.66 L195 451.15 L190.89 453.66 L192 448.97 L188.34 445.84 L193.15 445.45 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <path id="cancion-3-ir" d="M314.5 405 L321.5 412 L314.5 419" fill="none" stroke="#777777" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="cancion-4">
+      <rect id="cancion-4-fondo" x="20" y="474" width="320" height="100" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="cancion-4-portada">
+        <rect id="cancion-4-portada-fondo" x="32" y="488" width="72" height="72" rx="10" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="cancion-4-portada-nota">
+          <circle id="cancion-4-portada-nota-cabeza" cx="62.6" cy="534.08" r="7.2" fill="#555555"/>
+          <path id="cancion-4-portada-nota-asta" d="M69.8 534.08 L69.8 508.88" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="cancion-4-portada-nota-bandera" d="M69.8 508.88 L81.68 516.8 L69.8 519.68" fill="none" stroke="#555555" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+      <text id="cancion-4-titulo" x="116" y="505.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Para Elisa</text>
+      <text id="cancion-4-artista" x="116" y="525.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Beethoven (arr.)</text>
+      <text id="cancion-4-info" x="116" y="543.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="start">2:30 · 90 BPM</text>
+      <text id="cancion-4-mejor" x="116" y="563.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#555555" text-anchor="start">Mejor:</text>
+      <g id="cancion-4-estrellas">
+        <path id="cancion-4-estrellas-1" d="M161 553 L162.85 557.45 L167.66 557.84 L164 560.97 L165.11 565.66 L161 563.15 L156.89 565.66 L158 560.97 L154.34 557.84 L159.15 557.45 Z" fill="none" stroke="#999999" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="cancion-4-estrellas-2" d="M178 553 L179.85 557.45 L184.66 557.84 L181 560.97 L182.11 565.66 L178 563.15 L173.89 565.66 L175 560.97 L171.34 557.84 L176.15 557.45 Z" fill="none" stroke="#999999" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="cancion-4-estrellas-3" d="M195 553 L196.85 557.45 L201.66 557.84 L198 560.97 L199.11 565.66 L195 563.15 L190.89 565.66 L192 560.97 L188.34 557.84 L193.15 557.45 Z" fill="none" stroke="#999999" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <path id="cancion-4-ir" d="M314.5 517 L321.5 524 L314.5 531" fill="none" stroke="#777777" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="cancion-5">
+      <rect id="cancion-5-fondo" x="20" y="586" width="320" height="100" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="cancion-5-portada">
+        <rect id="cancion-5-portada-fondo" x="32" y="600" width="72" height="72" rx="10" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="cancion-5-portada-nota">
+          <circle id="cancion-5-portada-nota-cabeza" cx="62.6" cy="646.08" r="7.2" fill="#555555"/>
+          <path id="cancion-5-portada-nota-asta" d="M69.8 646.08 L69.8 620.88" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="cancion-5-portada-nota-bandera" d="M69.8 620.88 L81.68 628.8 L69.8 631.68" fill="none" stroke="#555555" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+      <text id="cancion-5-titulo" x="116" y="617.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Himno del Viento</text>
+      <text id="cancion-5-artista" x="116" y="637.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Aurora</text>
+      <text id="cancion-5-info" x="116" y="655.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="start">3:05 · 128 BPM</text>
+      <text id="cancion-5-mejor" x="116" y="675.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#555555" text-anchor="start">Mejor:</text>
+      <g id="cancion-5-estrellas">
+        <path id="cancion-5-estrellas-1" d="M161 665 L162.85 669.45 L167.66 669.84 L164 672.97 L165.11 677.66 L161 675.15 L156.89 677.66 L158 672.97 L154.34 669.84 L159.15 669.45 Z" fill="none" stroke="#999999" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="cancion-5-estrellas-2" d="M178 665 L179.85 669.45 L184.66 669.84 L181 672.97 L182.11 677.66 L178 675.15 L173.89 677.66 L175 672.97 L171.34 669.84 L176.15 669.45 Z" fill="none" stroke="#999999" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="cancion-5-estrellas-3" d="M195 665 L196.85 669.45 L201.66 669.84 L198 672.97 L199.11 677.66 L195 675.15 L190.89 677.66 L192 672.97 L188.34 669.84 L193.15 669.45 Z" fill="none" stroke="#999999" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <path id="cancion-5-ir" d="M314.5 629 L321.5 636 L314.5 643" fill="none" stroke="#777777" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <rect id="barra-scroll" x="350" y="142" width="4" height="300" rx="2" fill="#BBBBBB"/>
+</g>
+</svg>

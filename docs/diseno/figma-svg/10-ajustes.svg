@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800" fill="none">
+<title>NotaFlow - Ajustes</title>
+<g id="10-ajustes">
+  <rect id="fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+  <g id="encabezado">
+    <rect id="btn-atras" x="16" y="28" width="40" height="40" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="icono-atras" d="M40 40 L31.2 48 L40 56" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="titulo-pantalla" x="180" y="55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111" text-anchor="middle">Ajustes</text>
+  </g>
+  <g id="seccion-sonido">
+    <text id="sonido-titulo" x="24" y="103.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#555555" text-anchor="start">SONIDO</text>
+    <rect id="sonido-fondo" x="20" y="116" width="320" height="120" rx="16" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="sonido-icono">
+      <path id="sonido-icono-cuerpo" d="M37 144.04 L42.5 144.04 L49.1 138.76 L49.1 157.24 L42.5 151.96 L37 151.96 Z" fill="#111111" stroke="#111111" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="sonido-icono-onda-1" d="M52.49 143.96 L53.29 144.79 L53.89 145.77 L54.25 146.86 L54.38 148 L54.25 149.14 L53.89 150.23 L53.29 151.21 L52.49 152.04" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="sonido-icono-onda-2" d="M55.32 140.58 L56.78 142.11 L57.87 143.91 L58.55 145.9 L58.78 148 L58.55 150.1 L57.87 152.09 L56.78 153.89 L55.32 155.42" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="sonido-etiqueta" x="74" y="152.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#111111" text-anchor="start">Volumen de música</text>
+    <text id="sonido-valor" x="320" y="152.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111111" text-anchor="end">70%</text>
+    <g id="sonido-slider">
+      <rect id="sonido-slider-pista" x="40" y="186" width="280" height="8" rx="4" fill="#D9D9D9"/>
+      <rect id="sonido-slider-relleno" x="40" y="186" width="196" height="8" rx="4" fill="#111111"/>
+      <circle id="sonido-slider-perilla" cx="236" cy="190" r="12" fill="#F5F5F5" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="sonido-silencio-icono">
+      <path id="sonido-silencio-icono-cuerpo" d="M45 213.48 L48.5 213.48 L52.7 210.12 L52.7 221.88 L48.5 218.52 L45 218.52 Z" fill="#777777" stroke="#777777" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="sonido-silencio-icono-x" d="M54.8 213.2 L59 218.8" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="sonido-silencio-icono-x2" d="M59 213.2 L54.8 218.8" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="sonido-silencio" x="66" y="219.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#777777" text-anchor="start">Mín.</text>
+    <text id="sonido-max" x="320" y="219.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#777777" text-anchor="end">Máx.</text>
+  </g>
+  <g id="seccion-vibracion">
+    <text id="vibracion-titulo" x="24" y="265.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#555555" text-anchor="start">VIBRACIÓN</text>
+    <rect id="vibracion-fondo" x="20" y="278" width="320" height="72" rx="16" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="vibracion-icono">
+      <rect id="vibracion-icono-telefono" x="43.92" y="304.88" width="8.16" height="18.24" rx="3" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="vibracion-icono-onda-izq-1" d="M40.8 309.2 L38.4 314 L40.8 318.8" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="vibracion-icono-onda-izq-2" d="M37.44 306.8 L34.08 314 L37.44 321.2" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="vibracion-icono-onda-der-1" d="M55.2 309.2 L57.6 314 L55.2 318.8" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="vibracion-icono-onda-der-2" d="M58.56 306.8 L61.92 314 L58.56 321.2" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="vibracion-etiqueta" x="74" y="310.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#111111" text-anchor="start">Vibrar al tocar</text>
+    <text id="vibracion-ayuda" x="74" y="329.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Respuesta táctil en cada nota</text>
+    <g id="vibracion-interruptor">
+      <rect id="vibracion-interruptor-pista" x="276" y="301" width="48" height="26" rx="13" fill="#111111"/>
+      <circle id="vibracion-interruptor-perilla" cx="311" cy="314" r="10" fill="#F5F5F5"/>
+    </g>
+  </g>
+  <g id="seccion-jugador">
+    <text id="jugador-titulo" x="24" y="379.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#555555" text-anchor="start">JUGADOR</text>
+    <rect id="jugador-fondo" x="20" y="392" width="320" height="112" rx="16" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="jugador-etiqueta" x="40" y="420.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#111111" text-anchor="start">Nombre del jugador</text>
+    <rect id="jugador-campo" x="36" y="436" width="288" height="44" rx="10" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="jugador-valor" x="50" y="463.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#111111" text-anchor="start">Jugador1</text>
+    <path id="jugador-cursor" d="M122 446 L122 470" fill="none" stroke="#111111" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="jugador-contador" x="316" y="495.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#777777" text-anchor="end">8/16</text>
+  </g>
+  <text id="jugador-ayuda" x="180" y="527.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="middle">Este nombre aparece en la tabla de Puntajes</text>
+  <g id="btn-guardar">
+    <rect id="btn-guardar-fondo" x="20" y="580" width="320" height="56" rx="12" fill="#111111"/>
+    <text id="btn-guardar-texto" x="180" y="613.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#F5F5F5" text-anchor="middle">Guardar cambios</text>
+  </g>
+  <g id="btn-restablecer">
+    <rect id="btn-restablecer-fondo" x="20" y="652" width="320" height="48" rx="12" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="btn-restablecer-texto" x="180" y="680.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111111" text-anchor="middle">Restablecer valores</text>
+  </g>
+</g>
+</svg>

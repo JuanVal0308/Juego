@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800" fill="none">
+<title>NotaFlow - Resultados</title>
+<g id="07-resultados">
+  <rect id="fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+  <text id="titulo" x="180" y="58.4" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">¡Nivel completado!</text>
+  <text id="cancion-nivel" x="180" y="84.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="middle">Estrella Fugaz · Medio</text>
+  <g id="estrellas">
+    <path id="estrella-1" d="M112 134 L120.99 155.62 L144.34 157.49 L126.55 172.73 L131.98 195.51 L112 183.3 L92.02 195.51 L97.45 172.73 L79.66 157.49 L103.01 155.62 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="estrella-2" d="M180 110 L190.58 135.44 L218.04 137.64 L197.12 155.56 L203.51 182.36 L180 168 L156.49 182.36 L162.88 155.56 L141.96 137.64 L169.42 135.44 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="estrella-3" d="M248 134 L256.99 155.62 L280.34 157.49 L262.55 172.73 L267.98 195.51 L248 183.3 L228.02 195.51 L233.45 172.73 L215.66 157.49 L239.01 155.62 Z" fill="none" stroke="#777777" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="puntaje-etiqueta" x="180" y="241.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#555555" text-anchor="middle">PUNTAJE</text>
+  <text id="puntaje-valor" x="180" y="296.8" font-family="Inter, Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#111111" text-anchor="middle">12 450</text>
+  <g id="insignia-record">
+    <rect id="insignia-record-fondo" x="112" y="316" width="136" height="28" rx="14" fill="#111111"/>
+    <text id="insignia-record-texto" x="180" y="334.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#F5F5F5" text-anchor="middle">¡Nuevo récord!</text>
+  </g>
+  <g id="tarjeta-estadisticas">
+    <rect id="tarjeta-fondo" x="20" y="366" width="320" height="176" rx="16" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="stat-1-etiqueta" x="44" y="412.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Combo máximo</text>
+    <text id="stat-1-valor" x="316" y="413.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="end">48</text>
+    <path id="stat-divisor-1" d="M40 436 L320 436" fill="none" stroke="#BBBBBB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="stat-2-etiqueta" x="44" y="458.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Precisión</text>
+    <text id="stat-2-valor" x="316" y="459.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="end">92%</text>
+    <rect id="stat-2-pista" x="44" y="472" width="272" height="6" rx="3" fill="#D9D9D9"/>
+    <rect id="stat-2-relleno" x="44" y="472" width="250.24" height="6" rx="3" fill="#111111"/>
+    <path id="stat-divisor-2" d="M40 488 L320 488" fill="none" stroke="#BBBBBB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="stat-3-etiqueta" x="44" y="516.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Perfectos / Buenos / Fallos</text>
+    <text id="stat-3-valor" x="316" y="517.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="end">120 / 18 / 6</text>
+  </g>
+  <g id="btn-siguiente">
+    <rect id="btn-siguiente-fondo" x="20" y="572" width="320" height="56" rx="12" fill="#111111"/>
+    <text id="btn-siguiente-texto" x="180" y="606.3" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#F5F5F5" text-anchor="middle">Siguiente</text>
+  </g>
+  <g id="btn-reintentar">
+    <rect id="btn-reintentar-fondo" x="20" y="644" width="154" height="52" rx="12" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="btn-reintentar-texto" x="97" y="675.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="middle">Reintentar</text>
+  </g>
+  <g id="btn-menu">
+    <rect id="btn-menu-fondo" x="186" y="644" width="154" height="52" rx="12" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="btn-menu-texto" x="263" y="675.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="middle">Menú</text>
+  </g>
+  <text id="nota-pie" x="180" y="743.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="middle">Siguiente avanza al próximo nivel o canción</text>
+</g>
+</svg>

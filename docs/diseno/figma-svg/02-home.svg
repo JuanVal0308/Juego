@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800" fill="none">
+<title>NotaFlow - Inicio</title>
+<g id="02-home">
+  <rect id="fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+  <rect id="btn-ajustes-rapido" x="304" y="28" width="40" height="40" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g id="icono-ajustes">
+    <path id="icono-ajustes-diente-1" d="M332.36 48 L336.1 48" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="icono-ajustes-diente-2" d="M329.91 53.91 L332.56 56.56" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="icono-ajustes-diente-3" d="M324 56.36 L324 60.1" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="icono-ajustes-diente-4" d="M318.09 53.91 L315.44 56.56" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="icono-ajustes-diente-5" d="M315.64 48 L311.9 48" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="icono-ajustes-diente-6" d="M318.09 42.09 L315.44 39.44" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="icono-ajustes-diente-7" d="M324 39.64 L324 35.9" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="icono-ajustes-diente-8" d="M329.91 42.09 L332.56 39.44" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle id="icono-ajustes-aro" cx="324" cy="48" r="7.92" fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle id="icono-ajustes-centro" cx="324" cy="48" r="2.86" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g id="logo">
+    <rect id="logo-fondo" x="138" y="88" width="84" height="84" rx="18.48" fill="#111111"/>
+    <path id="logo-carril-1" d="M159 98.08 L159 161.92" fill="none" stroke="#555555" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="logo-carril-2" d="M180 98.08 L180 161.92" fill="none" stroke="#555555" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="logo-carril-3" d="M201 98.08 L201 161.92" fill="none" stroke="#555555" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect id="logo-nota-1" x="141.36" y="109.84" width="14.28" height="8.4" rx="2.52" fill="#F5F5F5"/>
+    <rect id="logo-nota-2" x="162.36" y="130" width="14.28" height="8.4" rx="2.52" fill="#F5F5F5"/>
+    <rect id="logo-nota-3" x="183.36" y="116.56" width="14.28" height="8.4" rx="2.52" fill="#F5F5F5"/>
+    <rect id="logo-nota-4" x="204.36" y="145.12" width="14.28" height="8.4" rx="2.52" fill="#F5F5F5"/>
+    <path id="logo-linea" d="M144.72 155.2 L215.28 155.2" fill="none" stroke="#F5F5F5" stroke-width="2.52" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="titulo-app" x="180" y="225.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#111111" text-anchor="middle">NotaFlow</text>
+  <text id="eslogan" x="180" y="250.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="middle">Elige una canción y toca al ritmo</text>
+  <g id="btn-jugar">
+    <rect id="btn-jugar-fondo" x="40" y="300" width="280" height="60" rx="12" fill="#111111"/>
+    <text id="btn-jugar-texto" x="180" y="337" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#F5F5F5" text-anchor="middle">Jugar</text>
+  </g>
+  <g id="btn-puntajes">
+    <rect id="btn-puntajes-fondo" x="40" y="376" width="280" height="52" rx="12" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="btn-puntajes-texto" x="180" y="407.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="middle">Puntajes</text>
+  </g>
+  <g id="btn-creditos">
+    <rect id="btn-creditos-fondo" x="40" y="444" width="280" height="52" rx="12" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="btn-creditos-texto" x="180" y="475.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="middle">Créditos</text>
+  </g>
+  <g id="tarjeta-ajustes">
+    <rect id="tarjeta-ajustes-fondo" x="28" y="540" width="304" height="168" rx="16" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="ajustes-titulo" x="48" y="573.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Ajustes</text>
+    <text id="ajustes-ver" x="312" y="572.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#555555" text-anchor="end">Ver todos ›</text>
+    <path id="ajustes-divisor" d="M44 592 L316 592" fill="none" stroke="#BBBBBB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="fila-sonido">
+      <g id="icono-sonido">
+        <path id="icono-sonido-cuerpo" d="M45 636.04 L50.5 636.04 L57.1 630.76 L57.1 649.24 L50.5 643.96 L45 643.96 Z" fill="#111111" stroke="#111111" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-sonido-onda-1" d="M60.49 635.96 L61.29 636.79 L61.89 637.77 L62.25 638.86 L62.38 640 L62.25 641.14 L61.89 642.23 L61.29 643.21 L60.49 644.04" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-sonido-onda-2" d="M63.32 632.58 L64.78 634.11 L65.87 635.91 L66.55 637.9 L66.78 640 L66.55 642.1 L65.87 644.09 L64.78 645.89 L63.32 647.42" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="etiqueta-sonido" x="82" y="644.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111111" text-anchor="start">Sonido</text>
+      <g id="interruptor-sonido">
+        <rect id="interruptor-sonido-pista" x="262" y="627" width="48" height="26" rx="13" fill="#111111"/>
+        <circle id="interruptor-sonido-perilla" cx="297" cy="640" r="10" fill="#F5F5F5"/>
+      </g>
+    </g>
+    <g id="fila-vibracion">
+      <g id="icono-vibracion">
+        <rect id="icono-vibracion-telefono" x="52.26" y="675.64" width="7.48" height="16.72" rx="3" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-vibracion-onda-izq-1" d="M49.4 679.6 L47.2 684 L49.4 688.4" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-vibracion-onda-izq-2" d="M46.32 677.4 L43.24 684 L46.32 690.6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-vibracion-onda-der-1" d="M62.6 679.6 L64.8 684 L62.6 688.4" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-vibracion-onda-der-2" d="M65.68 677.4 L68.76 684 L65.68 690.6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="etiqueta-vibracion" x="82" y="688.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111111" text-anchor="start">Vibración</text>
+      <g id="interruptor-vibracion">
+        <rect id="interruptor-vibracion-pista" x="262" y="671" width="48" height="26" rx="13" fill="#D9D9D9" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle id="interruptor-vibracion-perilla" cx="275" cy="684" r="10" fill="#777777"/>
+      </g>
+    </g>
+  </g>
+  <text id="pie-version" x="180" y="755.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="middle">Versión 1.0.0</text>
+</g>
+</svg>

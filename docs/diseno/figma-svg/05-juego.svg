@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800" fill="none">
+<title>NotaFlow - Juego</title>
+<g id="05-juego">
+  <rect id="fondo" x="0" y="0" width="360" height="800" fill="#111111"/>
+  <g id="hud">
+    <text id="puntaje-etiqueta" x="20" y="33.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#999999" text-anchor="start">PUNTAJE</text>
+    <text id="puntaje-valor" x="20" y="65.1" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#F5F5F5" text-anchor="start">012 450</text>
+    <g id="combo">
+      <text id="combo-etiqueta" x="180" y="33.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#999999" text-anchor="middle">COMBO</text>
+      <text id="combo-valor" x="180" y="65.1" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#F5F5F5" text-anchor="middle">x24</text>
+    </g>
+    <rect id="btn-pausa" x="300" y="24" width="40" height="40" rx="10" fill="#333333" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="icono-pausa">
+      <rect id="icono-pausa-barra-1" x="313.16" y="35.9" width="4.68" height="16.2" rx="2" fill="#F5F5F5"/>
+      <rect id="icono-pausa-barra-2" x="322.16" y="35.9" width="4.68" height="16.2" rx="2" fill="#F5F5F5"/>
+    </g>
+    <g id="barra-vida">
+      <text id="vida-etiqueta" x="20" y="93.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#999999" text-anchor="start">VIDA</text>
+      <rect id="vida-pista" x="56" y="85" width="284" height="10" rx="5" fill="#333333"/>
+      <rect id="vida-relleno" x="56" y="85" width="200" height="10" rx="5" fill="#D9D9D9"/>
+    </g>
+    <text id="cancion-nivel" x="180" y="117.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#999999" text-anchor="middle">Estrella Fugaz · Medio</text>
+  </g>
+  <g id="carriles">
+    <rect id="carril-1" x="20" y="128" width="80" height="512" fill="#1C1C1C"/>
+    <rect id="carril-2" x="100" y="128" width="80" height="512" fill="#262626"/>
+    <rect id="carril-3" x="180" y="128" width="80" height="512" fill="#1C1C1C"/>
+    <rect id="carril-4" x="260" y="128" width="80" height="512" fill="#262626"/>
+    <path id="carril-linea-0" d="M20 128 L20 640" fill="none" stroke="#555555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="carril-linea-1" d="M100 128 L100 640" fill="none" stroke="#555555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="carril-linea-2" d="M180 128 L180 640" fill="none" stroke="#555555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="carril-linea-3" d="M260 128 L260 640" fill="none" stroke="#555555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="carril-linea-4" d="M340 128 L340 640" fill="none" stroke="#555555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g id="notas-cayendo">
+    <rect id="nota-1" x="30" y="178" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect id="nota-2" x="30" y="318" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect id="nota-3" x="110" y="238" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect id="nota-4" x="110" y="408" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect id="nota-5" x="190" y="148" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect id="nota-6" x="270" y="288" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect id="nota-7" x="270" y="468" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect id="nota-8" x="190" y="536" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="nota-larga">
+      <rect id="nota-larga-cuerpo" x="202" y="330" width="36" height="120" rx="10" fill="#BBBBBB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect id="nota-larga-cabeza" x="190" y="438" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <g id="zona-golpe">
+    <path id="linea-golpe" d="M20 560 L340 560" fill="none" stroke="#F5F5F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle id="objetivo-1" cx="60" cy="560" r="26" fill="none" stroke="#F5F5F5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle id="objetivo-2" cx="140" cy="560" r="26" fill="none" stroke="#F5F5F5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle id="objetivo-3" cx="220" cy="560" r="26" fill="none" stroke="#F5F5F5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle id="objetivo-4" cx="300" cy="560" r="26" fill="none" stroke="#F5F5F5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g id="juicio">
+    <text id="juicio-texto" x="180" y="611.7" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#F5F5F5" text-anchor="middle">¡Perfecto!</text>
+    <text id="juicio-puntos" x="258" y="524.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#D9D9D9" text-anchor="middle">+300</text>
+  </g>
+  <g id="botones-tap">
+    <g id="tap-1">
+      <rect id="tap-1-fondo" x="24" y="656" width="72" height="108" rx="14" fill="#D9D9D9" stroke="#F5F5F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="tap-1-icono" cx="58" cy="710" r="13" fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="tap-2">
+      <rect id="tap-2-fondo" x="104" y="656" width="72" height="108" rx="14" fill="#D9D9D9" stroke="#F5F5F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect id="tap-2-icono" x="126" y="698" width="24" height="24" rx="3" fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="tap-3">
+      <rect id="tap-3-fondo" x="184" y="656" width="72" height="108" rx="14" fill="#D9D9D9" stroke="#F5F5F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="tap-3-icono" d="M218 696 L231 722 L205 722 Z" fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="tap-4">
+      <rect id="tap-4-fondo" x="264" y="656" width="72" height="108" rx="14" fill="#D9D9D9" stroke="#F5F5F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="tap-4-icono" d="M298 695 L312 710 L298 725 L284 710 Z" fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <text id="ayuda-tap" x="180" y="785.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#999999" text-anchor="middle">Toca el botón cuando la nota llegue a la línea</text>
+</g>
+</svg>

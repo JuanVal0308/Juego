@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800" fill="none">
+<title>NotaFlow - Créditos</title>
+<g id="09-creditos">
+  <rect id="fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+  <g id="encabezado">
+    <rect id="btn-atras" x="16" y="28" width="40" height="40" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="icono-atras" d="M40 40 L31.2 48 L40 56" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="titulo-pantalla" x="180" y="55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111" text-anchor="middle">Créditos</text>
+  </g>
+  <g id="logo">
+    <rect id="logo-fondo" x="136" y="106" width="88" height="88" rx="19.36" fill="#111111"/>
+    <path id="logo-carril-1" d="M158 116.56 L158 183.44" fill="none" stroke="#555555" stroke-width="1.23" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="logo-carril-2" d="M180 116.56 L180 183.44" fill="none" stroke="#555555" stroke-width="1.23" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="logo-carril-3" d="M202 116.56 L202 183.44" fill="none" stroke="#555555" stroke-width="1.23" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect id="logo-nota-1" x="139.52" y="128.88" width="14.96" height="8.8" rx="2.64" fill="#F5F5F5"/>
+    <rect id="logo-nota-2" x="161.52" y="150" width="14.96" height="8.8" rx="2.64" fill="#F5F5F5"/>
+    <rect id="logo-nota-3" x="183.52" y="135.92" width="14.96" height="8.8" rx="2.64" fill="#F5F5F5"/>
+    <rect id="logo-nota-4" x="205.52" y="165.84" width="14.96" height="8.8" rx="2.64" fill="#F5F5F5"/>
+    <path id="logo-linea" d="M143.04 176.4 L216.96 176.4" fill="none" stroke="#F5F5F5" stroke-width="2.64" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="titulo-app" x="180" y="233.8" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111111" text-anchor="middle">NotaFlow</text>
+  <text id="curso" x="180" y="262.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#333333" text-anchor="middle">UPB - Aplicaciones móviles</text>
+  <text id="curso-sub" x="180" y="284.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="middle">Proyecto de juego rítmico para celular</text>
+  <text id="equipo-titulo" x="24" y="319.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#555555" text-anchor="start">EQUIPO</text>
+  <g id="equipo">
+    <g id="integrante-1">
+      <rect id="integrante-1-fondo" x="20" y="336" width="320" height="80" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="integrante-1-avatar" cx="62" cy="376" r="24" fill="#D9D9D9" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="integrante-1-avatar-cabeza" cx="62" cy="369" r="7" fill="#777777"/>
+      <path id="integrante-1-avatar-cuerpo" d="M49 392 L49.99 387.03 L52.81 382.81 L57.03 379.99 L62 379 L66.97 379.99 L71.19 382.81 L74.01 387.03 L75 392 Z" fill="#777777"/>
+      <text id="integrante-1-nombre" x="102" y="371.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Integrante 1</text>
+      <text id="integrante-1-rol" x="102" y="394.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Rol (por definir)</text>
+    </g>
+    <g id="integrante-2">
+      <rect id="integrante-2-fondo" x="20" y="428" width="320" height="80" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="integrante-2-avatar" cx="62" cy="468" r="24" fill="#D9D9D9" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="integrante-2-avatar-cabeza" cx="62" cy="461" r="7" fill="#777777"/>
+      <path id="integrante-2-avatar-cuerpo" d="M49 484 L49.99 479.03 L52.81 474.81 L57.03 471.99 L62 471 L66.97 471.99 L71.19 474.81 L74.01 479.03 L75 484 Z" fill="#777777"/>
+      <text id="integrante-2-nombre" x="102" y="463.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Integrante 2</text>
+      <text id="integrante-2-rol" x="102" y="486.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Rol (por definir)</text>
+    </g>
+    <g id="integrante-3">
+      <rect id="integrante-3-fondo" x="20" y="520" width="320" height="80" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="integrante-3-avatar" cx="62" cy="560" r="24" fill="#D9D9D9" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="integrante-3-avatar-cabeza" cx="62" cy="553" r="7" fill="#777777"/>
+      <path id="integrante-3-avatar-cuerpo" d="M49 576 L49.99 571.03 L52.81 566.81 L57.03 563.99 L62 563 L66.97 563.99 L71.19 566.81 L74.01 571.03 L75 576 Z" fill="#777777"/>
+      <text id="integrante-3-nombre" x="102" y="555.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Integrante 3</text>
+      <text id="integrante-3-rol" x="102" y="578.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Rol (por definir)</text>
+    </g>
+  </g>
+  <path id="divisor" d="M40 628 L320 628" fill="none" stroke="#BBBBBB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <text id="version" x="180" y="664.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111111" text-anchor="middle">Versión 1.0.0</text>
+  <text id="derechos" x="180" y="688.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="middle">Hecho por el equipo NotaFlow</text>
+  <g id="btn-volver">
+    <rect id="btn-volver-fondo" x="20" y="716" width="320" height="48" rx="12" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="btn-volver-texto" x="180" y="744.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111111" text-anchor="middle">Volver al inicio</text>
+  </g>
+</g>
+</svg>

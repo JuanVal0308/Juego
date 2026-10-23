@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800" fill="none">
+<title>NotaFlow - Puntajes</title>
+<g id="08-puntajes">
+  <rect id="fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+  <g id="encabezado">
+    <rect id="btn-atras" x="16" y="28" width="40" height="40" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="icono-atras" d="M40 40 L31.2 48 L40 56" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="titulo-pantalla" x="180" y="55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111" text-anchor="middle">Puntajes</text>
+  </g>
+  <g id="selector-cancion">
+    <rect id="selector-fondo" x="20" y="88" width="320" height="44" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="selector-icono">
+      <circle id="selector-icono-cabeza" cx="40.7" cy="116.16" r="4.4" fill="#555555"/>
+      <path id="selector-icono-asta" d="M45.1 116.16 L45.1 100.76" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="selector-icono-bandera" d="M45.1 100.76 L52.36 105.6 L45.1 107.36" fill="none" stroke="#555555" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="selector-texto" x="66" y="115.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Estrella Fugaz</text>
+    <path id="selector-flecha" d="M310 106 L318 114 L326 106" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g id="pestanas-nivel">
+    <rect id="pestanas-fondo" x="20" y="148" width="320" height="44" rx="12" fill="#D9D9D9"/>
+    <rect id="pestana-medio-activa" x="127" y="152" width="106" height="36" rx="10" fill="#111111"/>
+    <text id="pestana-facil" x="73" y="174.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#333333" text-anchor="middle">Fácil</text>
+    <text id="pestana-medio" x="180" y="174.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#F5F5F5" text-anchor="middle">Medio</text>
+    <text id="pestana-dificil" x="287" y="174.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#333333" text-anchor="middle">Difícil</text>
+  </g>
+  <g id="lista-ranking">
+    <g id="fila-1">
+      <rect id="fila-1-fondo" x="20" y="218" width="320" height="56" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="fila-1-puesto-fondo" cx="52" cy="246" r="15" fill="#111111"/>
+      <text id="fila-1-puesto" x="52" y="250.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#F5F5F5" text-anchor="middle">1</text>
+      <text id="fila-1-nombre" x="80" y="243.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Ana</text>
+      <g id="fila-1-estrellas">
+        <path id="fila-1-estrellas-1" d="M86 252 L87.59 255.82 L91.71 256.15 L88.57 258.83 L89.53 262.85 L86 260.7 L82.47 262.85 L83.43 258.83 L80.29 256.15 L84.41 255.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="fila-1-estrellas-2" d="M100 252 L101.59 255.82 L105.71 256.15 L102.57 258.83 L103.53 262.85 L100 260.7 L96.47 262.85 L97.43 258.83 L94.29 256.15 L98.41 255.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="fila-1-estrellas-3" d="M114 252 L115.59 255.82 L119.71 256.15 L116.57 258.83 L117.53 262.85 L114 260.7 L110.47 262.85 L111.43 258.83 L108.29 256.15 L112.41 255.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="fila-1-puntaje" x="322" y="251.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="end">14 820</text>
+    </g>
+    <g id="fila-2">
+      <rect id="fila-2-fondo" x="20" y="282" width="320" height="56" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="fila-2-puesto-fondo" cx="52" cy="310" r="15" fill="#111111"/>
+      <text id="fila-2-puesto" x="52" y="314.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#F5F5F5" text-anchor="middle">2</text>
+      <text id="fila-2-nombre" x="80" y="307.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Carlos</text>
+      <g id="fila-2-estrellas">
+        <path id="fila-2-estrellas-1" d="M86 316 L87.59 319.82 L91.71 320.15 L88.57 322.83 L89.53 326.85 L86 324.7 L82.47 326.85 L83.43 322.83 L80.29 320.15 L84.41 319.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="fila-2-estrellas-2" d="M100 316 L101.59 319.82 L105.71 320.15 L102.57 322.83 L103.53 326.85 L100 324.7 L96.47 326.85 L97.43 322.83 L94.29 320.15 L98.41 319.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="fila-2-estrellas-3" d="M114 316 L115.59 319.82 L119.71 320.15 L116.57 322.83 L117.53 326.85 L114 324.7 L110.47 326.85 L111.43 322.83 L108.29 320.15 L112.41 319.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="fila-2-puntaje" x="322" y="315.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="end">13 560</text>
+    </g>
+    <g id="fila-3">
+      <rect id="fila-3-fondo" x="20" y="346" width="320" height="56" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="fila-3-puesto-fondo" cx="52" cy="374" r="15" fill="#111111"/>
+      <text id="fila-3-puesto" x="52" y="378.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#F5F5F5" text-anchor="middle">3</text>
+      <text id="fila-3-nombre" x="80" y="371.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Sofía</text>
+      <g id="fila-3-estrellas">
+        <path id="fila-3-estrellas-1" d="M86 380 L87.59 383.82 L91.71 384.15 L88.57 386.83 L89.53 390.85 L86 388.7 L82.47 390.85 L83.43 386.83 L80.29 384.15 L84.41 383.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="fila-3-estrellas-2" d="M100 380 L101.59 383.82 L105.71 384.15 L102.57 386.83 L103.53 390.85 L100 388.7 L96.47 390.85 L97.43 386.83 L94.29 384.15 L98.41 383.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="fila-3-estrellas-3" d="M114 380 L115.59 383.82 L119.71 384.15 L116.57 386.83 L117.53 390.85 L114 388.7 L110.47 390.85 L111.43 386.83 L108.29 384.15 L112.41 383.82 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="fila-3-puntaje" x="322" y="379.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="end">12 900</text>
+    </g>
+    <g id="fila-4">
+      <rect id="fila-4-fondo" x="20" y="410" width="320" height="56" rx="12" fill="#D9D9D9" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="fila-4-puesto-fondo" cx="52" cy="438" r="15" fill="none" stroke="#111111" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="fila-4-puesto" x="52" y="442.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111111" text-anchor="middle">4</text>
+      <text id="fila-4-nombre" x="80" y="435.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Tú (Jugador)</text>
+      <g id="fila-4-estrellas">
+        <path id="fila-4-estrellas-1" d="M86 444 L87.59 447.82 L91.71 448.15 L88.57 450.83 L89.53 454.85 L86 452.7 L82.47 454.85 L83.43 450.83 L80.29 448.15 L84.41 447.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="fila-4-estrellas-2" d="M100 444 L101.59 447.82 L105.71 448.15 L102.57 450.83 L103.53 454.85 L100 452.7 L96.47 454.85 L97.43 450.83 L94.29 448.15 L98.41 447.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="fila-4-estrellas-3" d="M114 444 L115.59 447.82 L119.71 448.15 L116.57 450.83 L117.53 454.85 L114 452.7 L110.47 454.85 L111.43 450.83 L108.29 448.15 L112.41 447.82 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="fila-4-puntaje" x="322" y="443.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="end">12 450</text>
+    </g>
+    <g id="fila-5">
+      <rect id="fila-5-fondo" x="20" y="474" width="320" height="56" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="fila-5-puesto-fondo" cx="52" cy="502" r="15" fill="none" stroke="#111111" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="fila-5-puesto" x="52" y="506.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111111" text-anchor="middle">5</text>
+      <text id="fila-5-nombre" x="80" y="499.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Mateo</text>
+      <g id="fila-5-estrellas">
+        <path id="fila-5-estrellas-1" d="M86 508 L87.59 511.82 L91.71 512.15 L88.57 514.83 L89.53 518.85 L86 516.7 L82.47 518.85 L83.43 514.83 L80.29 512.15 L84.41 511.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="fila-5-estrellas-2" d="M100 508 L101.59 511.82 L105.71 512.15 L102.57 514.83 L103.53 518.85 L100 516.7 L96.47 518.85 L97.43 514.83 L94.29 512.15 L98.41 511.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="fila-5-estrellas-3" d="M114 508 L115.59 511.82 L119.71 512.15 L116.57 514.83 L117.53 518.85 L114 516.7 L110.47 518.85 L111.43 514.83 L108.29 512.15 L112.41 511.82 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="fila-5-puntaje" x="322" y="507.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="end">10 230</text>
+    </g>
+    <g id="fila-6">
+      <rect id="fila-6-fondo" x="20" y="538" width="320" height="56" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="fila-6-puesto-fondo" cx="52" cy="566" r="15" fill="none" stroke="#111111" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="fila-6-puesto" x="52" y="570.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111111" text-anchor="middle">6</text>
+      <text id="fila-6-nombre" x="80" y="563.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Laura</text>
+      <g id="fila-6-estrellas">
+        <path id="fila-6-estrellas-1" d="M86 572 L87.59 575.82 L91.71 576.15 L88.57 578.83 L89.53 582.85 L86 580.7 L82.47 582.85 L83.43 578.83 L80.29 576.15 L84.41 575.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="fila-6-estrellas-2" d="M100 572 L101.59 575.82 L105.71 576.15 L102.57 578.83 L103.53 582.85 L100 580.7 L96.47 582.85 L97.43 578.83 L94.29 576.15 L98.41 575.82 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="fila-6-estrellas-3" d="M114 572 L115.59 575.82 L119.71 576.15 L116.57 578.83 L117.53 582.85 L114 580.7 L110.47 582.85 L111.43 578.83 L108.29 576.15 L112.41 575.82 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="fila-6-puntaje" x="322" y="571.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="end">9 870</text>
+    </g>
+  </g>
+  <g id="mejor-personal">
+    <rect id="mejor-fondo" x="20" y="608" width="320" height="64" rx="14" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="mejor-icono">
+      <path id="mejor-icono-copa" d="M44.2 629.08 L59.8 629.08 L57.2 642.6 L52 645.72 L46.8 642.6 Z" fill="#111111" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="mejor-icono-asa-izq" d="M44.2 631.68 L39.52 631.68 L41.6 637.92 L45.76 640" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="mejor-icono-asa-der" d="M59.8 631.68 L64.48 631.68 L62.4 637.92 L58.24 640" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="mejor-icono-pie" d="M52 645.72 L52 650.4" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect id="mejor-icono-base" x="45.76" y="649.88" width="12.48" height="2.6" rx="2" fill="#111111"/>
+    </g>
+    <text id="mejor-etiqueta" x="80" y="632.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Tu mejor puntaje en Medio</text>
+    <text id="mejor-valor" x="80" y="657.95" font-family="Inter, Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#111111" text-anchor="start">12 450 pts</text>
+  </g>
+  <text id="pie" x="180" y="713.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="middle">Ranking local · se guarda en este dispositivo</text>
+  <g id="btn-borrar">
+    <rect id="btn-borrar-fondo" x="20" y="730" width="320" height="44" rx="12" fill="#D9D9D9"/>
+    <text id="btn-borrar-texto" x="180" y="756.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111111" text-anchor="middle">Borrar puntajes</text>
+  </g>
+</g>
+</svg>

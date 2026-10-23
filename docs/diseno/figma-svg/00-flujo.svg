@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1620" height="900" viewBox="0 0 1620 900" fill="none">
+<title>NotaFlow - Flujo de navegación</title>
+<g id="00-flujo">
+  <rect id="fondo" x="0" y="0" width="1620" height="900" fill="#F5F5F5"/>
+  <text id="titulo" x="60" y="59.8" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111111" text-anchor="start">NotaFlow · Flujo de navegación</text>
+  <text id="subtitulo" x="60" y="84.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">10 pantallas · 360 × 800 · las flechas indican a dónde lleva cada botón</text>
+  <g id="pantalla-01">
+    <g id="miniatura-01" transform="translate(60 190) scale(0.25)">
+      <rect id="m01-fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+      <g id="m01-logo">
+        <rect id="m01-logo-fondo" x="116" y="216" width="128" height="128" rx="28.16" fill="#111111"/>
+        <path id="m01-logo-carril-1" d="M148 231.36 L148 328.64" fill="none" stroke="#555555" stroke-width="1.79" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m01-logo-carril-2" d="M180 231.36 L180 328.64" fill="none" stroke="#555555" stroke-width="1.79" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m01-logo-carril-3" d="M212 231.36 L212 328.64" fill="none" stroke="#555555" stroke-width="1.79" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m01-logo-nota-1" x="121.12" y="249.28" width="21.76" height="12.8" rx="3.84" fill="#F5F5F5"/>
+        <rect id="m01-logo-nota-2" x="153.12" y="280" width="21.76" height="12.8" rx="3.84" fill="#F5F5F5"/>
+        <rect id="m01-logo-nota-3" x="185.12" y="259.52" width="21.76" height="12.8" rx="3.84" fill="#F5F5F5"/>
+        <rect id="m01-logo-nota-4" x="217.12" y="303.04" width="21.76" height="12.8" rx="3.84" fill="#F5F5F5"/>
+        <path id="m01-logo-linea" d="M126.24 318.4 L233.76 318.4" fill="none" stroke="#F5F5F5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="m01-titulo-app" x="180" y="405.3" font-family="Inter, Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#111111" text-anchor="middle">NotaFlow</text>
+      <text id="m01-eslogan" x="180" y="434.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#555555" text-anchor="middle">Toca el ritmo, sigue la nota</text>
+      <g id="m01-barra-carga">
+        <rect id="m01-barra-carga-pista" x="60" y="640" width="240" height="10" rx="5" fill="#D9D9D9"/>
+        <rect id="m01-barra-carga-relleno" x="60" y="640" width="150" height="10" rx="5" fill="#111111"/>
+        <text id="m01-texto-carga" x="180" y="680.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="middle">Cargando... 62%</text>
+      </g>
+      <text id="m01-pie-curso" x="180" y="755.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="middle">UPB - Aplicaciones móviles</text>
+      <text id="m01-pie-version" x="180" y="773.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#999999" text-anchor="middle">v1.0.0</text>
+    </g>
+    <rect id="marco-01" x="60" y="190" width="90" height="200" rx="6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="nombre-01" x="105" y="412.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="middle">01 · Splash</text>
+  </g>
+  <g id="pantalla-02">
+    <g id="miniatura-02" transform="translate(300 190) scale(0.25)">
+      <rect id="m02-fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+      <rect id="m02-btn-ajustes-rapido" x="304" y="28" width="40" height="40" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="m02-icono-ajustes">
+        <path id="m02-icono-ajustes-diente-1" d="M332.36 48 L336.1 48" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m02-icono-ajustes-diente-2" d="M329.91 53.91 L332.56 56.56" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m02-icono-ajustes-diente-3" d="M324 56.36 L324 60.1" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m02-icono-ajustes-diente-4" d="M318.09 53.91 L315.44 56.56" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m02-icono-ajustes-diente-5" d="M315.64 48 L311.9 48" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m02-icono-ajustes-diente-6" d="M318.09 42.09 L315.44 39.44" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m02-icono-ajustes-diente-7" d="M324 39.64 L324 35.9" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m02-icono-ajustes-diente-8" d="M329.91 42.09 L332.56 39.44" fill="none" stroke="#111111" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle id="m02-icono-ajustes-aro" cx="324" cy="48" r="7.92" fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle id="m02-icono-ajustes-centro" cx="324" cy="48" r="2.86" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g id="m02-logo">
+        <rect id="m02-logo-fondo" x="138" y="88" width="84" height="84" rx="18.48" fill="#111111"/>
+        <path id="m02-logo-carril-1" d="M159 98.08 L159 161.92" fill="none" stroke="#555555" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m02-logo-carril-2" d="M180 98.08 L180 161.92" fill="none" stroke="#555555" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m02-logo-carril-3" d="M201 98.08 L201 161.92" fill="none" stroke="#555555" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m02-logo-nota-1" x="141.36" y="109.84" width="14.28" height="8.4" rx="2.52" fill="#F5F5F5"/>
+        <rect id="m02-logo-nota-2" x="162.36" y="130" width="14.28" height="8.4" rx="2.52" fill="#F5F5F5"/>
+        <rect id="m02-logo-nota-3" x="183.36" y="116.56" width="14.28" height="8.4" rx="2.52" fill="#F5F5F5"/>
+        <rect id="m02-logo-nota-4" x="204.36" y="145.12" width="14.28" height="8.4" rx="2.52" fill="#F5F5F5"/>
+        <path id="m02-logo-linea" d="M144.72 155.2 L215.28 155.2" fill="none" stroke="#F5F5F5" stroke-width="2.52" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="m02-titulo-app" x="180" y="225.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#111111" text-anchor="middle">NotaFlow</text>
+      <text id="m02-eslogan" x="180" y="250.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="middle">Elige una canción y toca al ritmo</text>
+      <g id="m02-btn-jugar">
+        <rect id="m02-btn-jugar-fondo" x="40" y="300" width="280" height="60" rx="12" fill="#111111"/>
+        <text id="m02-btn-jugar-texto" x="180" y="337" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#F5F5F5" text-anchor="middle">Jugar</text>
+      </g>
+      <g id="m02-btn-puntajes">
+        <rect id="m02-btn-puntajes-fondo" x="40" y="376" width="280" height="52" rx="12" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m02-btn-puntajes-texto" x="180" y="407.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="middle">Puntajes</text>
+      </g>
+      <g id="m02-btn-creditos">
+        <rect id="m02-btn-creditos-fondo" x="40" y="444" width="280" height="52" rx="12" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m02-btn-creditos-texto" x="180" y="475.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="middle">Créditos</text>
+      </g>
+      <g id="m02-tarjeta-ajustes">
+        <rect id="m02-tarjeta-ajustes-fondo" x="28" y="540" width="304" height="168" rx="16" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m02-ajustes-titulo" x="48" y="573.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Ajustes</text>
+        <text id="m02-ajustes-ver" x="312" y="572.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#555555" text-anchor="end">Ver todos ›</text>
+        <path id="m02-ajustes-divisor" d="M44 592 L316 592" fill="none" stroke="#BBBBBB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="m02-fila-sonido">
+          <g id="m02-icono-sonido">
+            <path id="m02-icono-sonido-cuerpo" d="M45 636.04 L50.5 636.04 L57.1 630.76 L57.1 649.24 L50.5 643.96 L45 643.96 Z" fill="#111111" stroke="#111111" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m02-icono-sonido-onda-1" d="M60.49 635.96 L61.29 636.79 L61.89 637.77 L62.25 638.86 L62.38 640 L62.25 641.14 L61.89 642.23 L61.29 643.21 L60.49 644.04" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m02-icono-sonido-onda-2" d="M63.32 632.58 L64.78 634.11 L65.87 635.91 L66.55 637.9 L66.78 640 L66.55 642.1 L65.87 644.09 L64.78 645.89 L63.32 647.42" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <text id="m02-etiqueta-sonido" x="82" y="644.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111111" text-anchor="start">Sonido</text>
+          <g id="m02-interruptor-sonido">
+            <rect id="m02-interruptor-sonido-pista" x="262" y="627" width="48" height="26" rx="13" fill="#111111"/>
+            <circle id="m02-interruptor-sonido-perilla" cx="297" cy="640" r="10" fill="#F5F5F5"/>
+          </g>
+        </g>
+        <g id="m02-fila-vibracion">
+          <g id="m02-icono-vibracion">
+            <rect id="m02-icono-vibracion-telefono" x="52.26" y="675.64" width="7.48" height="16.72" rx="3" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m02-icono-vibracion-onda-izq-1" d="M49.4 679.6 L47.2 684 L49.4 688.4" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m02-icono-vibracion-onda-izq-2" d="M46.32 677.4 L43.24 684 L46.32 690.6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m02-icono-vibracion-onda-der-1" d="M62.6 679.6 L64.8 684 L62.6 688.4" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m02-icono-vibracion-onda-der-2" d="M65.68 677.4 L68.76 684 L65.68 690.6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <text id="m02-etiqueta-vibracion" x="82" y="688.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111111" text-anchor="start">Vibración</text>
+          <g id="m02-interruptor-vibracion">
+            <rect id="m02-interruptor-vibracion-pista" x="262" y="671" width="48" height="26" rx="13" fill="#D9D9D9" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle id="m02-interruptor-vibracion-perilla" cx="275" cy="684" r="10" fill="#777777"/>
+          </g>
+        </g>
+      </g>
+      <text id="m02-pie-version" x="180" y="755.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="middle">Versión 1.0.0</text>
+    </g>
+    <rect id="marco-02" x="300" y="190" width="90" height="200" rx="6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="nombre-02" x="345" y="412.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="middle">02 · Inicio</text>
+  </g>
+  <g id="pantalla-03">
+    <g id="miniatura-03" transform="translate(540 190) scale(0.25)">
+      <rect id="m03-fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+      <g id="m03-encabezado">
+        <rect id="m03-btn-atras" x="16" y="28" width="40" height="40" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m03-icono-atras" d="M40 40 L31.2 48 L40 56" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m03-titulo-pantalla" x="180" y="55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111" text-anchor="middle">Elige una canción</text>
+      </g>
+      <g id="m03-filtros">
+        <g id="m03-chip-todas">
+          <rect id="m03-chip-todas-fondo" x="20" y="90" width="64" height="30" rx="15" fill="#111111"/>
+          <text id="m03-chip-todas-texto" x="52" y="109.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#F5F5F5" text-anchor="middle">Todas</text>
+        </g>
+        <g id="m03-chip-pop">
+          <rect id="m03-chip-pop-fondo" x="92" y="90" width="52" height="30" rx="15" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <text id="m03-chip-pop-texto" x="118" y="109.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#333333" text-anchor="middle">Pop</text>
+        </g>
+        <g id="m03-chip-rock">
+          <rect id="m03-chip-rock-fondo" x="152" y="90" width="52" height="30" rx="15" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <text id="m03-chip-rock-texto" x="178" y="109.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#333333" text-anchor="middle">Rock</text>
+        </g>
+        <g id="m03-chip-clasica">
+          <rect id="m03-chip-clasica-fondo" x="212" y="90" width="72" height="30" rx="15" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <text id="m03-chip-clasica-texto" x="248" y="109.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#333333" text-anchor="middle">Clásica</text>
+        </g>
+      </g>
+      <g id="m03-lista-canciones">
+        <g id="m03-cancion-1">
+          <rect id="m03-cancion-1-fondo" x="20" y="138" width="320" height="100" rx="14" fill="#EBEBEB" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <g id="m03-cancion-1-portada">
+            <rect id="m03-cancion-1-portada-fondo" x="32" y="152" width="72" height="72" rx="10" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <g id="m03-cancion-1-portada-nota">
+              <circle id="m03-cancion-1-portada-nota-cabeza" cx="62.6" cy="198.08" r="7.2" fill="#555555"/>
+              <path id="m03-cancion-1-portada-nota-asta" d="M69.8 198.08 L69.8 172.88" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path id="m03-cancion-1-portada-nota-bandera" d="M69.8 172.88 L81.68 180.8 L69.8 183.68" fill="none" stroke="#555555" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+          </g>
+          <text id="m03-cancion-1-titulo" x="116" y="169.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Estrella Fugaz</text>
+          <text id="m03-cancion-1-artista" x="116" y="189.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Luna Roja</text>
+          <text id="m03-cancion-1-info" x="116" y="207.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="start">3:12 · 120 BPM</text>
+          <text id="m03-cancion-1-mejor" x="116" y="227.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#555555" text-anchor="start">Mejor:</text>
+          <g id="m03-cancion-1-estrellas">
+            <path id="m03-cancion-1-estrellas-1" d="M161 217 L162.85 221.45 L167.66 221.84 L164 224.97 L165.11 229.66 L161 227.15 L156.89 229.66 L158 224.97 L154.34 221.84 L159.15 221.45 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m03-cancion-1-estrellas-2" d="M178 217 L179.85 221.45 L184.66 221.84 L181 224.97 L182.11 229.66 L178 227.15 L173.89 229.66 L175 224.97 L171.34 221.84 L176.15 221.45 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m03-cancion-1-estrellas-3" d="M195 217 L196.85 221.45 L201.66 221.84 L198 224.97 L199.11 229.66 L195 227.15 L190.89 229.66 L192 224.97 L188.34 221.84 L193.15 221.45 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <path id="m03-cancion-1-jugar" d="M311.7 179 L327 188 L311.7 197 Z" fill="#111111" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="m03-cancion-2">
+          <rect id="m03-cancion-2-fondo" x="20" y="250" width="320" height="100" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <g id="m03-cancion-2-portada">
+            <rect id="m03-cancion-2-portada-fondo" x="32" y="264" width="72" height="72" rx="10" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <g id="m03-cancion-2-portada-nota">
+              <circle id="m03-cancion-2-portada-nota-cabeza" cx="62.6" cy="310.08" r="7.2" fill="#555555"/>
+              <path id="m03-cancion-2-portada-nota-asta" d="M69.8 310.08 L69.8 284.88" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path id="m03-cancion-2-portada-nota-bandera" d="M69.8 284.88 L81.68 292.8 L69.8 295.68" fill="none" stroke="#555555" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+          </g>
+          <text id="m03-cancion-2-titulo" x="116" y="281.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Ritmo Tropical</text>
+          <text id="m03-cancion-2-artista" x="116" y="301.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Los Andes</text>
+          <text id="m03-cancion-2-info" x="116" y="319.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="start">2:48 · 105 BPM</text>
+          <text id="m03-cancion-2-mejor" x="116" y="339.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#555555" text-anchor="start">Mejor:</text>
+          <g id="m03-cancion-2-estrellas">
+            <path id="m03-cancion-2-estrellas-1" d="M161 329 L162.85 333.45 L167.66 333.84 L164 336.97 L165.11 341.66 L161 339.15 L156.89 341.66 L158 336.97 L154.34 333.84 L159.15 333.45 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m03-cancion-2-estrellas-2" d="M178 329 L179.85 333.45 L184.66 333.84 L181 336.97 L182.11 341.66 L178 339.15 L173.89 341.66 L175 336.97 L171.34 333.84 L176.15 333.45 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m03-cancion-2-estrellas-3" d="M195 329 L196.85 333.45 L201.66 333.84 L198 336.97 L199.11 341.66 L195 339.15 L190.89 341.66 L192 336.97 L188.34 333.84 L193.15 333.45 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <path id="m03-cancion-2-ir" d="M314.5 293 L321.5 300 L314.5 307" fill="none" stroke="#777777" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="m03-cancion-3">
+          <rect id="m03-cancion-3-fondo" x="20" y="362" width="320" height="100" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <g id="m03-cancion-3-portada">
+            <rect id="m03-cancion-3-portada-fondo" x="32" y="376" width="72" height="72" rx="10" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <g id="m03-cancion-3-portada-nota">
+              <circle id="m03-cancion-3-portada-nota-cabeza" cx="62.6" cy="422.08" r="7.2" fill="#555555"/>
+              <path id="m03-cancion-3-portada-nota-asta" d="M69.8 422.08 L69.8 396.88" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path id="m03-cancion-3-portada-nota-bandera" d="M69.8 396.88 L81.68 404.8 L69.8 407.68" fill="none" stroke="#555555" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+          </g>
+          <text id="m03-cancion-3-titulo" x="116" y="393.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Noche de Rock</text>
+          <text id="m03-cancion-3-artista" x="116" y="413.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Cuerdas Vivas</text>
+          <text id="m03-cancion-3-info" x="116" y="431.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="start">3:40 · 140 BPM</text>
+          <text id="m03-cancion-3-mejor" x="116" y="451.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#555555" text-anchor="start">Mejor:</text>
+          <g id="m03-cancion-3-estrellas">
+            <path id="m03-cancion-3-estrellas-1" d="M161 441 L162.85 445.45 L167.66 445.84 L164 448.97 L165.11 453.66 L161 451.15 L156.89 453.66 L158 448.97 L154.34 445.84 L159.15 445.45 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m03-cancion-3-estrellas-2" d="M178 441 L179.85 445.45 L184.66 445.84 L181 448.97 L182.11 453.66 L178 451.15 L173.89 453.66 L175 448.97 L171.34 445.84 L176.15 445.45 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m03-cancion-3-estrellas-3" d="M195 441 L196.85 445.45 L201.66 445.84 L198 448.97 L199.11 453.66 L195 451.15 L190.89 453.66 L192 448.97 L188.34 445.84 L193.15 445.45 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <path id="m03-cancion-3-ir" d="M314.5 405 L321.5 412 L314.5 419" fill="none" stroke="#777777" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="m03-cancion-4">
+          <rect id="m03-cancion-4-fondo" x="20" y="474" width="320" height="100" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <g id="m03-cancion-4-portada">
+            <rect id="m03-cancion-4-portada-fondo" x="32" y="488" width="72" height="72" rx="10" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <g id="m03-cancion-4-portada-nota">
+              <circle id="m03-cancion-4-portada-nota-cabeza" cx="62.6" cy="534.08" r="7.2" fill="#555555"/>
+              <path id="m03-cancion-4-portada-nota-asta" d="M69.8 534.08 L69.8 508.88" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path id="m03-cancion-4-portada-nota-bandera" d="M69.8 508.88 L81.68 516.8 L69.8 519.68" fill="none" stroke="#555555" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+          </g>
+          <text id="m03-cancion-4-titulo" x="116" y="505.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Para Elisa</text>
+          <text id="m03-cancion-4-artista" x="116" y="525.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Beethoven (arr.)</text>
+          <text id="m03-cancion-4-info" x="116" y="543.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="start">2:30 · 90 BPM</text>
+          <text id="m03-cancion-4-mejor" x="116" y="563.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#555555" text-anchor="start">Mejor:</text>
+          <g id="m03-cancion-4-estrellas">
+            <path id="m03-cancion-4-estrellas-1" d="M161 553 L162.85 557.45 L167.66 557.84 L164 560.97 L165.11 565.66 L161 563.15 L156.89 565.66 L158 560.97 L154.34 557.84 L159.15 557.45 Z" fill="none" stroke="#999999" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m03-cancion-4-estrellas-2" d="M178 553 L179.85 557.45 L184.66 557.84 L181 560.97 L182.11 565.66 L178 563.15 L173.89 565.66 L175 560.97 L171.34 557.84 L176.15 557.45 Z" fill="none" stroke="#999999" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m03-cancion-4-estrellas-3" d="M195 553 L196.85 557.45 L201.66 557.84 L198 560.97 L199.11 565.66 L195 563.15 L190.89 565.66 L192 560.97 L188.34 557.84 L193.15 557.45 Z" fill="none" stroke="#999999" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <path id="m03-cancion-4-ir" d="M314.5 517 L321.5 524 L314.5 531" fill="none" stroke="#777777" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="m03-cancion-5">
+          <rect id="m03-cancion-5-fondo" x="20" y="586" width="320" height="100" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <g id="m03-cancion-5-portada">
+            <rect id="m03-cancion-5-portada-fondo" x="32" y="600" width="72" height="72" rx="10" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <g id="m03-cancion-5-portada-nota">
+              <circle id="m03-cancion-5-portada-nota-cabeza" cx="62.6" cy="646.08" r="7.2" fill="#555555"/>
+              <path id="m03-cancion-5-portada-nota-asta" d="M69.8 646.08 L69.8 620.88" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path id="m03-cancion-5-portada-nota-bandera" d="M69.8 620.88 L81.68 628.8 L69.8 631.68" fill="none" stroke="#555555" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+          </g>
+          <text id="m03-cancion-5-titulo" x="116" y="617.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Himno del Viento</text>
+          <text id="m03-cancion-5-artista" x="116" y="637.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Aurora</text>
+          <text id="m03-cancion-5-info" x="116" y="655.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="start">3:05 · 128 BPM</text>
+          <text id="m03-cancion-5-mejor" x="116" y="675.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#555555" text-anchor="start">Mejor:</text>
+          <g id="m03-cancion-5-estrellas">
+            <path id="m03-cancion-5-estrellas-1" d="M161 665 L162.85 669.45 L167.66 669.84 L164 672.97 L165.11 677.66 L161 675.15 L156.89 677.66 L158 672.97 L154.34 669.84 L159.15 669.45 Z" fill="none" stroke="#999999" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m03-cancion-5-estrellas-2" d="M178 665 L179.85 669.45 L184.66 669.84 L181 672.97 L182.11 677.66 L178 675.15 L173.89 677.66 L175 672.97 L171.34 669.84 L176.15 669.45 Z" fill="none" stroke="#999999" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m03-cancion-5-estrellas-3" d="M195 665 L196.85 669.45 L201.66 669.84 L198 672.97 L199.11 677.66 L195 675.15 L190.89 677.66 L192 672.97 L188.34 669.84 L193.15 669.45 Z" fill="none" stroke="#999999" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <path id="m03-cancion-5-ir" d="M314.5 629 L321.5 636 L314.5 643" fill="none" stroke="#777777" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+      <rect id="m03-barra-scroll" x="350" y="142" width="4" height="300" rx="2" fill="#BBBBBB"/>
+    </g>
+    <rect id="marco-03" x="540" y="190" width="90" height="200" rx="6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="nombre-03" x="585" y="412.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="middle">03 · Selección canción</text>
+  </g>
+  <g id="pantalla-04">
+    <g id="miniatura-04" transform="translate(780 190) scale(0.25)">
+      <rect id="m04-fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+      <g id="m04-encabezado">
+        <rect id="m04-btn-atras" x="16" y="28" width="40" height="40" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m04-icono-atras" d="M40 40 L31.2 48 L40 56" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m04-titulo-pantalla" x="180" y="55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111" text-anchor="middle">Selecciona el nivel</text>
+      </g>
+      <g id="m04-cancion-elegida">
+        <rect id="m04-cancion-elegida-fondo" x="20" y="88" width="320" height="64" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="m04-cancion-elegida-portada">
+          <rect id="m04-cancion-elegida-portada-fondo" x="28" y="96" width="48" height="48" rx="10" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <g id="m04-cancion-elegida-portada-nota">
+            <circle id="m04-cancion-elegida-portada-nota-cabeza" cx="48.4" cy="126.72" r="4.8" fill="#555555"/>
+            <path id="m04-cancion-elegida-portada-nota-asta" d="M53.2 126.72 L53.2 109.92" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m04-cancion-elegida-portada-nota-bandera" d="M53.2 109.92 L61.12 115.2 L53.2 117.12" fill="none" stroke="#555555" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <text id="m04-cancion-elegida-titulo" x="88" y="117.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Estrella Fugaz</text>
+        <text id="m04-cancion-elegida-artista" x="88" y="138.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Luna Roja · 3:12</text>
+      </g>
+      <g id="m04-niveles">
+        <g id="m04-nivel-facil">
+          <rect id="m04-nivel-facil-fondo" x="20" y="176" width="320" height="150" rx="16" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m04-nivel-facil-insignia" cx="56" cy="214" r="20" fill="#111111"/>
+          <text id="m04-nivel-facil-numero" x="56" y="220.3" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#F5F5F5" text-anchor="middle">1</text>
+          <text id="m04-nivel-facil-nombre" x="88" y="221.7" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#111111" text-anchor="start">Fácil</text>
+          <g id="m04-nivel-facil-estrellas">
+            <path id="m04-nivel-facil-estrellas-1" d="M242 204 L244.65 210.36 L251.51 210.91 L246.28 215.39 L247.88 222.09 L242 218.5 L236.12 222.09 L237.72 215.39 L232.49 210.91 L239.35 210.36 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m04-nivel-facil-estrellas-2" d="M266 204 L268.65 210.36 L275.51 210.91 L270.28 215.39 L271.88 222.09 L266 218.5 L260.12 222.09 L261.72 215.39 L256.49 210.91 L263.35 210.36 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m04-nivel-facil-estrellas-3" d="M290 204 L292.65 210.36 L299.51 210.91 L294.28 215.39 L295.88 222.09 L290 218.5 L284.12 222.09 L285.72 215.39 L280.49 210.91 L287.35 210.36 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <text id="m04-nivel-facil-mejor" x="36" y="262.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Tu mejor: 3 estrellas · 9 800 pts</text>
+          <text id="m04-nivel-facil-bpm" x="36" y="300.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111111" text-anchor="start">BPM: 90</text>
+          <text id="m04-nivel-facil-densidad-etiqueta" x="128" y="300.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Densidad:</text>
+          <rect id="m04-nivel-facil-densidad-1" x="196" y="289" width="34" height="14" rx="4" fill="#111111" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect id="m04-nivel-facil-densidad-2" x="236" y="289" width="34" height="14" rx="4" fill="#D9D9D9" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect id="m04-nivel-facil-densidad-3" x="276" y="289" width="34" height="14" rx="4" fill="#D9D9D9" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="m04-nivel-medio">
+          <rect id="m04-nivel-medio-fondo" x="20" y="340" width="320" height="150" rx="16" fill="#EBEBEB" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m04-nivel-medio-insignia" cx="56" cy="378" r="20" fill="#111111"/>
+          <text id="m04-nivel-medio-numero" x="56" y="384.3" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#F5F5F5" text-anchor="middle">2</text>
+          <text id="m04-nivel-medio-nombre" x="88" y="385.7" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#111111" text-anchor="start">Medio</text>
+          <g id="m04-nivel-medio-estrellas">
+            <path id="m04-nivel-medio-estrellas-1" d="M242 368 L244.65 374.36 L251.51 374.91 L246.28 379.39 L247.88 386.09 L242 382.5 L236.12 386.09 L237.72 379.39 L232.49 374.91 L239.35 374.36 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m04-nivel-medio-estrellas-2" d="M266 368 L268.65 374.36 L275.51 374.91 L270.28 379.39 L271.88 386.09 L266 382.5 L260.12 386.09 L261.72 379.39 L256.49 374.91 L263.35 374.36 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m04-nivel-medio-estrellas-3" d="M290 368 L292.65 374.36 L299.51 374.91 L294.28 379.39 L295.88 386.09 L290 382.5 L284.12 386.09 L285.72 379.39 L280.49 374.91 L287.35 374.36 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <text id="m04-nivel-medio-mejor" x="36" y="426.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Tu mejor: 1 estrella · 6 200 pts</text>
+          <text id="m04-nivel-medio-bpm" x="36" y="464.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111111" text-anchor="start">BPM: 120</text>
+          <text id="m04-nivel-medio-densidad-etiqueta" x="128" y="464.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Densidad:</text>
+          <rect id="m04-nivel-medio-densidad-1" x="196" y="453" width="34" height="14" rx="4" fill="#111111" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect id="m04-nivel-medio-densidad-2" x="236" y="453" width="34" height="14" rx="4" fill="#111111" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect id="m04-nivel-medio-densidad-3" x="276" y="453" width="34" height="14" rx="4" fill="#D9D9D9" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="m04-nivel-dificil">
+          <rect id="m04-nivel-dificil-fondo" x="20" y="504" width="320" height="150" rx="16" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m04-nivel-dificil-insignia" cx="56" cy="542" r="20" fill="#777777"/>
+          <text id="m04-nivel-dificil-numero" x="56" y="548.3" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#F5F5F5" text-anchor="middle">3</text>
+          <text id="m04-nivel-dificil-nombre" x="88" y="549.7" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#777777" text-anchor="start">Difícil</text>
+          <g id="m04-nivel-dificil-candado">
+            <path id="m04-nivel-dificil-candado-arco" d="M295.6 538.64 L295.81 536.77 L296.43 535 L297.43 533.4 L298.76 532.07 L300.36 531.07 L302.13 530.45 L304 530.24 L305.87 530.45 L307.64 531.07 L309.24 532.07 L310.57 533.4 L311.57 535 L312.19 536.77 L312.4 538.64" fill="none" stroke="#555555" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect id="m04-nivel-dificil-candado-cuerpo" x="291.4" y="538.64" width="25.2" height="19.04" rx="3.36" fill="#555555"/>
+            <circle id="m04-nivel-dificil-candado-ojo" cx="304" cy="547.6" r="2.52" fill="#D9D9D9"/>
+          </g>
+          <text id="m04-nivel-dificil-bloqueo" x="36" y="590.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#555555" text-anchor="start">Bloqueado: consigue 2 estrellas en Medio</text>
+          <text id="m04-nivel-dificil-bpm" x="36" y="628.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#777777" text-anchor="start">BPM: 160</text>
+          <text id="m04-nivel-dificil-densidad-etiqueta" x="128" y="628.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#777777" text-anchor="start">Densidad:</text>
+          <rect id="m04-nivel-dificil-densidad-1" x="196" y="617" width="34" height="14" rx="4" fill="#BBBBBB" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect id="m04-nivel-dificil-densidad-2" x="236" y="617" width="34" height="14" rx="4" fill="#BBBBBB" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect id="m04-nivel-dificil-densidad-3" x="276" y="617" width="34" height="14" rx="4" fill="#BBBBBB" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+      <g id="m04-btn-comenzar">
+        <rect id="m04-btn-comenzar-fondo" x="20" y="686" width="320" height="56" rx="12" fill="#111111"/>
+        <text id="m04-btn-comenzar-texto" x="180" y="720.3" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#F5F5F5" text-anchor="middle">Comenzar</text>
+      </g>
+      <text id="m04-ayuda" x="180" y="773.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="middle">Densidad = cantidad de notas por segundo</text>
+    </g>
+    <rect id="marco-04" x="780" y="190" width="90" height="200" rx="6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="nombre-04" x="825" y="412.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="middle">04 · Selección nivel</text>
+  </g>
+  <g id="pantalla-05">
+    <g id="miniatura-05" transform="translate(1020 190) scale(0.25)">
+      <rect id="m05-fondo" x="0" y="0" width="360" height="800" fill="#111111"/>
+      <g id="m05-hud">
+        <text id="m05-puntaje-etiqueta" x="20" y="33.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#999999" text-anchor="start">PUNTAJE</text>
+        <text id="m05-puntaje-valor" x="20" y="65.1" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#F5F5F5" text-anchor="start">012 450</text>
+        <g id="m05-combo">
+          <text id="m05-combo-etiqueta" x="180" y="33.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#999999" text-anchor="middle">COMBO</text>
+          <text id="m05-combo-valor" x="180" y="65.1" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#F5F5F5" text-anchor="middle">x24</text>
+        </g>
+        <rect id="m05-btn-pausa" x="300" y="24" width="40" height="40" rx="10" fill="#333333" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="m05-icono-pausa">
+          <rect id="m05-icono-pausa-barra-1" x="313.16" y="35.9" width="4.68" height="16.2" rx="2" fill="#F5F5F5"/>
+          <rect id="m05-icono-pausa-barra-2" x="322.16" y="35.9" width="4.68" height="16.2" rx="2" fill="#F5F5F5"/>
+        </g>
+        <g id="m05-barra-vida">
+          <text id="m05-vida-etiqueta" x="20" y="93.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#999999" text-anchor="start">VIDA</text>
+          <rect id="m05-vida-pista" x="56" y="85" width="284" height="10" rx="5" fill="#333333"/>
+          <rect id="m05-vida-relleno" x="56" y="85" width="200" height="10" rx="5" fill="#D9D9D9"/>
+        </g>
+        <text id="m05-cancion-nivel" x="180" y="117.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#999999" text-anchor="middle">Estrella Fugaz · Medio</text>
+      </g>
+      <g id="m05-carriles">
+        <rect id="m05-carril-1" x="20" y="128" width="80" height="512" fill="#1C1C1C"/>
+        <rect id="m05-carril-2" x="100" y="128" width="80" height="512" fill="#262626"/>
+        <rect id="m05-carril-3" x="180" y="128" width="80" height="512" fill="#1C1C1C"/>
+        <rect id="m05-carril-4" x="260" y="128" width="80" height="512" fill="#262626"/>
+        <path id="m05-carril-linea-0" d="M20 128 L20 640" fill="none" stroke="#555555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m05-carril-linea-1" d="M100 128 L100 640" fill="none" stroke="#555555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m05-carril-linea-2" d="M180 128 L180 640" fill="none" stroke="#555555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m05-carril-linea-3" d="M260 128 L260 640" fill="none" stroke="#555555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m05-carril-linea-4" d="M340 128 L340 640" fill="none" stroke="#555555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g id="m05-notas-cayendo">
+        <rect id="m05-nota-1" x="30" y="178" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m05-nota-2" x="30" y="318" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m05-nota-3" x="110" y="238" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m05-nota-4" x="110" y="408" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m05-nota-5" x="190" y="148" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m05-nota-6" x="270" y="288" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m05-nota-7" x="270" y="468" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m05-nota-8" x="190" y="536" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="m05-nota-larga">
+          <rect id="m05-nota-larga-cuerpo" x="202" y="330" width="36" height="120" rx="10" fill="#BBBBBB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect id="m05-nota-larga-cabeza" x="190" y="438" width="60" height="24" rx="8" fill="#EBEBEB" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+      <g id="m05-zona-golpe">
+        <path id="m05-linea-golpe" d="M20 560 L340 560" fill="none" stroke="#F5F5F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle id="m05-objetivo-1" cx="60" cy="560" r="26" fill="none" stroke="#F5F5F5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle id="m05-objetivo-2" cx="140" cy="560" r="26" fill="none" stroke="#F5F5F5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle id="m05-objetivo-3" cx="220" cy="560" r="26" fill="none" stroke="#F5F5F5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle id="m05-objetivo-4" cx="300" cy="560" r="26" fill="none" stroke="#F5F5F5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g id="m05-juicio">
+        <text id="m05-juicio-texto" x="180" y="611.7" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#F5F5F5" text-anchor="middle">¡Perfecto!</text>
+        <text id="m05-juicio-puntos" x="258" y="524.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#D9D9D9" text-anchor="middle">+300</text>
+      </g>
+      <g id="m05-botones-tap">
+        <g id="m05-tap-1">
+          <rect id="m05-tap-1-fondo" x="24" y="656" width="72" height="108" rx="14" fill="#D9D9D9" stroke="#F5F5F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m05-tap-1-icono" cx="58" cy="710" r="13" fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="m05-tap-2">
+          <rect id="m05-tap-2-fondo" x="104" y="656" width="72" height="108" rx="14" fill="#D9D9D9" stroke="#F5F5F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect id="m05-tap-2-icono" x="126" y="698" width="24" height="24" rx="3" fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="m05-tap-3">
+          <rect id="m05-tap-3-fondo" x="184" y="656" width="72" height="108" rx="14" fill="#D9D9D9" stroke="#F5F5F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m05-tap-3-icono" d="M218 696 L231 722 L205 722 Z" fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="m05-tap-4">
+          <rect id="m05-tap-4-fondo" x="264" y="656" width="72" height="108" rx="14" fill="#D9D9D9" stroke="#F5F5F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m05-tap-4-icono" d="M298 695 L312 710 L298 725 L284 710 Z" fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+      <text id="m05-ayuda-tap" x="180" y="785.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#999999" text-anchor="middle">Toca el botón cuando la nota llegue a la línea</text>
+    </g>
+    <rect id="marco-05" x="1020" y="190" width="90" height="200" rx="6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="nombre-05" x="1065" y="412.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="middle">05 · Juego</text>
+  </g>
+  <g id="pantalla-07">
+    <g id="miniatura-07" transform="translate(1260 190) scale(0.25)">
+      <rect id="m07-fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+      <text id="m07-titulo" x="180" y="58.4" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">¡Nivel completado!</text>
+      <text id="m07-cancion-nivel" x="180" y="84.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="middle">Estrella Fugaz · Medio</text>
+      <g id="m07-estrellas">
+        <path id="m07-estrella-1" d="M112 134 L120.99 155.62 L144.34 157.49 L126.55 172.73 L131.98 195.51 L112 183.3 L92.02 195.51 L97.45 172.73 L79.66 157.49 L103.01 155.62 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m07-estrella-2" d="M180 110 L190.58 135.44 L218.04 137.64 L197.12 155.56 L203.51 182.36 L180 168 L156.49 182.36 L162.88 155.56 L141.96 137.64 L169.42 135.44 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m07-estrella-3" d="M248 134 L256.99 155.62 L280.34 157.49 L262.55 172.73 L267.98 195.51 L248 183.3 L228.02 195.51 L233.45 172.73 L215.66 157.49 L239.01 155.62 Z" fill="none" stroke="#777777" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="m07-puntaje-etiqueta" x="180" y="241.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#555555" text-anchor="middle">PUNTAJE</text>
+      <text id="m07-puntaje-valor" x="180" y="296.8" font-family="Inter, Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#111111" text-anchor="middle">12 450</text>
+      <g id="m07-insignia-record">
+        <rect id="m07-insignia-record-fondo" x="112" y="316" width="136" height="28" rx="14" fill="#111111"/>
+        <text id="m07-insignia-record-texto" x="180" y="334.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#F5F5F5" text-anchor="middle">¡Nuevo récord!</text>
+      </g>
+      <g id="m07-tarjeta-estadisticas">
+        <rect id="m07-tarjeta-fondo" x="20" y="366" width="320" height="176" rx="16" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m07-stat-1-etiqueta" x="44" y="412.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Combo máximo</text>
+        <text id="m07-stat-1-valor" x="316" y="413.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="end">48</text>
+        <path id="m07-stat-divisor-1" d="M40 436 L320 436" fill="none" stroke="#BBBBBB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m07-stat-2-etiqueta" x="44" y="458.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Precisión</text>
+        <text id="m07-stat-2-valor" x="316" y="459.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="end">92%</text>
+        <rect id="m07-stat-2-pista" x="44" y="472" width="272" height="6" rx="3" fill="#D9D9D9"/>
+        <rect id="m07-stat-2-relleno" x="44" y="472" width="250.24" height="6" rx="3" fill="#111111"/>
+        <path id="m07-stat-divisor-2" d="M40 488 L320 488" fill="none" stroke="#BBBBBB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m07-stat-3-etiqueta" x="44" y="516.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Perfectos / Buenos / Fallos</text>
+        <text id="m07-stat-3-valor" x="316" y="517.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="end">120 / 18 / 6</text>
+      </g>
+      <g id="m07-btn-siguiente">
+        <rect id="m07-btn-siguiente-fondo" x="20" y="572" width="320" height="56" rx="12" fill="#111111"/>
+        <text id="m07-btn-siguiente-texto" x="180" y="606.3" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#F5F5F5" text-anchor="middle">Siguiente</text>
+      </g>
+      <g id="m07-btn-reintentar">
+        <rect id="m07-btn-reintentar-fondo" x="20" y="644" width="154" height="52" rx="12" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m07-btn-reintentar-texto" x="97" y="675.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="middle">Reintentar</text>
+      </g>
+      <g id="m07-btn-menu">
+        <rect id="m07-btn-menu-fondo" x="186" y="644" width="154" height="52" rx="12" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m07-btn-menu-texto" x="263" y="675.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="middle">Menú</text>
+      </g>
+      <text id="m07-nota-pie" x="180" y="743.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="middle">Siguiente avanza al próximo nivel o canción</text>
+    </g>
+    <rect id="marco-07" x="1260" y="190" width="90" height="200" rx="6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="nombre-07" x="1305" y="412.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="middle">07 · Resultados</text>
+  </g>
+  <g id="pantalla-08">
+    <g id="miniatura-08" transform="translate(60 620) scale(0.25)">
+      <rect id="m08-fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+      <g id="m08-encabezado">
+        <rect id="m08-btn-atras" x="16" y="28" width="40" height="40" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m08-icono-atras" d="M40 40 L31.2 48 L40 56" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m08-titulo-pantalla" x="180" y="55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111" text-anchor="middle">Puntajes</text>
+      </g>
+      <g id="m08-selector-cancion">
+        <rect id="m08-selector-fondo" x="20" y="88" width="320" height="44" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="m08-selector-icono">
+          <circle id="m08-selector-icono-cabeza" cx="40.7" cy="116.16" r="4.4" fill="#555555"/>
+          <path id="m08-selector-icono-asta" d="M45.1 116.16 L45.1 100.76" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m08-selector-icono-bandera" d="M45.1 100.76 L52.36 105.6 L45.1 107.36" fill="none" stroke="#555555" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <text id="m08-selector-texto" x="66" y="115.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Estrella Fugaz</text>
+        <path id="m08-selector-flecha" d="M310 106 L318 114 L326 106" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g id="m08-pestanas-nivel">
+        <rect id="m08-pestanas-fondo" x="20" y="148" width="320" height="44" rx="12" fill="#D9D9D9"/>
+        <rect id="m08-pestana-medio-activa" x="127" y="152" width="106" height="36" rx="10" fill="#111111"/>
+        <text id="m08-pestana-facil" x="73" y="174.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#333333" text-anchor="middle">Fácil</text>
+        <text id="m08-pestana-medio" x="180" y="174.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#F5F5F5" text-anchor="middle">Medio</text>
+        <text id="m08-pestana-dificil" x="287" y="174.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#333333" text-anchor="middle">Difícil</text>
+      </g>
+      <g id="m08-lista-ranking">
+        <g id="m08-fila-1">
+          <rect id="m08-fila-1-fondo" x="20" y="218" width="320" height="56" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m08-fila-1-puesto-fondo" cx="52" cy="246" r="15" fill="#111111"/>
+          <text id="m08-fila-1-puesto" x="52" y="250.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#F5F5F5" text-anchor="middle">1</text>
+          <text id="m08-fila-1-nombre" x="80" y="243.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Ana</text>
+          <g id="m08-fila-1-estrellas">
+            <path id="m08-fila-1-estrellas-1" d="M86 252 L87.59 255.82 L91.71 256.15 L88.57 258.83 L89.53 262.85 L86 260.7 L82.47 262.85 L83.43 258.83 L80.29 256.15 L84.41 255.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m08-fila-1-estrellas-2" d="M100 252 L101.59 255.82 L105.71 256.15 L102.57 258.83 L103.53 262.85 L100 260.7 L96.47 262.85 L97.43 258.83 L94.29 256.15 L98.41 255.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m08-fila-1-estrellas-3" d="M114 252 L115.59 255.82 L119.71 256.15 L116.57 258.83 L117.53 262.85 L114 260.7 L110.47 262.85 L111.43 258.83 L108.29 256.15 L112.41 255.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <text id="m08-fila-1-puntaje" x="322" y="251.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="end">14 820</text>
+        </g>
+        <g id="m08-fila-2">
+          <rect id="m08-fila-2-fondo" x="20" y="282" width="320" height="56" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m08-fila-2-puesto-fondo" cx="52" cy="310" r="15" fill="#111111"/>
+          <text id="m08-fila-2-puesto" x="52" y="314.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#F5F5F5" text-anchor="middle">2</text>
+          <text id="m08-fila-2-nombre" x="80" y="307.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Carlos</text>
+          <g id="m08-fila-2-estrellas">
+            <path id="m08-fila-2-estrellas-1" d="M86 316 L87.59 319.82 L91.71 320.15 L88.57 322.83 L89.53 326.85 L86 324.7 L82.47 326.85 L83.43 322.83 L80.29 320.15 L84.41 319.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m08-fila-2-estrellas-2" d="M100 316 L101.59 319.82 L105.71 320.15 L102.57 322.83 L103.53 326.85 L100 324.7 L96.47 326.85 L97.43 322.83 L94.29 320.15 L98.41 319.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m08-fila-2-estrellas-3" d="M114 316 L115.59 319.82 L119.71 320.15 L116.57 322.83 L117.53 326.85 L114 324.7 L110.47 326.85 L111.43 322.83 L108.29 320.15 L112.41 319.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <text id="m08-fila-2-puntaje" x="322" y="315.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="end">13 560</text>
+        </g>
+        <g id="m08-fila-3">
+          <rect id="m08-fila-3-fondo" x="20" y="346" width="320" height="56" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m08-fila-3-puesto-fondo" cx="52" cy="374" r="15" fill="#111111"/>
+          <text id="m08-fila-3-puesto" x="52" y="378.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#F5F5F5" text-anchor="middle">3</text>
+          <text id="m08-fila-3-nombre" x="80" y="371.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Sofía</text>
+          <g id="m08-fila-3-estrellas">
+            <path id="m08-fila-3-estrellas-1" d="M86 380 L87.59 383.82 L91.71 384.15 L88.57 386.83 L89.53 390.85 L86 388.7 L82.47 390.85 L83.43 386.83 L80.29 384.15 L84.41 383.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m08-fila-3-estrellas-2" d="M100 380 L101.59 383.82 L105.71 384.15 L102.57 386.83 L103.53 390.85 L100 388.7 L96.47 390.85 L97.43 386.83 L94.29 384.15 L98.41 383.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m08-fila-3-estrellas-3" d="M114 380 L115.59 383.82 L119.71 384.15 L116.57 386.83 L117.53 390.85 L114 388.7 L110.47 390.85 L111.43 386.83 L108.29 384.15 L112.41 383.82 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <text id="m08-fila-3-puntaje" x="322" y="379.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="end">12 900</text>
+        </g>
+        <g id="m08-fila-4">
+          <rect id="m08-fila-4-fondo" x="20" y="410" width="320" height="56" rx="12" fill="#D9D9D9" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m08-fila-4-puesto-fondo" cx="52" cy="438" r="15" fill="none" stroke="#111111" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          <text id="m08-fila-4-puesto" x="52" y="442.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111111" text-anchor="middle">4</text>
+          <text id="m08-fila-4-nombre" x="80" y="435.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Tú (Jugador)</text>
+          <g id="m08-fila-4-estrellas">
+            <path id="m08-fila-4-estrellas-1" d="M86 444 L87.59 447.82 L91.71 448.15 L88.57 450.83 L89.53 454.85 L86 452.7 L82.47 454.85 L83.43 450.83 L80.29 448.15 L84.41 447.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m08-fila-4-estrellas-2" d="M100 444 L101.59 447.82 L105.71 448.15 L102.57 450.83 L103.53 454.85 L100 452.7 L96.47 454.85 L97.43 450.83 L94.29 448.15 L98.41 447.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m08-fila-4-estrellas-3" d="M114 444 L115.59 447.82 L119.71 448.15 L116.57 450.83 L117.53 454.85 L114 452.7 L110.47 454.85 L111.43 450.83 L108.29 448.15 L112.41 447.82 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <text id="m08-fila-4-puntaje" x="322" y="443.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="end">12 450</text>
+        </g>
+        <g id="m08-fila-5">
+          <rect id="m08-fila-5-fondo" x="20" y="474" width="320" height="56" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m08-fila-5-puesto-fondo" cx="52" cy="502" r="15" fill="none" stroke="#111111" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          <text id="m08-fila-5-puesto" x="52" y="506.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111111" text-anchor="middle">5</text>
+          <text id="m08-fila-5-nombre" x="80" y="499.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Mateo</text>
+          <g id="m08-fila-5-estrellas">
+            <path id="m08-fila-5-estrellas-1" d="M86 508 L87.59 511.82 L91.71 512.15 L88.57 514.83 L89.53 518.85 L86 516.7 L82.47 518.85 L83.43 514.83 L80.29 512.15 L84.41 511.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m08-fila-5-estrellas-2" d="M100 508 L101.59 511.82 L105.71 512.15 L102.57 514.83 L103.53 518.85 L100 516.7 L96.47 518.85 L97.43 514.83 L94.29 512.15 L98.41 511.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m08-fila-5-estrellas-3" d="M114 508 L115.59 511.82 L119.71 512.15 L116.57 514.83 L117.53 518.85 L114 516.7 L110.47 518.85 L111.43 514.83 L108.29 512.15 L112.41 511.82 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <text id="m08-fila-5-puntaje" x="322" y="507.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="end">10 230</text>
+        </g>
+        <g id="m08-fila-6">
+          <rect id="m08-fila-6-fondo" x="20" y="538" width="320" height="56" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m08-fila-6-puesto-fondo" cx="52" cy="566" r="15" fill="none" stroke="#111111" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          <text id="m08-fila-6-puesto" x="52" y="570.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111111" text-anchor="middle">6</text>
+          <text id="m08-fila-6-nombre" x="80" y="563.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Laura</text>
+          <g id="m08-fila-6-estrellas">
+            <path id="m08-fila-6-estrellas-1" d="M86 572 L87.59 575.82 L91.71 576.15 L88.57 578.83 L89.53 582.85 L86 580.7 L82.47 582.85 L83.43 578.83 L80.29 576.15 L84.41 575.82 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m08-fila-6-estrellas-2" d="M100 572 L101.59 575.82 L105.71 576.15 L102.57 578.83 L103.53 582.85 L100 580.7 L96.47 582.85 L97.43 578.83 L94.29 576.15 L98.41 575.82 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="m08-fila-6-estrellas-3" d="M114 572 L115.59 575.82 L119.71 576.15 L116.57 578.83 L117.53 582.85 L114 580.7 L110.47 582.85 L111.43 578.83 L108.29 576.15 L112.41 575.82 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <text id="m08-fila-6-puntaje" x="322" y="571.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="end">9 870</text>
+        </g>
+      </g>
+      <g id="m08-mejor-personal">
+        <rect id="m08-mejor-fondo" x="20" y="608" width="320" height="64" rx="14" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="m08-mejor-icono">
+          <path id="m08-mejor-icono-copa" d="M44.2 629.08 L59.8 629.08 L57.2 642.6 L52 645.72 L46.8 642.6 Z" fill="#111111" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m08-mejor-icono-asa-izq" d="M44.2 631.68 L39.52 631.68 L41.6 637.92 L45.76 640" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m08-mejor-icono-asa-der" d="M59.8 631.68 L64.48 631.68 L62.4 637.92 L58.24 640" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m08-mejor-icono-pie" d="M52 645.72 L52 650.4" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect id="m08-mejor-icono-base" x="45.76" y="649.88" width="12.48" height="2.6" rx="2" fill="#111111"/>
+        </g>
+        <text id="m08-mejor-etiqueta" x="80" y="632.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Tu mejor puntaje en Medio</text>
+        <text id="m08-mejor-valor" x="80" y="657.95" font-family="Inter, Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#111111" text-anchor="start">12 450 pts</text>
+      </g>
+      <text id="m08-pie" x="180" y="713.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="middle">Ranking local · se guarda en este dispositivo</text>
+      <g id="m08-btn-borrar">
+        <rect id="m08-btn-borrar-fondo" x="20" y="730" width="320" height="44" rx="12" fill="#D9D9D9"/>
+        <text id="m08-btn-borrar-texto" x="180" y="756.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111111" text-anchor="middle">Borrar puntajes</text>
+      </g>
+    </g>
+    <rect id="marco-08" x="60" y="620" width="90" height="200" rx="6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="nombre-08" x="105" y="842.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="middle">08 · Puntajes</text>
+  </g>
+  <g id="pantalla-09">
+    <g id="miniatura-09" transform="translate(300 620) scale(0.25)">
+      <rect id="m09-fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+      <g id="m09-encabezado">
+        <rect id="m09-btn-atras" x="16" y="28" width="40" height="40" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m09-icono-atras" d="M40 40 L31.2 48 L40 56" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m09-titulo-pantalla" x="180" y="55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111" text-anchor="middle">Créditos</text>
+      </g>
+      <g id="m09-logo">
+        <rect id="m09-logo-fondo" x="136" y="106" width="88" height="88" rx="19.36" fill="#111111"/>
+        <path id="m09-logo-carril-1" d="M158 116.56 L158 183.44" fill="none" stroke="#555555" stroke-width="1.23" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m09-logo-carril-2" d="M180 116.56 L180 183.44" fill="none" stroke="#555555" stroke-width="1.23" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m09-logo-carril-3" d="M202 116.56 L202 183.44" fill="none" stroke="#555555" stroke-width="1.23" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m09-logo-nota-1" x="139.52" y="128.88" width="14.96" height="8.8" rx="2.64" fill="#F5F5F5"/>
+        <rect id="m09-logo-nota-2" x="161.52" y="150" width="14.96" height="8.8" rx="2.64" fill="#F5F5F5"/>
+        <rect id="m09-logo-nota-3" x="183.52" y="135.92" width="14.96" height="8.8" rx="2.64" fill="#F5F5F5"/>
+        <rect id="m09-logo-nota-4" x="205.52" y="165.84" width="14.96" height="8.8" rx="2.64" fill="#F5F5F5"/>
+        <path id="m09-logo-linea" d="M143.04 176.4 L216.96 176.4" fill="none" stroke="#F5F5F5" stroke-width="2.64" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="m09-titulo-app" x="180" y="233.8" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111111" text-anchor="middle">NotaFlow</text>
+      <text id="m09-curso" x="180" y="262.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#333333" text-anchor="middle">UPB - Aplicaciones móviles</text>
+      <text id="m09-curso-sub" x="180" y="284.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="middle">Proyecto de juego rítmico para celular</text>
+      <text id="m09-equipo-titulo" x="24" y="319.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#555555" text-anchor="start">EQUIPO</text>
+      <g id="m09-equipo">
+        <g id="m09-integrante-1">
+          <rect id="m09-integrante-1-fondo" x="20" y="336" width="320" height="80" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m09-integrante-1-avatar" cx="62" cy="376" r="24" fill="#D9D9D9" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m09-integrante-1-avatar-cabeza" cx="62" cy="369" r="7" fill="#777777"/>
+          <path id="m09-integrante-1-avatar-cuerpo" d="M49 392 L49.99 387.03 L52.81 382.81 L57.03 379.99 L62 379 L66.97 379.99 L71.19 382.81 L74.01 387.03 L75 392 Z" fill="#777777"/>
+          <text id="m09-integrante-1-nombre" x="102" y="371.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Integrante 1</text>
+          <text id="m09-integrante-1-rol" x="102" y="394.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Rol (por definir)</text>
+        </g>
+        <g id="m09-integrante-2">
+          <rect id="m09-integrante-2-fondo" x="20" y="428" width="320" height="80" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m09-integrante-2-avatar" cx="62" cy="468" r="24" fill="#D9D9D9" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m09-integrante-2-avatar-cabeza" cx="62" cy="461" r="7" fill="#777777"/>
+          <path id="m09-integrante-2-avatar-cuerpo" d="M49 484 L49.99 479.03 L52.81 474.81 L57.03 471.99 L62 471 L66.97 471.99 L71.19 474.81 L74.01 479.03 L75 484 Z" fill="#777777"/>
+          <text id="m09-integrante-2-nombre" x="102" y="463.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Integrante 2</text>
+          <text id="m09-integrante-2-rol" x="102" y="486.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Rol (por definir)</text>
+        </g>
+        <g id="m09-integrante-3">
+          <rect id="m09-integrante-3-fondo" x="20" y="520" width="320" height="80" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m09-integrante-3-avatar" cx="62" cy="560" r="24" fill="#D9D9D9" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m09-integrante-3-avatar-cabeza" cx="62" cy="553" r="7" fill="#777777"/>
+          <path id="m09-integrante-3-avatar-cuerpo" d="M49 576 L49.99 571.03 L52.81 566.81 L57.03 563.99 L62 563 L66.97 563.99 L71.19 566.81 L74.01 571.03 L75 576 Z" fill="#777777"/>
+          <text id="m09-integrante-3-nombre" x="102" y="555.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Integrante 3</text>
+          <text id="m09-integrante-3-rol" x="102" y="578.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Rol (por definir)</text>
+        </g>
+      </g>
+      <path id="m09-divisor" d="M40 628 L320 628" fill="none" stroke="#BBBBBB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="m09-version" x="180" y="664.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111111" text-anchor="middle">Versión 1.0.0</text>
+      <text id="m09-derechos" x="180" y="688.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="middle">Hecho por el equipo NotaFlow</text>
+      <g id="m09-btn-volver">
+        <rect id="m09-btn-volver-fondo" x="20" y="716" width="320" height="48" rx="12" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m09-btn-volver-texto" x="180" y="744.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111111" text-anchor="middle">Volver al inicio</text>
+      </g>
+    </g>
+    <rect id="marco-09" x="300" y="620" width="90" height="200" rx="6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="nombre-09" x="345" y="842.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="middle">09 · Créditos</text>
+  </g>
+  <g id="pantalla-10">
+    <g id="miniatura-10" transform="translate(540 620) scale(0.25)">
+      <rect id="m10-fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+      <g id="m10-encabezado">
+        <rect id="m10-btn-atras" x="16" y="28" width="40" height="40" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m10-icono-atras" d="M40 40 L31.2 48 L40 56" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m10-titulo-pantalla" x="180" y="55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111" text-anchor="middle">Ajustes</text>
+      </g>
+      <g id="m10-seccion-sonido">
+        <text id="m10-sonido-titulo" x="24" y="103.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#555555" text-anchor="start">SONIDO</text>
+        <rect id="m10-sonido-fondo" x="20" y="116" width="320" height="120" rx="16" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="m10-sonido-icono">
+          <path id="m10-sonido-icono-cuerpo" d="M37 144.04 L42.5 144.04 L49.1 138.76 L49.1 157.24 L42.5 151.96 L37 151.96 Z" fill="#111111" stroke="#111111" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m10-sonido-icono-onda-1" d="M52.49 143.96 L53.29 144.79 L53.89 145.77 L54.25 146.86 L54.38 148 L54.25 149.14 L53.89 150.23 L53.29 151.21 L52.49 152.04" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m10-sonido-icono-onda-2" d="M55.32 140.58 L56.78 142.11 L57.87 143.91 L58.55 145.9 L58.78 148 L58.55 150.1 L57.87 152.09 L56.78 153.89 L55.32 155.42" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <text id="m10-sonido-etiqueta" x="74" y="152.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#111111" text-anchor="start">Volumen de música</text>
+        <text id="m10-sonido-valor" x="320" y="152.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111111" text-anchor="end">70%</text>
+        <g id="m10-sonido-slider">
+          <rect id="m10-sonido-slider-pista" x="40" y="186" width="280" height="8" rx="4" fill="#D9D9D9"/>
+          <rect id="m10-sonido-slider-relleno" x="40" y="186" width="196" height="8" rx="4" fill="#111111"/>
+          <circle id="m10-sonido-slider-perilla" cx="236" cy="190" r="12" fill="#F5F5F5" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="m10-sonido-silencio-icono">
+          <path id="m10-sonido-silencio-icono-cuerpo" d="M45 213.48 L48.5 213.48 L52.7 210.12 L52.7 221.88 L48.5 218.52 L45 218.52 Z" fill="#777777" stroke="#777777" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m10-sonido-silencio-icono-x" d="M54.8 213.2 L59 218.8" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m10-sonido-silencio-icono-x2" d="M59 213.2 L54.8 218.8" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <text id="m10-sonido-silencio" x="66" y="219.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#777777" text-anchor="start">Mín.</text>
+        <text id="m10-sonido-max" x="320" y="219.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#777777" text-anchor="end">Máx.</text>
+      </g>
+      <g id="m10-seccion-vibracion">
+        <text id="m10-vibracion-titulo" x="24" y="265.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#555555" text-anchor="start">VIBRACIÓN</text>
+        <rect id="m10-vibracion-fondo" x="20" y="278" width="320" height="72" rx="16" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="m10-vibracion-icono">
+          <rect id="m10-vibracion-icono-telefono" x="43.92" y="304.88" width="8.16" height="18.24" rx="3" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m10-vibracion-icono-onda-izq-1" d="M40.8 309.2 L38.4 314 L40.8 318.8" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m10-vibracion-icono-onda-izq-2" d="M37.44 306.8 L34.08 314 L37.44 321.2" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m10-vibracion-icono-onda-der-1" d="M55.2 309.2 L57.6 314 L55.2 318.8" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m10-vibracion-icono-onda-der-2" d="M58.56 306.8 L61.92 314 L58.56 321.2" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <text id="m10-vibracion-etiqueta" x="74" y="310.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#111111" text-anchor="start">Vibrar al tocar</text>
+        <text id="m10-vibracion-ayuda" x="74" y="329.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Respuesta táctil en cada nota</text>
+        <g id="m10-vibracion-interruptor">
+          <rect id="m10-vibracion-interruptor-pista" x="276" y="301" width="48" height="26" rx="13" fill="#111111"/>
+          <circle id="m10-vibracion-interruptor-perilla" cx="311" cy="314" r="10" fill="#F5F5F5"/>
+        </g>
+      </g>
+      <g id="m10-seccion-jugador">
+        <text id="m10-jugador-titulo" x="24" y="379.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#555555" text-anchor="start">JUGADOR</text>
+        <rect id="m10-jugador-fondo" x="20" y="392" width="320" height="112" rx="16" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m10-jugador-etiqueta" x="40" y="420.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#111111" text-anchor="start">Nombre del jugador</text>
+        <rect id="m10-jugador-campo" x="36" y="436" width="288" height="44" rx="10" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m10-jugador-valor" x="50" y="463.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#111111" text-anchor="start">Jugador1</text>
+        <path id="m10-jugador-cursor" d="M122 446 L122 470" fill="none" stroke="#111111" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m10-jugador-contador" x="316" y="495.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#777777" text-anchor="end">8/16</text>
+      </g>
+      <text id="m10-jugador-ayuda" x="180" y="527.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="middle">Este nombre aparece en la tabla de Puntajes</text>
+      <g id="m10-btn-guardar">
+        <rect id="m10-btn-guardar-fondo" x="20" y="580" width="320" height="56" rx="12" fill="#111111"/>
+        <text id="m10-btn-guardar-texto" x="180" y="613.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#F5F5F5" text-anchor="middle">Guardar cambios</text>
+      </g>
+      <g id="m10-btn-restablecer">
+        <rect id="m10-btn-restablecer-fondo" x="20" y="652" width="320" height="48" rx="12" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m10-btn-restablecer-texto" x="180" y="680.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111111" text-anchor="middle">Restablecer valores</text>
+      </g>
+    </g>
+    <rect id="marco-10" x="540" y="620" width="90" height="200" rx="6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="nombre-10" x="585" y="842.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="middle">10 · Ajustes</text>
+  </g>
+  <g id="pantalla-06">
+    <g id="miniatura-06" transform="translate(1020 620) scale(0.25)">
+      <rect id="m06-fondo" x="0" y="0" width="360" height="800" fill="#141414"/>
+      <g id="m06-hud">
+        <text id="m06-puntaje-etiqueta" x="20" y="33.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#2A2A2A" text-anchor="start">PUNTAJE</text>
+        <text id="m06-puntaje-valor" x="20" y="65.1" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#383838" text-anchor="start">012 450</text>
+        <g id="m06-combo">
+          <text id="m06-combo-etiqueta" x="180" y="33.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#2A2A2A" text-anchor="middle">COMBO</text>
+          <text id="m06-combo-valor" x="180" y="65.1" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#383838" text-anchor="middle">x24</text>
+        </g>
+        <rect id="m06-btn-pausa" x="300" y="24" width="40" height="40" rx="10" fill="#1A1A1A" stroke="#2F2F2F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="m06-icono-pausa">
+          <rect id="m06-icono-pausa-barra-1" x="313.16" y="35.9" width="4.68" height="16.2" rx="2" fill="#383838"/>
+          <rect id="m06-icono-pausa-barra-2" x="322.16" y="35.9" width="4.68" height="16.2" rx="2" fill="#383838"/>
+        </g>
+        <g id="m06-barra-vida">
+          <text id="m06-vida-etiqueta" x="20" y="93.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#2A2A2A" text-anchor="start">VIDA</text>
+          <rect id="m06-vida-pista" x="56" y="85" width="284" height="10" rx="5" fill="#1A1A1A"/>
+          <rect id="m06-vida-relleno" x="56" y="85" width="200" height="10" rx="5" fill="#343434"/>
+        </g>
+        <text id="m06-cancion-nivel" x="180" y="117.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#2A2A2A" text-anchor="middle">Estrella Fugaz · Medio</text>
+      </g>
+      <g id="m06-carriles">
+        <rect id="m06-carril-1" x="20" y="128" width="80" height="512" fill="#161616"/>
+        <rect id="m06-carril-2" x="100" y="128" width="80" height="512" fill="#171717"/>
+        <rect id="m06-carril-3" x="180" y="128" width="80" height="512" fill="#161616"/>
+        <rect id="m06-carril-4" x="260" y="128" width="80" height="512" fill="#171717"/>
+        <path id="m06-carril-linea-0" d="M20 128 L20 640" fill="none" stroke="#1F1F1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m06-carril-linea-1" d="M100 128 L100 640" fill="none" stroke="#1F1F1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m06-carril-linea-2" d="M180 128 L180 640" fill="none" stroke="#1F1F1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m06-carril-linea-3" d="M260 128 L260 640" fill="none" stroke="#1F1F1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="m06-carril-linea-4" d="M340 128 L340 640" fill="none" stroke="#1F1F1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g id="m06-notas-cayendo">
+        <rect id="m06-nota-1" x="30" y="178" width="60" height="24" rx="8" fill="#363636" stroke="#383838" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m06-nota-2" x="30" y="318" width="60" height="24" rx="8" fill="#363636" stroke="#383838" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m06-nota-3" x="110" y="238" width="60" height="24" rx="8" fill="#363636" stroke="#383838" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m06-nota-4" x="110" y="408" width="60" height="24" rx="8" fill="#363636" stroke="#383838" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m06-nota-5" x="190" y="148" width="60" height="24" rx="8" fill="#363636" stroke="#383838" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m06-nota-6" x="270" y="288" width="60" height="24" rx="8" fill="#363636" stroke="#383838" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m06-nota-7" x="270" y="468" width="60" height="24" rx="8" fill="#363636" stroke="#383838" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="m06-nota-8" x="190" y="536" width="60" height="24" rx="8" fill="#363636" stroke="#383838" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="m06-nota-larga">
+          <rect id="m06-nota-larga-cuerpo" x="202" y="330" width="36" height="120" rx="10" fill="#2F2F2F" stroke="#383838" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect id="m06-nota-larga-cabeza" x="190" y="438" width="60" height="24" rx="8" fill="#363636" stroke="#383838" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+      <g id="m06-zona-golpe">
+        <path id="m06-linea-golpe" d="M20 560 L340 560" fill="none" stroke="#383838" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle id="m06-objetivo-1" cx="60" cy="560" r="26" fill="none" stroke="#383838" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle id="m06-objetivo-2" cx="140" cy="560" r="26" fill="none" stroke="#383838" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle id="m06-objetivo-3" cx="220" cy="560" r="26" fill="none" stroke="#383838" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle id="m06-objetivo-4" cx="300" cy="560" r="26" fill="none" stroke="#383838" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g id="m06-botones-tap">
+        <g id="m06-tap-1">
+          <rect id="m06-tap-1-fondo" x="24" y="656" width="72" height="108" rx="14" fill="#343434" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="m06-tap-1-icono" cx="58" cy="710" r="13" fill="none" stroke="#141414" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="m06-tap-2">
+          <rect id="m06-tap-2-fondo" x="104" y="656" width="72" height="108" rx="14" fill="#343434" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect id="m06-tap-2-icono" x="126" y="698" width="24" height="24" rx="3" fill="none" stroke="#141414" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="m06-tap-3">
+          <rect id="m06-tap-3-fondo" x="184" y="656" width="72" height="108" rx="14" fill="#343434" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m06-tap-3-icono" d="M218 696 L231 722 L205 722 Z" fill="none" stroke="#141414" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="m06-tap-4">
+          <rect id="m06-tap-4-fondo" x="264" y="656" width="72" height="108" rx="14" fill="#343434" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m06-tap-4-icono" d="M298 695 L312 710 L298 725 L284 710 Z" fill="none" stroke="#141414" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+      <text id="m06-ayuda-tap" x="180" y="785.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#2A2A2A" text-anchor="middle">Toca el botón cuando la nota llegue a la línea</text>
+      <g id="m06-modal-pausa">
+        <rect id="m06-modal-fondo" x="40" y="236" width="280" height="340" rx="20" fill="#F5F5F5" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="m06-modal-titulo" x="180" y="289.1" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#111111" text-anchor="middle">Pausa</text>
+        <text id="m06-modal-cancion" x="180" y="316.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="middle">Estrella Fugaz · Medio</text>
+        <g id="m06-btn-continuar">
+          <rect id="m06-btn-continuar-fondo" x="64" y="340" width="232" height="54" rx="12" fill="#111111"/>
+          <text id="m06-btn-continuar-texto" x="180" y="372.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#F5F5F5" text-anchor="middle">Continuar</text>
+        </g>
+        <g id="m06-btn-reiniciar">
+          <rect id="m06-btn-reiniciar-fondo" x="64" y="406" width="232" height="54" rx="12" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <text id="m06-btn-reiniciar-texto" x="180" y="438.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="middle">Reiniciar</text>
+        </g>
+        <g id="m06-btn-salir">
+          <rect id="m06-btn-salir-fondo" x="64" y="472" width="232" height="54" rx="12" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <text id="m06-btn-salir-texto" x="180" y="504.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="middle">Salir</text>
+        </g>
+        <text id="m06-modal-puntaje" x="180" y="555.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="middle">Puntaje actual: 12 450</text>
+        <path id="m06-icono-continuar" d="M95.1 360 L107 367 L95.1 374 Z" fill="#F5F5F5" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="m06-icono-reiniciar">
+          <path id="m06-icono-reiniciar-arco" d="M105.24 428.6 L106.35 430.45 L106.83 432.55 L106.63 434.7 L105.77 436.68 L104.34 438.29 L102.48 439.37 L100.37 439.83 L98.23 439.61 L96.26 438.73 L94.67 437.28 L93.6 435.41 L93.17 433.3 L93.41 431.16 L94.31 429.2 L95.78 427.62 L97.66 426.57" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="m06-icono-reiniciar-punta" d="M93.88 431.97 L98.68 426.2 L91.29 424.87" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <path id="m06-icono-salir" d="M91.9 499 L100 490.9 L108.1 499 L105.76 499 L105.76 506.56 L94.24 506.56 L94.24 499 Z" fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <rect id="marco-06" x="1020" y="620" width="90" height="200" rx="6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="nombre-06" x="1065" y="842.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="middle">06 · Pausa</text>
+  </g>
+  <g id="flecha-1">
+    <path id="flecha-1-linea" d="M154 290 L286 290" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="flecha-1-punta" d="M296 290 L286 295 L286 285 Z" fill="#111111" stroke="#111111" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="flecha-1-etiqueta" x="225" y="280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">Carga completa</text>
+  </g>
+  <g id="flecha-2">
+    <path id="flecha-2-linea" d="M394 290 L526 290" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="flecha-2-punta" d="M536 290 L526 295 L526 285 Z" fill="#111111" stroke="#111111" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="flecha-2-etiqueta" x="465" y="280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">Jugar</text>
+  </g>
+  <g id="flecha-3">
+    <path id="flecha-3-linea" d="M634 290 L766 290" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="flecha-3-punta" d="M776 290 L766 295 L766 285 Z" fill="#111111" stroke="#111111" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="flecha-3-etiqueta" x="705" y="280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">Elegir canción</text>
+  </g>
+  <g id="flecha-4">
+    <path id="flecha-4-linea" d="M874 290 L1006 290" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="flecha-4-punta" d="M1016 290 L1006 295 L1006 285 Z" fill="#111111" stroke="#111111" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="flecha-4-etiqueta" x="945" y="280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">Comenzar</text>
+  </g>
+  <g id="flecha-5">
+    <path id="flecha-5-linea" d="M1114 290 L1246 290" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="flecha-5-punta" d="M1256 290 L1246 295 L1246 285 Z" fill="#111111" stroke="#111111" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="flecha-5-etiqueta" x="1185" y="280" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">Fin de canción</text>
+  </g>
+  <path id="bus-inicio" d="M345 422 L345 500" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path id="bus-inicio-h" d="M105 500 L585 500" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g id="flecha-inicio-1">
+    <path id="flecha-inicio-1-linea" d="M105 500 L105 606" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="flecha-inicio-1-punta" d="M105 616 L100 606 L110 606 Z" fill="#111111" stroke="#111111" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="flecha-inicio-1-etiqueta" x="115" y="566" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="start">Puntajes</text>
+  </g>
+  <g id="flecha-inicio-2">
+    <path id="flecha-inicio-2-linea" d="M345 500 L345 606" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="flecha-inicio-2-punta" d="M345 616 L340 606 L350 606 Z" fill="#111111" stroke="#111111" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="flecha-inicio-2-etiqueta" x="355" y="566" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="start">Créditos</text>
+  </g>
+  <g id="flecha-inicio-3">
+    <path id="flecha-inicio-3-linea" d="M585 500 L585 606" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="flecha-inicio-3-punta" d="M585 616 L580 606 L590 606 Z" fill="#111111" stroke="#111111" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="flecha-inicio-3-etiqueta" x="595" y="566" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="start">Ajustes</text>
+  </g>
+  <g id="flecha-pausar">
+    <path id="flecha-pausar-linea" d="M1045 424 L1045 606" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="flecha-pausar-punta" d="M1045 616 L1040 606 L1050 606 Z" fill="#111111" stroke="#111111" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="flecha-pausar-etiqueta" x="1037" y="520" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="end">Pausar</text>
+  </g>
+  <g id="flecha-continuar">
+    <path id="flecha-continuar-linea" d="M1085 616 L1085 440" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="flecha-continuar-punta" d="M1085 430 L1090 440 L1080 440 Z" fill="#111111" stroke="#111111" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="flecha-continuar-etiqueta" x="1095" y="520" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="start">Continuar / Reiniciar</text>
+  </g>
+  <g id="nodo-inicio-ref">
+    <rect id="nodo-inicio-ref-fondo" x="1260" y="698" width="150" height="44" rx="22" fill="#111111"/>
+    <text id="nodo-inicio-ref-texto" x="1335" y="724.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#F5F5F5" text-anchor="middle">02 · Inicio</text>
+  </g>
+  <g id="flecha-salir">
+    <path id="flecha-salir-linea" d="M1114 720 L1246 720" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="flecha-salir-punta" d="M1256 720 L1246 725 L1246 715 Z" fill="#111111" stroke="#111111" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="flecha-salir-etiqueta" x="1176" y="710" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">Salir</text>
+  </g>
+  <path id="ruta-reintentar" d="M1275 186 L1275 160 L1095 160" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g id="flecha-reintentar">
+    <path id="flecha-reintentar-linea" d="M1095 160 L1095 176" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="flecha-reintentar-punta" d="M1095 186 L1090 176 L1100 176 Z" fill="#111111" stroke="#111111" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="flecha-reintentar-etiqueta" x="1130" y="152" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="start">Reintentar</text>
+  </g>
+  <path id="ruta-siguiente" d="M1310 186 L1310 138 L825 138" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g id="flecha-siguiente">
+    <path id="flecha-siguiente-linea" d="M825 138 L825 176" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="flecha-siguiente-punta" d="M825 186 L820 176 L830 176 Z" fill="#111111" stroke="#111111" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="flecha-siguiente-etiqueta" x="840" y="130" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="start">Siguiente (nivel o canción)</text>
+  </g>
+  <path id="ruta-menu" d="M1340 186 L1340 116 L345 116" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g id="flecha-menu">
+    <path id="flecha-menu-linea" d="M345 116 L345 176" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="flecha-menu-punta" d="M345 186 L340 176 L350 176 Z" fill="#111111" stroke="#111111" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="flecha-menu-etiqueta" x="360" y="108" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="start">Menú</text>
+  </g>
+  <g id="nota-atras">
+    <rect id="nota-atras-fondo" x="700" y="650" width="250" height="96" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="nota-atras-t1" x="716" y="678.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111111" text-anchor="start">‹ Atrás</text>
+    <text id="nota-atras-t2" x="716" y="701.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Puntajes, Créditos y Ajustes regresan</text>
+    <text id="nota-atras-t3" x="716" y="719.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">a Inicio con el botón ‹ del encabezado.</text>
+  </g>
+  <g id="leyenda">
+    <text id="leyenda-t" x="60" y="876.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Flecha negra = navegación · Cuadro negro = referencia a otra pantalla</text>
+  </g>
+</g>
+</svg>

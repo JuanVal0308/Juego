@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800" fill="none">
+<title>NotaFlow - Selección de nivel</title>
+<g id="04-seleccion-nivel">
+  <rect id="fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+  <g id="encabezado">
+    <rect id="btn-atras" x="16" y="28" width="40" height="40" rx="12" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="icono-atras" d="M40 40 L31.2 48 L40 56" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="titulo-pantalla" x="180" y="55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111" text-anchor="middle">Selecciona el nivel</text>
+  </g>
+  <g id="cancion-elegida">
+    <rect id="cancion-elegida-fondo" x="20" y="88" width="320" height="64" rx="14" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="cancion-elegida-portada">
+      <rect id="cancion-elegida-portada-fondo" x="28" y="96" width="48" height="48" rx="10" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="cancion-elegida-portada-nota">
+        <circle id="cancion-elegida-portada-nota-cabeza" cx="48.4" cy="126.72" r="4.8" fill="#555555"/>
+        <path id="cancion-elegida-portada-nota-asta" d="M53.2 126.72 L53.2 109.92" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="cancion-elegida-portada-nota-bandera" d="M53.2 109.92 L61.12 115.2 L53.2 117.12" fill="none" stroke="#555555" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <text id="cancion-elegida-titulo" x="88" y="117.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111111" text-anchor="start">Estrella Fugaz</text>
+    <text id="cancion-elegida-artista" x="88" y="138.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Luna Roja · 3:12</text>
+  </g>
+  <g id="niveles">
+    <g id="nivel-facil">
+      <rect id="nivel-facil-fondo" x="20" y="176" width="320" height="150" rx="16" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="nivel-facil-insignia" cx="56" cy="214" r="20" fill="#111111"/>
+      <text id="nivel-facil-numero" x="56" y="220.3" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#F5F5F5" text-anchor="middle">1</text>
+      <text id="nivel-facil-nombre" x="88" y="221.7" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#111111" text-anchor="start">Fácil</text>
+      <g id="nivel-facil-estrellas">
+        <path id="nivel-facil-estrellas-1" d="M242 204 L244.65 210.36 L251.51 210.91 L246.28 215.39 L247.88 222.09 L242 218.5 L236.12 222.09 L237.72 215.39 L232.49 210.91 L239.35 210.36 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="nivel-facil-estrellas-2" d="M266 204 L268.65 210.36 L275.51 210.91 L270.28 215.39 L271.88 222.09 L266 218.5 L260.12 222.09 L261.72 215.39 L256.49 210.91 L263.35 210.36 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="nivel-facil-estrellas-3" d="M290 204 L292.65 210.36 L299.51 210.91 L294.28 215.39 L295.88 222.09 L290 218.5 L284.12 222.09 L285.72 215.39 L280.49 210.91 L287.35 210.36 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="nivel-facil-mejor" x="36" y="262.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Tu mejor: 3 estrellas · 9 800 pts</text>
+      <text id="nivel-facil-bpm" x="36" y="300.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111111" text-anchor="start">BPM: 90</text>
+      <text id="nivel-facil-densidad-etiqueta" x="128" y="300.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Densidad:</text>
+      <rect id="nivel-facil-densidad-1" x="196" y="289" width="34" height="14" rx="4" fill="#111111" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect id="nivel-facil-densidad-2" x="236" y="289" width="34" height="14" rx="4" fill="#D9D9D9" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect id="nivel-facil-densidad-3" x="276" y="289" width="34" height="14" rx="4" fill="#D9D9D9" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="nivel-medio">
+      <rect id="nivel-medio-fondo" x="20" y="340" width="320" height="150" rx="16" fill="#EBEBEB" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="nivel-medio-insignia" cx="56" cy="378" r="20" fill="#111111"/>
+      <text id="nivel-medio-numero" x="56" y="384.3" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#F5F5F5" text-anchor="middle">2</text>
+      <text id="nivel-medio-nombre" x="88" y="385.7" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#111111" text-anchor="start">Medio</text>
+      <g id="nivel-medio-estrellas">
+        <path id="nivel-medio-estrellas-1" d="M242 368 L244.65 374.36 L251.51 374.91 L246.28 379.39 L247.88 386.09 L242 382.5 L236.12 386.09 L237.72 379.39 L232.49 374.91 L239.35 374.36 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="nivel-medio-estrellas-2" d="M266 368 L268.65 374.36 L275.51 374.91 L270.28 379.39 L271.88 386.09 L266 382.5 L260.12 386.09 L261.72 379.39 L256.49 374.91 L263.35 374.36 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="nivel-medio-estrellas-3" d="M290 368 L292.65 374.36 L299.51 374.91 L294.28 379.39 L295.88 386.09 L290 382.5 L284.12 386.09 L285.72 379.39 L280.49 374.91 L287.35 374.36 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="nivel-medio-mejor" x="36" y="426.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Tu mejor: 1 estrella · 6 200 pts</text>
+      <text id="nivel-medio-bpm" x="36" y="464.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111111" text-anchor="start">BPM: 120</text>
+      <text id="nivel-medio-densidad-etiqueta" x="128" y="464.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Densidad:</text>
+      <rect id="nivel-medio-densidad-1" x="196" y="453" width="34" height="14" rx="4" fill="#111111" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect id="nivel-medio-densidad-2" x="236" y="453" width="34" height="14" rx="4" fill="#111111" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect id="nivel-medio-densidad-3" x="276" y="453" width="34" height="14" rx="4" fill="#D9D9D9" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="nivel-dificil">
+      <rect id="nivel-dificil-fondo" x="20" y="504" width="320" height="150" rx="16" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="nivel-dificil-insignia" cx="56" cy="542" r="20" fill="#777777"/>
+      <text id="nivel-dificil-numero" x="56" y="548.3" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#F5F5F5" text-anchor="middle">3</text>
+      <text id="nivel-dificil-nombre" x="88" y="549.7" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#777777" text-anchor="start">Difícil</text>
+      <g id="nivel-dificil-candado">
+        <path id="nivel-dificil-candado-arco" d="M295.6 538.64 L295.81 536.77 L296.43 535 L297.43 533.4 L298.76 532.07 L300.36 531.07 L302.13 530.45 L304 530.24 L305.87 530.45 L307.64 531.07 L309.24 532.07 L310.57 533.4 L311.57 535 L312.19 536.77 L312.4 538.64" fill="none" stroke="#555555" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="nivel-dificil-candado-cuerpo" x="291.4" y="538.64" width="25.2" height="19.04" rx="3.36" fill="#555555"/>
+        <circle id="nivel-dificil-candado-ojo" cx="304" cy="547.6" r="2.52" fill="#D9D9D9"/>
+      </g>
+      <text id="nivel-dificil-bloqueo" x="36" y="590.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#555555" text-anchor="start">Bloqueado: consigue 2 estrellas en Medio</text>
+      <text id="nivel-dificil-bpm" x="36" y="628.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#777777" text-anchor="start">BPM: 160</text>
+      <text id="nivel-dificil-densidad-etiqueta" x="128" y="628.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#777777" text-anchor="start">Densidad:</text>
+      <rect id="nivel-dificil-densidad-1" x="196" y="617" width="34" height="14" rx="4" fill="#BBBBBB" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect id="nivel-dificil-densidad-2" x="236" y="617" width="34" height="14" rx="4" fill="#BBBBBB" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect id="nivel-dificil-densidad-3" x="276" y="617" width="34" height="14" rx="4" fill="#BBBBBB" stroke="#999999" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <g id="btn-comenzar">
+    <rect id="btn-comenzar-fondo" x="20" y="686" width="320" height="56" rx="12" fill="#111111"/>
+    <text id="btn-comenzar-texto" x="180" y="720.3" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#F5F5F5" text-anchor="middle">Comenzar</text>
+  </g>
+  <text id="ayuda" x="180" y="773.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="middle">Densidad = cantidad de notas por segundo</text>
+</g>
+</svg>

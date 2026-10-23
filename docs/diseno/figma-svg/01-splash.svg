@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800" fill="none">
+<title>NotaFlow - Splash</title>
+<g id="01-splash">
+  <rect id="fondo" x="0" y="0" width="360" height="800" fill="#F5F5F5"/>
+  <g id="logo">
+    <rect id="logo-fondo" x="116" y="216" width="128" height="128" rx="28.16" fill="#111111"/>
+    <path id="logo-carril-1" d="M148 231.36 L148 328.64" fill="none" stroke="#555555" stroke-width="1.79" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="logo-carril-2" d="M180 231.36 L180 328.64" fill="none" stroke="#555555" stroke-width="1.79" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="logo-carril-3" d="M212 231.36 L212 328.64" fill="none" stroke="#555555" stroke-width="1.79" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect id="logo-nota-1" x="121.12" y="249.28" width="21.76" height="12.8" rx="3.84" fill="#F5F5F5"/>
+    <rect id="logo-nota-2" x="153.12" y="280" width="21.76" height="12.8" rx="3.84" fill="#F5F5F5"/>
+    <rect id="logo-nota-3" x="185.12" y="259.52" width="21.76" height="12.8" rx="3.84" fill="#F5F5F5"/>
+    <rect id="logo-nota-4" x="217.12" y="303.04" width="21.76" height="12.8" rx="3.84" fill="#F5F5F5"/>
+    <path id="logo-linea" d="M126.24 318.4 L233.76 318.4" fill="none" stroke="#F5F5F5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text id="titulo-app" x="180" y="405.3" font-family="Inter, Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#111111" text-anchor="middle">NotaFlow</text>
+  <text id="eslogan" x="180" y="434.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#555555" text-anchor="middle">Toca el ritmo, sigue la nota</text>
+  <g id="barra-carga">
+    <rect id="barra-carga-pista" x="60" y="640" width="240" height="10" rx="5" fill="#D9D9D9"/>
+    <rect id="barra-carga-relleno" x="60" y="640" width="150" height="10" rx="5" fill="#111111"/>
+    <text id="texto-carga" x="180" y="680.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="middle">Cargando... 62%</text>
+  </g>
+  <text id="pie-curso" x="180" y="755.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="middle">UPB - Aplicaciones móviles</text>
+  <text id="pie-version" x="180" y="773.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#999999" text-anchor="middle">v1.0.0</text>
+</g>
+</svg>

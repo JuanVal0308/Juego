@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 1000" fill="none">
+<title>NotaFlow - Sistema de diseño</title>
+<g id="11-sistema-diseno">
+  <rect id="fondo" x="0" y="0" width="1200" height="1000" fill="#F5F5F5"/>
+  <text id="titulo" x="40" y="53.8" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111111" text-anchor="start">NotaFlow · Sistema de diseño</text>
+  <text id="subtitulo" x="40" y="78.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Wireframes en escala de grises · lienzo 360 × 800 · cuadrícula de 8 px · fuente Inter (alternativa Arial)</text>
+  <text id="seccion-paleta" x="40" y="118.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#555555" text-anchor="start">PALETA (SOLO GRISES)</text>
+  <g id="paleta">
+    <g id="muestra-1">
+      <rect id="muestra-1-color" x="40" y="134" width="108" height="72" rx="10" fill="#111111" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="muestra-1-hex" x="40" y="230.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="start">#111111</text>
+      <text id="muestra-1-nombre" x="40" y="247.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Tinta</text>
+    </g>
+    <g id="muestra-2">
+      <rect id="muestra-2-color" x="160" y="134" width="108" height="72" rx="10" fill="#333333" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="muestra-2-hex" x="160" y="230.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="start">#333333</text>
+      <text id="muestra-2-nombre" x="160" y="247.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Gris 900</text>
+    </g>
+    <g id="muestra-3">
+      <rect id="muestra-3-color" x="280" y="134" width="108" height="72" rx="10" fill="#555555" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="muestra-3-hex" x="280" y="230.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="start">#555555</text>
+      <text id="muestra-3-nombre" x="280" y="247.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Gris 700</text>
+    </g>
+    <g id="muestra-4">
+      <rect id="muestra-4-color" x="400" y="134" width="108" height="72" rx="10" fill="#777777" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="muestra-4-hex" x="400" y="230.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="start">#777777</text>
+      <text id="muestra-4-nombre" x="400" y="247.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Gris 600</text>
+    </g>
+    <g id="muestra-5">
+      <rect id="muestra-5-color" x="520" y="134" width="108" height="72" rx="10" fill="#999999" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="muestra-5-hex" x="520" y="230.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="start">#999999</text>
+      <text id="muestra-5-nombre" x="520" y="247.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Gris 500</text>
+    </g>
+    <g id="muestra-6">
+      <rect id="muestra-6-color" x="640" y="134" width="108" height="72" rx="10" fill="#BBBBBB" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="muestra-6-hex" x="640" y="230.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="start">#BBBBBB</text>
+      <text id="muestra-6-nombre" x="640" y="247.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Gris 400</text>
+    </g>
+    <g id="muestra-7">
+      <rect id="muestra-7-color" x="760" y="134" width="108" height="72" rx="10" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="muestra-7-hex" x="760" y="230.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="start">#D9D9D9</text>
+      <text id="muestra-7-nombre" x="760" y="247.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Gris 300</text>
+    </g>
+    <g id="muestra-8">
+      <rect id="muestra-8-color" x="880" y="134" width="108" height="72" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="muestra-8-hex" x="880" y="230.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="start">#EBEBEB</text>
+      <text id="muestra-8-nombre" x="880" y="247.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Gris 200</text>
+    </g>
+    <g id="muestra-9">
+      <rect id="muestra-9-color" x="1000" y="134" width="108" height="72" rx="10" fill="#F5F5F5" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="muestra-9-hex" x="1000" y="230.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="start">#F5F5F5</text>
+      <text id="muestra-9-nombre" x="1000" y="247.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Fondo</text>
+    </g>
+  </g>
+  <text id="paleta-uso" x="40" y="274.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Fondo de pantallas #F5F5F5 · tarjetas #EBEBEB · bordes #BBB · texto #111 · botón principal #111 · fondo del juego #111</text>
+  <text id="seccion-tipografia" x="40" y="314.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#555555" text-anchor="start">TIPOGRAFÍA · INTER</text>
+  <g id="tipografia">
+    <text id="tipo-1-muestra" x="40" y="363.3" font-family="Inter, Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#111111" text-anchor="start">NotaFlow</text>
+    <text id="tipo-1-spec" x="330" y="353.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Título · 38 px · Bold</text>
+    <text id="tipo-2-muestra" x="40" y="410.4" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111111" text-anchor="start">Nivel completado</text>
+    <text id="tipo-2-spec" x="330" y="405.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">H1 · 24 px · Bold</text>
+    <text id="tipo-3-muestra" x="40" y="447" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111" text-anchor="start">Elige una canción</text>
+    <text id="tipo-3-spec" x="330" y="443.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">H2 · 20 px · Bold</text>
+    <text id="tipo-4-muestra" x="40" y="479.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Estrella Fugaz</text>
+    <text id="tipo-4-spec" x="330" y="477.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Subtítulo · 16 px · Bold</text>
+    <text id="tipo-5-muestra" x="40" y="508.9" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111111" text-anchor="start">Luna Roja · 3:12</text>
+    <text id="tipo-5-spec" x="330" y="507.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Cuerpo · 14 px · Regular</text>
+    <text id="tipo-6-muestra" x="40" y="538.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#111111" text-anchor="start">Densidad: media</text>
+    <text id="tipo-6-spec" x="330" y="537.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Etiqueta · 12 px · Regular</text>
+    <text id="tipo-7-muestra" x="40" y="567.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#111111" text-anchor="start">PUNTAJE</text>
+    <text id="tipo-7-spec" x="330" y="567.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Mini · 10 px · SemiBold</text>
+  </g>
+  <text id="seccion-botones" x="620" y="314.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#555555" text-anchor="start">BOTONES · ALTO 52 · RADIO 12</text>
+  <g id="botones">
+    <g id="btn-ejemplo-primario">
+      <rect id="btn-ejemplo-primario-fondo" x="620" y="334" width="240" height="52" rx="12" fill="#111111"/>
+      <text id="btn-ejemplo-primario-texto" x="740" y="365.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#F5F5F5" text-anchor="middle">Jugar</text>
+    </g>
+    <text id="btn-ejemplo-primario-nota" x="880" y="364.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Primario</text>
+    <g id="btn-ejemplo-secundario">
+      <rect id="btn-ejemplo-secundario-fondo" x="620" y="396" width="240" height="52" rx="12" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="btn-ejemplo-secundario-texto" x="740" y="427.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="middle">Puntajes</text>
+    </g>
+    <text id="btn-ejemplo-secundario-nota" x="880" y="426.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Secundario</text>
+    <g id="btn-ejemplo-suave">
+      <rect id="btn-ejemplo-suave-fondo" x="620" y="458" width="240" height="52" rx="12" fill="#D9D9D9"/>
+      <text id="btn-ejemplo-suave-texto" x="740" y="489.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="middle">Borrar puntajes</text>
+    </g>
+    <text id="btn-ejemplo-suave-nota" x="880" y="488.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Suave</text>
+    <g id="btn-ejemplo-deshabilitado">
+      <rect id="btn-ejemplo-deshabilitado-fondo" x="620" y="520" width="240" height="52" rx="12" fill="#D9D9D9"/>
+      <text id="btn-ejemplo-deshabilitado-texto" x="740" y="551.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#777777" text-anchor="middle">Bloqueado</text>
+    </g>
+    <text id="btn-ejemplo-deshabilitado-nota" x="880" y="550.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Deshabilitado</text>
+  </g>
+  <text id="seccion-componentes" x="40" y="604.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#555555" text-anchor="start">COMPONENTES</text>
+  <g id="componentes">
+    <g id="comp-tarjeta-cancion">
+      <rect id="comp-tc-fondo" x="40" y="620" width="320" height="100" rx="14" fill="#EBEBEB" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="comp-tc-portada">
+        <rect id="comp-tc-portada-fondo" x="52" y="634" width="72" height="72" rx="10" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="comp-tc-portada-nota">
+          <circle id="comp-tc-portada-nota-cabeza" cx="82.6" cy="680.08" r="7.2" fill="#555555"/>
+          <path id="comp-tc-portada-nota-asta" d="M89.8 680.08 L89.8 654.88" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path id="comp-tc-portada-nota-bandera" d="M89.8 654.88 L101.68 662.8 L89.8 665.68" fill="none" stroke="#555555" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+      <text id="comp-tc-titulo" x="136" y="651.6" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#111111" text-anchor="start">Estrella Fugaz</text>
+      <text id="comp-tc-artista" x="136" y="671.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#555555" text-anchor="start">Luna Roja</text>
+      <text id="comp-tc-info" x="136" y="689.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#777777" text-anchor="start">3:12 · 120 BPM</text>
+      <g id="comp-tc-estrellas">
+        <path id="comp-tc-estrellas-1" d="M143 699 L144.85 703.45 L149.66 703.84 L146 706.97 L147.11 711.66 L143 709.15 L138.89 711.66 L140 706.97 L136.34 703.84 L141.15 703.45 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="comp-tc-estrellas-2" d="M160 699 L161.85 703.45 L166.66 703.84 L163 706.97 L164.11 711.66 L160 709.15 L155.89 711.66 L157 706.97 L153.34 703.84 L158.15 703.45 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="comp-tc-estrellas-3" d="M177 699 L178.85 703.45 L183.66 703.84 L180 706.97 L181.11 711.66 L177 709.15 L172.89 711.66 L174 706.97 L170.34 703.84 L175.15 703.45 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <path id="comp-tc-play" d="M331.7 661 L347 670 L331.7 679 Z" fill="#111111" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="comp-tarjeta-nivel">
+      <rect id="comp-tn-fondo" x="380" y="620" width="220" height="100" rx="16" fill="#D9D9D9" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="comp-tn-ins" cx="410" cy="650" r="16" fill="#777777"/>
+      <text id="comp-tn-num" x="410" y="655.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#F5F5F5" text-anchor="middle">3</text>
+      <text id="comp-tn-nombre" x="436" y="656.3" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#777777" text-anchor="start">Difícil</text>
+      <g id="comp-tn-candado">
+        <path id="comp-tn-candado-arco" d="M562.8 647.12 L562.98 645.52 L563.51 644 L564.37 642.63 L565.51 641.49 L566.88 640.63 L568.4 640.1 L570 639.92 L571.6 640.1 L573.12 640.63 L574.49 641.49 L575.63 642.63 L576.49 644 L577.02 645.52 L577.2 647.12" fill="none" stroke="#555555" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="comp-tn-candado-cuerpo" x="559.2" y="647.12" width="21.6" height="16.32" rx="2.88" fill="#555555"/>
+        <circle id="comp-tn-candado-ojo" cx="570" cy="654.8" r="2.16" fill="#D9D9D9"/>
+      </g>
+      <text id="comp-tn-texto" x="396" y="694.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#555555" text-anchor="start">Bloqueado · BPM: 160</text>
+    </g>
+    <g id="comp-interruptores">
+      <g id="comp-int-on">
+        <rect id="comp-int-on-pista" x="40" y="750" width="48" height="26" rx="13" fill="#111111"/>
+        <circle id="comp-int-on-perilla" cx="75" cy="763" r="10" fill="#F5F5F5"/>
+      </g>
+      <text id="comp-int-on-t" x="98" y="767.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Activo</text>
+      <g id="comp-int-off">
+        <rect id="comp-int-off-pista" x="160" y="750" width="48" height="26" rx="13" fill="#D9D9D9" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle id="comp-int-off-perilla" cx="173" cy="763" r="10" fill="#777777"/>
+      </g>
+      <text id="comp-int-off-t" x="218" y="767.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Inactivo</text>
+    </g>
+    <g id="comp-slider">
+      <g id="comp-slider-ej">
+        <rect id="comp-slider-ej-pista" x="400" y="759" width="190" height="8" rx="4" fill="#D9D9D9"/>
+        <rect id="comp-slider-ej-relleno" x="400" y="759" width="133" height="8" rx="4" fill="#111111"/>
+        <circle id="comp-slider-ej-perilla" cx="533" cy="763" r="12" fill="#F5F5F5" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="comp-slider-t" x="400" y="793.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Deslizador de volumen</text>
+    </g>
+    <g id="comp-chips">
+      <g id="comp-chip-activo">
+        <rect id="comp-chip-activo-fondo" x="620" y="622" width="64" height="30" rx="15" fill="#111111"/>
+        <text id="comp-chip-activo-texto" x="652" y="641.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#F5F5F5" text-anchor="middle">Todas</text>
+      </g>
+      <g id="comp-chip-inactivo">
+        <rect id="comp-chip-inactivo-fondo" x="692" y="622" width="52" height="30" rx="15" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <text id="comp-chip-inactivo-texto" x="718" y="641.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#333333" text-anchor="middle">Pop</text>
+      </g>
+    </g>
+    <g id="comp-pestanas">
+      <rect id="comp-pest-fondo" x="620" y="668" width="280" height="40" rx="12" fill="#D9D9D9"/>
+      <rect id="comp-pest-activa" x="710" y="672" width="90" height="32" rx="10" fill="#111111"/>
+      <text id="comp-pest-1" x="665" y="692.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#333333" text-anchor="middle">Fácil</text>
+      <text id="comp-pest-2" x="755" y="692.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#F5F5F5" text-anchor="middle">Medio</text>
+      <text id="comp-pest-3" x="845" y="692.55" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#333333" text-anchor="middle">Difícil</text>
+    </g>
+    <g id="comp-campo">
+      <rect id="comp-campo-fondo" x="620" y="728" width="280" height="44" rx="10" fill="#F5F5F5" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="comp-campo-texto" x="634" y="755.25" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#111111" text-anchor="start">Jugador1</text>
+      <path id="comp-campo-cursor" d="M702 738 L702 762" fill="none" stroke="#111111" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="comp-nota-juego">
+      <rect id="comp-nj-fondo" x="930" y="620" width="230" height="110" rx="14" fill="#111111"/>
+      <rect id="comp-nj-nota" x="960" y="650" width="60" height="24" rx="8" fill="#EBEBEB"/>
+      <rect id="comp-nj-larga" x="1055" y="640" width="36" height="60" rx="10" fill="#BBBBBB"/>
+      <circle id="comp-nj-objetivo" cx="1125" cy="700" r="20" fill="none" stroke="#F5F5F5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="comp-nj-linea" d="M945 700 L1145 700" fill="none" stroke="#F5F5F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text id="comp-nj-t" x="930" y="753.85" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#555555" text-anchor="start">Nota, nota larga y objetivo (juego)</text>
+  </g>
+  <text id="seccion-iconos" x="40" y="834.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#555555" text-anchor="start">ICONOS · 24 PX · TRAZO 2 PX</text>
+  <g id="iconos">
+    <g id="icono-caja-jugar">
+      <rect id="icono-jugar-fondo" x="30" y="850" width="60" height="60" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="icono-jugar" d="M51.6 868 L72 880 L51.6 892 Z" fill="#111111" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="icono-jugar-nombre" x="60" y="931.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#555555" text-anchor="middle">jugar</text>
+    </g>
+    <g id="icono-caja-pausa">
+      <rect id="icono-pausa-fondo" x="104" y="850" width="60" height="60" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="icono-pausa">
+        <rect id="icono-pausa-barra-1" x="124.88" y="869.2" width="6.24" height="21.6" rx="2" fill="#111111"/>
+        <rect id="icono-pausa-barra-2" x="136.88" y="869.2" width="6.24" height="21.6" rx="2" fill="#111111"/>
+      </g>
+      <text id="icono-pausa-nombre" x="134" y="931.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#555555" text-anchor="middle">pausa</text>
+    </g>
+    <g id="icono-caja-candado">
+      <rect id="icono-candado-fondo" x="178" y="850" width="60" height="60" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="icono-candado">
+        <path id="icono-candado-arco" d="M200.2 876.88 L200.4 875.14 L200.97 873.5 L201.9 872.02 L203.14 870.78 L204.62 869.85 L206.26 869.28 L208 869.08 L209.74 869.28 L211.38 869.85 L212.86 870.78 L214.1 872.02 L215.03 873.5 L215.6 875.14 L215.8 876.88" fill="none" stroke="#555555" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="icono-candado-cuerpo" x="196.3" y="876.88" width="23.4" height="17.68" rx="3.12" fill="#555555"/>
+        <circle id="icono-candado-ojo" cx="208" cy="885.2" r="2.34" fill="#D9D9D9"/>
+      </g>
+      <text id="icono-candado-nombre" x="208" y="931.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#555555" text-anchor="middle">candado</text>
+    </g>
+    <g id="icono-caja-estrella">
+      <rect id="icono-estrella-fondo" x="252" y="850" width="60" height="60" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="icono-estrella" d="M282 867 L285.44 875.27 L294.36 875.98 L287.56 881.81 L289.64 890.52 L282 885.85 L274.36 890.52 L276.44 881.81 L269.64 875.98 L278.56 875.27 Z" fill="#111111" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="icono-estrella-nombre" x="282" y="931.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#555555" text-anchor="middle">estrella</text>
+    </g>
+    <g id="icono-caja-estrella-vacia">
+      <rect id="icono-estrella-vacia-fondo" x="326" y="850" width="60" height="60" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="icono-estrella-vacia" d="M356 867 L359.44 875.27 L368.36 875.98 L361.56 881.81 L363.64 890.52 L356 885.85 L348.36 890.52 L350.44 881.81 L343.64 875.98 L352.56 875.27 Z" fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="icono-estrella-vacia-nombre" x="356" y="931.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#555555" text-anchor="middle">estrella vacia</text>
+    </g>
+    <g id="icono-caja-ajustes">
+      <rect id="icono-ajustes-fondo" x="400" y="850" width="60" height="60" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="icono-ajustes">
+        <path id="icono-ajustes-diente-1" d="M440.64 880 L445.4 880" fill="none" stroke="#111111" stroke-width="3.64" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-ajustes-diente-2" d="M437.52 887.52 L440.89 890.89" fill="none" stroke="#111111" stroke-width="3.64" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-ajustes-diente-3" d="M430 890.64 L430 895.4" fill="none" stroke="#111111" stroke-width="3.64" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-ajustes-diente-4" d="M422.48 887.52 L419.11 890.89" fill="none" stroke="#111111" stroke-width="3.64" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-ajustes-diente-5" d="M419.36 880 L414.6 880" fill="none" stroke="#111111" stroke-width="3.64" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-ajustes-diente-6" d="M422.48 872.48 L419.11 869.11" fill="none" stroke="#111111" stroke-width="3.64" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-ajustes-diente-7" d="M430 869.36 L430 864.6" fill="none" stroke="#111111" stroke-width="3.64" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-ajustes-diente-8" d="M437.52 872.48 L440.89 869.11" fill="none" stroke="#111111" stroke-width="3.64" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle id="icono-ajustes-aro" cx="430" cy="880" r="10.08" fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle id="icono-ajustes-centro" cx="430" cy="880" r="3.64" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="icono-ajustes-nombre" x="430" y="931.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#555555" text-anchor="middle">ajustes</text>
+    </g>
+    <g id="icono-caja-sonido">
+      <rect id="icono-sonido-fondo" x="474" y="850" width="60" height="60" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="icono-sonido">
+        <path id="icono-sonido-cuerpo" d="M491 875.32 L497.5 875.32 L505.3 869.08 L505.3 890.92 L497.5 884.68 L491 884.68 Z" fill="#111111" stroke="#111111" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-sonido-onda-1" d="M509.31 875.22 L510.25 876.2 L510.96 877.36 L511.39 878.65 L511.54 880 L511.39 881.35 L510.96 882.64 L510.25 883.8 L509.31 884.78" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-sonido-onda-2" d="M512.65 871.24 L514.38 873.04 L515.67 875.17 L516.47 877.52 L516.74 880 L516.47 882.48 L515.67 884.83 L514.38 886.96 L512.65 888.76" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="icono-sonido-nombre" x="504" y="931.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#555555" text-anchor="middle">sonido</text>
+    </g>
+    <g id="icono-caja-vibracion">
+      <rect id="icono-vibracion-fondo" x="548" y="850" width="60" height="60" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="icono-vibracion">
+        <rect id="icono-vibracion-telefono" x="573.24" y="869.36" width="9.52" height="21.28" rx="3" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-vibracion-onda-izq-1" d="M569.6 874.4 L566.8 880 L569.6 885.6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-vibracion-onda-izq-2" d="M565.68 871.6 L561.76 880 L565.68 888.4" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-vibracion-onda-der-1" d="M586.4 874.4 L589.2 880 L586.4 885.6" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-vibracion-onda-der-2" d="M590.32 871.6 L594.24 880 L590.32 888.4" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="icono-vibracion-nombre" x="578" y="931.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#555555" text-anchor="middle">vibracion</text>
+    </g>
+    <g id="icono-caja-atras">
+      <rect id="icono-atras-fondo" x="622" y="850" width="60" height="60" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="icono-atras" d="M657.5 869 L645.4 880 L657.5 891" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="icono-atras-nombre" x="652" y="931.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#555555" text-anchor="middle">atras</text>
+    </g>
+    <g id="icono-caja-musica">
+      <rect id="icono-musica-fondo" x="696" y="850" width="60" height="60" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="icono-musica">
+        <circle id="icono-musica-cabeza" cx="721.8" cy="887.84" r="5.6" fill="#111111"/>
+        <path id="icono-musica-asta" d="M727.4 887.84 L727.4 868.24" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-musica-bandera" d="M727.4 868.24 L736.64 874.4 L727.4 876.64" fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="icono-musica-nombre" x="726" y="931.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#555555" text-anchor="middle">musica</text>
+    </g>
+    <g id="icono-caja-trofeo">
+      <rect id="icono-trofeo-fondo" x="770" y="850" width="60" height="60" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="icono-trofeo">
+        <path id="icono-trofeo-copa" d="M791.6 868.24 L808.4 868.24 L805.6 882.8 L800 886.16 L794.4 882.8 Z" fill="#111111" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-trofeo-asa-izq" d="M791.6 871.04 L786.56 871.04 L788.8 877.76 L793.28 880" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-trofeo-asa-der" d="M808.4 871.04 L813.44 871.04 L811.2 877.76 L806.72 880" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-trofeo-pie" d="M800 886.16 L800 891.2" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect id="icono-trofeo-base" x="793.28" y="890.64" width="13.44" height="2.8" rx="2" fill="#111111"/>
+      </g>
+      <text id="icono-trofeo-nombre" x="800" y="931.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#555555" text-anchor="middle">trofeo</text>
+    </g>
+    <g id="icono-caja-reintentar">
+      <rect id="icono-reintentar-fondo" x="844" y="850" width="60" height="60" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="icono-reintentar">
+        <path id="icono-reintentar-arco" d="M882.15 873.16 L883.87 876.04 L884.62 879.3 L884.31 882.64 L882.97 885.72 L880.75 888.22 L877.86 889.92 L874.58 890.62 L871.25 890.28 L868.19 888.91 L865.7 886.66 L864.04 883.75 L863.37 880.46 L863.75 877.13 L865.15 874.09 L867.43 871.63 L870.36 870" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-reintentar-punta" d="M864.48 878.4 L871.94 869.43 L860.46 867.35" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="icono-reintentar-nombre" x="874" y="931.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#555555" text-anchor="middle">reintentar</text>
+    </g>
+    <g id="icono-caja-inicio">
+      <rect id="icono-inicio-fondo" x="918" y="850" width="60" height="60" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="icono-inicio" d="M936.3 880 L948 868.3 L959.7 880 L956.32 880 L956.32 890.92 L939.68 890.92 L939.68 880 Z" fill="none" stroke="#111111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="icono-inicio-nombre" x="948" y="931.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#555555" text-anchor="middle">inicio</text>
+    </g>
+    <g id="icono-caja-cerrar">
+      <rect id="icono-cerrar-fondo" x="992" y="850" width="60" height="60" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="icono-cerrar">
+        <path id="icono-cerrar-a" d="M1014.2 872.2 L1029.8 887.8" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="icono-cerrar-b" d="M1029.8 872.2 L1014.2 887.8" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text id="icono-cerrar-nombre" x="1022" y="931.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#555555" text-anchor="middle">cerrar</text>
+    </g>
+    <g id="icono-caja-check">
+      <rect id="icono-check-fondo" x="1066" y="850" width="60" height="60" rx="10" fill="#EBEBEB" stroke="#BBBBBB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="icono-check" d="M1087.2 880 L1093.8 886.6 L1105.24 872.96" fill="none" stroke="#111111" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text id="icono-check-nombre" x="1096" y="931.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#555555" text-anchor="middle">check</text>
+    </g>
+  </g>
+  <text id="pie" x="40" y="979.2" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#555555" text-anchor="start">Reglas: contraste alto para texto interactivo · máximo 2 pesos por pantalla · radios 10-16 px · zonas táctiles mínimas de 40 px</text>
+</g>
+</svg>
