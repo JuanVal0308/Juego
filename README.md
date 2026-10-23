@@ -78,11 +78,12 @@ NotaFlow/
 │   ├── estilos/               # CSS (paleta neón, animaciones)
 │   └── util/                  # Utilidades (logo, confeti, música, DOM)
 ├── pruebas/e2e.py             # Pruebas automáticas del juego con Playwright
-├── herramientas/              # Script que genera los iconos
+├── herramientas/              # Scripts: iconos, capturas y gráfico de la tienda
 ├── docs/
 │   ├── capturas/              # Capturas de pantalla (360x800)
 │   ├── diseno/                # Wireframes (papel y Figma)
-│   └── tienda/                # Textos e imágenes para Google Play
+│   ├── tienda/                # Textos e imágenes para Google Play
+│   └── politica-privacidad.*  # Política de privacidad (se publica con GitHub Pages)
 ├── TAREAS_EQUIPO.md           # Reparto de tareas del equipo
 └── README.md
 ```
@@ -143,6 +144,20 @@ Las pruebas usan un reloj manual (`?test=1`) para que el resultado sea siempre e
 
 El detalle paso a paso de lo que hace cada uno está en [`TAREAS_EQUIPO.md`](TAREAS_EQUIPO.md).
 Los wireframes en papel y Figma están en [`docs/diseno/`](docs/diseno/).
+
+## Diseño y tienda
+
+- **Diseño (wireframes):** bocetos en papel (lápiz digital) y wireframes editables de Figma en escala de grises.
+  - Figma: [NotaFlow – Wireframes](https://www.figma.com/design/0YzDwMdLt5DerDbry2Su1Z/NotaFlow---Wireframes) (12 frames).
+  - Archivos: [`docs/diseno/papel/`](docs/diseno/papel/) (bocetos), [`docs/diseno/figma-svg/`](docs/diseno/figma-svg/) y
+    [`docs/diseno/figma-png/`](docs/diseno/figma-png/). Guía completa en [`docs/diseno/README.md`](docs/diseno/README.md).
+- **Material de Google Play** ([`docs/tienda/`](docs/tienda/)):
+  - Icono: [`icono-512.png`](docs/tienda/icono-512.png) (512×512).
+  - Gráfico de funciones: [`grafico-funciones-1024x500.png`](docs/tienda/grafico-funciones-1024x500.png).
+  - 8 capturas de 1080×1920: [`capturas-1080x1920/`](docs/tienda/capturas-1080x1920/).
+  - Textos de la ficha (descripción, clasificación, seguridad de datos): [`textos.md`](docs/tienda/textos.md).
+- **Política de privacidad:** https://juanval0308.github.io/Juego/politica-privacidad.html
+  (fuente: [`docs/politica-privacidad.md`](docs/politica-privacidad.md)). NotaFlow no recopila datos personales.
 
 ## Justificación del uso de IA y código comentado
 
