@@ -1,0 +1,116 @@
+/* ==========================================================
+   NotaFlow - Estilos base
+   Paleta neón: morado oscuro, cian y magenta.
+   ========================================================== */
+:root {
+  --fondo: #12062b;          /* morado muy oscuro */
+  --fondo-2: #1b0b3a;
+  --panel: rgba(255, 255, 255, 0.07);
+  --panel-borde: rgba(255, 255, 255, 0.14);
+  --cian: #22e5ff;
+  --magenta: #ff2bd6;
+  --violeta: #8a5cff;
+  --amarillo: #ffd84a;
+  --verde: #4dff9a;
+  --rojo: #ff4d6d;
+  --texto: #f4eeff;
+  --texto-suave: #b9a9e6;
+  --radio: 18px;
+  --brillo-cian: 0 0 12px rgba(34, 229, 255, 0.7), 0 0 28px rgba(34, 229, 255, 0.35);
+  --brillo-magenta: 0 0 12px rgba(255, 43, 214, 0.7), 0 0 28px rgba(255, 43, 214, 0.35);
+  --fuente: "Trebuchet MS", "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+}
+
+/* Tema alternativo (opción de ajustes): se activa con data-tema en <html> */
+:root[data-tema="solar"] {
+  --fondo: #1f0a12;
+  --fondo-2: #33101c;
+  --cian: #ffb02e;
+  --magenta: #ff4d6d;
+  --violeta: #ff7a45;
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body {
+  margin: 0; height: 100%; overflow: hidden;
+  background: var(--fondo); color: var(--texto);
+  font-family: var(--fuente);
+  user-select: none; -webkit-user-select: none; touch-action: manipulation;
+}
+
+#app {
+  position: relative; height: 100%; width: 100%;
+  max-width: 520px; margin: 0 auto; overflow: hidden;
+  background:
+    radial-gradient(120% 60% at 50% -10%, rgba(138, 92, 255, 0.35), transparent 60%),
+    radial-gradient(90% 50% at 50% 110%, rgba(255, 43, 214, 0.22), transparent 60%),
+    linear-gradient(180deg, var(--fondo-2), var(--fondo));
+}
+
+/* ----- Pantallas ----- */
+.pantalla {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column;
+  padding: max(env(safe-area-inset-top), 18px) 18px max(env(safe-area-inset-bottom), 18px);
+  overflow-y: auto; overflow-x: hidden;
+}
+.pantalla.entra  { animation: pantalla-entra 380ms cubic-bezier(.2,.8,.2,1) both; }
+.pantalla.sale   { animation: pantalla-sale 260ms ease-in both; pointer-events: none; }
+.pantalla.entra-atras { animation: pantalla-entra-atras 380ms cubic-bezier(.2,.8,.2,1) both; }
+@keyframes pantalla-entra { from { opacity: 0; transform: translateX(36px) scale(.98); } to { opacity: 1; transform: none; } }
+@keyframes pantalla-entra-atras { from { opacity: 0; transform: translateX(-36px) scale(.98); } to { opacity: 1; transform: none; } }
+@keyframes pantalla-sale  { to { opacity: 0; transform: scale(.96); } }
+
+/* ----- Tipografía ----- */
+h1, h2, h3 { margin: 0; letter-spacing: .5px; }
+.titulo {
+  font-size: 1.9rem; font-weight: 900; text-transform: uppercase;
+  background: linear-gradient(90deg, var(--cian), var(--magenta));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  filter: drop-shadow(0 0 10px rgba(255, 43, 214, .35));
+}
+.subtitulo { color: var(--texto-suave); font-size: .95rem; margin: 4px 0 0; }
+
+/* ----- Botones ----- */
+.boton {
+  appearance: none; border: 0; cursor: pointer; color: var(--texto);
+  font: inherit; font-weight: 800; font-size: 1.1rem; letter-spacing: .6px;
+  padding: 15px 22px; border-radius: 999px;
+  background: linear-gradient(90deg, var(--violeta), var(--magenta));
+  box-shadow: var(--brillo-magenta);
+  transition: transform .12s ease, filter .12s ease, box-shadow .2s;
+}
+.boton:active { transform: scale(.95); filter: brightness(1.2); }
+.boton.cian { background: linear-gradient(90deg, #1aa6ff, var(--cian)); box-shadow: var(--brillo-cian); color: #04222b; }
+.boton.suave { background: var(--panel); box-shadow: none; border: 1px solid var(--panel-borde); }
+.boton.peque { font-size: .9rem; padding: 10px 16px; }
+.boton[disabled] { opacity: .4; filter: grayscale(.6); box-shadow: none; pointer-events: none; }
+.boton-icono {
+  width: 44px; height: 44px; padding: 0; display: grid; place-items: center;
+  border-radius: 14px; font-size: 1.3rem;
+}
+
+/* ----- Tarjetas ----- */
+.tarjeta {
+  background: var(--panel); border: 1px solid var(--panel-borde);
+  border-radius: var(--radio); padding: 14px 16px;
+  backdrop-filter: blur(6px);
+}
+
+/* ----- Barra superior de pantallas internas ----- */
+.barra-superior { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.barra-superior .titulo { font-size: 1.4rem; flex: 1; }
+
+/* ----- Avisos (toasts) ----- */
+#avisos { position: fixed; left: 0; right: 0; top: 14px; z-index: 50; display: flex; flex-direction: column; align-items: center; gap: 8px; pointer-events: none; }
+.aviso {
+  background: rgba(18, 6, 43, .92); border: 1px solid var(--cian); color: var(--texto);
+  padding: 10px 18px; border-radius: 999px; box-shadow: var(--brillo-cian);
+  font-weight: 700; animation: aviso 2.6s ease both;
+}
+@keyframes aviso { 0% { opacity: 0; transform: translateY(-14px); } 10%, 85% { opacity: 1; transform: none; } 100% { opacity: 0; transform: translateY(-10px); } }
+
+/* Respeta a quienes reducen animaciones en su sistema */
+@media (prefers-reduced-motion: reduce) {
+  .pantalla.entra, .pantalla.sale, .pantalla.entra-atras { animation-duration: 1ms; }
+}
