@@ -144,9 +144,23 @@ export function generarNivel(cancion, nivelId) {
 
   // 2) Mapa altura -> carril: las notas se reparten en 4 grupos con CANTIDAD PARECIDA
   //    de notas (por cuantiles), así ningún carril queda casi vacío.
-  const ordenadas = crudas.map((n) => n.midi).sort((a, b) => a - b);
-  const cortes = [1, 2, 3].map((k) => ordenadas[Math.floor((ordenadas.length * k) / NUM_CARRILES)]);
-  const carrilDe = (midi) => cortes.filter((corte) => midi >= corte).length;
+  const conteo = new Map();
+  crudas.forEach((n) => conteo.set(n.midi, (conteo.get(n.midi) || 0) + 1));
+  const mapaCarril = new Map();
+  let acumulado = 0;
+  const distintas = [...conteo.keys()].sort((a, b) => a - b);
+  let carrilAnterior = 0;
+  distintas.forEach((midi, i) => {
+    // Carril según la cantidad de notas acumuladas (mitad del grupo de esa altura)
+    const centro = acumulado + conteo.get(midi) / 2;
+    const porCantidad = Math.min(NUM_CARRILES - 1, Math.floor((centro * NUM_CARRILES) / crudas.length));
+    // Nunca se salta un carril: así las 4 teclas se usan aunque una nota se repita muchísimo.
+    const carril = i === 0 ? 0 : Math.min(porCantidad, carrilAnterior + 1);
+    mapaCarril.set(midi, Math.max(carril, carrilAnterior));
+    carrilAnterior = mapaCarril.get(midi);
+    acumulado += conteo.get(midi);
+  });
+  const carrilDe = (midi) => mapaCarril.get(midi);
 
   // 3) Filtrar según el nivel
   let candidatas = crudas;
