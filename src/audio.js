@@ -166,6 +166,14 @@ export function sonidoAtras() {
   voz({ freq: 440, tipo: 'square', t, dur: 0.07, vol: 0.1, filtro: { inicio: 2000, fin: 600 } });
 }
 
+/** Zumbido corto de "no permitido" (canción o nivel bloqueado). */
+export function sonidoFallo() {
+  if (!audioDisponible()) return;
+  const t = ctx.currentTime;
+  voz({ freq: 150, tipo: 'square', t, dur: 0.14, vol: 0.12, filtro: { inicio: 900, fin: 200 } });
+  voz({ freq: 120, tipo: 'square', t: t + 0.09, dur: 0.16, vol: 0.12, filtro: { inicio: 900, fin: 200 } });
+}
+
 /** Chasquido de acierto: más agudo y brillante si fue "perfecto". */
 export function sonidoAcierto(perfecto) {
   if (!audioDisponible()) return;
