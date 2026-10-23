@@ -25,8 +25,10 @@ Esta información **nunca sale de tu dispositivo**. Puedes borrarla en cualquier
 
 ## Permisos
 
-NotaFlow usa solamente el permiso de **vibración**, para dar respuesta táctil al acertar o fallar. Puedes
-desactivarla en *Ajustes* dentro del juego. No pide acceso a la ubicación, cámara, micrófono, contactos ni archivos.
+NotaFlow usa el permiso de **vibración**, para dar respuesta táctil al acertar o fallar (se puede desactivar en
+*Ajustes* dentro del juego). La aplicación también declara el permiso de **Internet**, que viene incluido por defecto en
+el motor con el que se construyó (Capacitor), pero el juego **no lo usa**: no envía ni descarga nada. No pide acceso a la
+ubicación, cámara, micrófono, contactos ni archivos.
 
 ## Niños
 
