@@ -1,0 +1,24 @@
+/* ---------- Resultados ---------- */
+.pantalla-resultados { align-items: center; text-align: center; }
+.res-titulo { font-size: 2rem; margin-top: 2vh; }
+.res-titulo.perdiste { background: linear-gradient(90deg, var(--rojo), var(--amarillo)); -webkit-background-clip: text; background-clip: text; }
+.res-cancion { color: var(--texto-suave); margin: 4px 0 12px; }
+.res-estrellas { display: flex; gap: 10px; justify-content: center; margin: 6px 0 10px; }
+.res-estrellas .e { font-size: 3.6rem; line-height: 1; color: rgba(255, 255, 255, .15); transform: scale(.4); opacity: 0; }
+.res-estrellas .e.llena { color: var(--amarillo); text-shadow: 0 0 18px var(--amarillo); animation: estrella-pop .6s cubic-bezier(.2, 1.6, .4, 1) forwards; animation-delay: calc(var(--i) * 450ms + 300ms); }
+.res-estrellas .e.vacia { animation: aparece .4s forwards; animation-delay: calc(var(--i) * 150ms); }
+@keyframes estrella-pop { 0% { transform: scale(.2) rotate(-90deg); opacity: 0; } 100% { transform: scale(1) rotate(0); opacity: 1; } }
+.res-puntaje { font-size: 3rem; font-weight: 900; color: #fff; text-shadow: var(--brillo-cian); font-variant-numeric: tabular-nums; }
+.res-record { display: inline-block; margin: 4px 0; padding: 5px 14px; border-radius: 999px; font-weight: 900; letter-spacing: 2px; background: linear-gradient(90deg, var(--amarillo), var(--magenta)); color: #12062b; animation: parpadeo-suave 1s infinite alternate; }
+@keyframes parpadeo-suave { to { transform: scale(1.07); filter: brightness(1.25); } }
+.res-stats { width: 100%; display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 12px 0; }
+.res-stats .dato { background: var(--panel); border: 1px solid var(--panel-borde); border-radius: 14px; padding: 10px; }
+.res-stats .dato b { display: block; font-size: 1.3rem; }
+.res-stats .dato small { color: var(--texto-suave); }
+.res-stats .perfecto b { color: var(--amarillo); }
+.res-stats .bien b { color: var(--cian); }
+.res-stats .fallo b { color: var(--rojo); }
+.res-botones { width: 100%; display: flex; flex-direction: column; gap: 10px; margin-top: auto; padding-top: 6px; }
+.res-botones .fila { display: flex; gap: 10px; }
+.res-botones .fila .boton { flex: 1; font-size: 1rem; }
+.insignia-full { font-weight: 900; letter-spacing: 2px; color: var(--amarillo); text-shadow: 0 0 14px var(--amarillo); margin: 2px 0; }
