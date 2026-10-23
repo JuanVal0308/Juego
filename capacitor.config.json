@@ -1,0 +1,7 @@
+{
+  "appId": "com.notaflow.juego",
+  "appName": "NotaFlow",
+  "webDir": "dist",
+  "backgroundColor": "#12062b",
+  "server": { "androidScheme": "https" }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "notaflow",
+  "version": "1.0.0",
+  "description": "NotaFlow - Juego rítmico móvil (estilo Guitar Hero / piano) hecho con Capacitor, Vite y JavaScript",
+  "author": "Equipo NotaFlow - UPB <juanpa.martinezro@gmail.com>",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "sync": "vite build && cap sync android",
+    "pruebas": "python3 pruebas/e2e.py"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.1",
+    "@capacitor/app": "^8.0.0",
+    "@capacitor/cli": "^8.5.1",
+    "@capacitor/core": "^8.5.1"
+  }
+}
