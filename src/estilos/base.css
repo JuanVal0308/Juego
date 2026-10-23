@@ -21,14 +21,8 @@
   --fuente: "Trebuchet MS", "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
 }
 
-/* Tema alternativo (opción de ajustes): se activa con data-tema en <html> */
-:root[data-tema="solar"] {
-  --fondo: #1f0a12;
-  --fondo-2: #33101c;
-  --cian: #ffb02e;
-  --magenta: #ff4d6d;
-  --violeta: #ff7a45;
-}
+/* TODO(equipo): Integrante 3 agrega aquí el tema de color alternativo
+   (ej. :root[data-tema="solar"] { ... }). Ver TAREAS_EQUIPO.md. */
 
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 html, body {
