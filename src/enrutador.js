@@ -9,7 +9,6 @@
 const pantallas = new Map(); // nombre -> módulo de pantalla
 const pila = [];             // historial de { nombre, params }
 let actual = null;           // { nombre, params, elemento, destruir }
-let ocupado = false;
 
 const DURACION_SALIDA = 240; // ms, debe coincidir con la animación .sale
 
@@ -46,7 +45,6 @@ export function irA(nombre, params = {}, opciones = {}) {
   actual = { nombre, params, elemento, destruir };
 
   if (anterior) retirar(anterior);
-  ocupado = false;
 }
 
 /** Retira una pantalla con animación y libera sus recursos. */

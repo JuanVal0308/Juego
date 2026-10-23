@@ -7,7 +7,9 @@ import './estilos/splash.css';
 import './estilos/pantallas.css';
 import './estilos/juego.css';
 import './estilos/resultados.css';
-import { registrarPantalla, irA } from './enrutador.js';
+import { registrarPantalla, irA, pantallaActual, volver } from './enrutador.js';
+import { App } from '@capacitor/app';
+import { Capacitor } from '@capacitor/core';
 import splash from './pantallas/splash.js';
 import home from './pantallas/home.js';
 import ajustes from './pantallas/ajustes.js';
@@ -31,3 +33,20 @@ registrarPantalla('puntajes', puntajes);
 registrarPantalla('creditos', creditos);
 
 irA('splash');
+
+// ---------------------------------------------------------------------
+// Botón "atrás" de Android (plugin @capacitor/app):
+//  - En el juego pausa/reanuda.
+//  - En Splash o Home cierra la app.
+//  - En otras pantallas vuelve a la anterior.
+// En el navegador de escritorio este bloque no hace nada.
+// ---------------------------------------------------------------------
+
+if (Capacitor.isNativePlatform()) {
+  App.addListener('backButton', () => {
+    const actual = pantallaActual();
+    if (actual === 'juego') window.dispatchEvent(new Event('nf:atras'));
+    else if (actual === 'splash' || actual === 'home') App.exitApp();
+    else if (!volver()) irA('home', {}, { reemplazar: true });
+  });
+}
