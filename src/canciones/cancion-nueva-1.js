@@ -1,4 +1,7 @@
 // "Hermano Juan" (Frère Jacques) - melodía tradicional de dominio público.
+import { partitura } from './notacion.js';
+
+const A = 'C4 D4 E4 C4';
 
 export default {
   id: 'hermano-juan',
@@ -9,6 +12,6 @@ export default {
   instrumento: 'piano',
   ritmo: 'suave',
   color: '#22e5ff',
-  melodia: [],
+  melodia: partitura(A),
   bajo: [],
 };
