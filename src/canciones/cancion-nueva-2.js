@@ -16,5 +16,7 @@ export default {
   ritmo: 'electro',
   color: '#ff8a3d',
   melodia: unir(A, B, C, D),
-  bajo: [],
+  bajo: partitura(`
+    C3:4 G2:4 C3:4 G2:4
+    C3:4 F3:4 G2:4 C3:4`),
 };
