@@ -101,8 +101,8 @@ NotaFlow/
 Requisitos: **Node.js 22+**, y para Android **JDK 21** y el **Android SDK** (Android Studio).
 
 ```bash
-git clone https://github.com/JuanVal0308/Juego.git
-cd Juego
+git clone https://github.com/JuanVal0308/NotaFlow.git
+cd NotaFlow
 npm install
 npm run dev            # abre el juego en el navegador (http://localhost:5173)
 ```
@@ -138,11 +138,72 @@ Las pruebas usan un reloj manual (`?test=1`) para que el resultado sea siempre e
 
 | Integrante | Responsabilidad principal |
 |------------|---------------------------|
-| Juan Pablo Martinez Romero | Motor del juego, audio, interfaz y empaquetado Android |
-| Integrante 2 | Canciones nuevas, ajuste de niveles, textos de ayuda y easter eggs |
-| Integrante 3 | Efectos de sonido, documentación, tema de color, textos de la tienda y pruebas en celular |
+| **Juan Pablo Martinez Romero** | Motor del juego, audio, interfaz y empaquetado Android (trabajo principal ya completado) |
+| **Mariana** | Canciones nuevas, ajuste de niveles, textos de ayuda y easter eggs |
+| **Steve** | Efectos de sonido, tema de color alternativo, documentación técnica |
+| **Pablo** | Manual de usuario, textos de la tienda, pruebas en celular |
 
-El detalle paso a paso de lo que hace cada uno está en [`TAREAS_EQUIPO.md`](TAREAS_EQUIPO.md).
+### Tareas del equipo
+
+**Juan Pablo** (trabajo principal completado): Motor del juego, síntesis de audio, todas las pantallas, persistencia, easter eggs #1–#3, pruebas automáticas, proyecto Android, iconos. Pendiente: revisar pull requests del equipo y subir a Google Play.
+
+**Mariana** – Canciones, niveles y textos (archivos: `src/canciones/`, `src/niveles.js`, `src/pantallas/ayuda.js`, `src/pantallas/home.js`, `src/pantallas/resultados.js`):
+
+1. Crear `src/canciones/hermano-juan.js` con melodía de dominio público
+2. Escribir la melodía en notación de texto (primera frase)
+3. Completar melodía completa con repeticiones
+4. Ajustar tempo (BPM), instrumento y color de la canción
+5. Escribir la línea de bajo (notas graves)
+6. Registrar la canción en `src/canciones/index.js`
+7. Crear segunda canción nueva `src/canciones/marcha-turca.js`
+8. Completar melodía y bajo de la segunda canción
+9. Probar ambas canciones en los 3 niveles de dificultad
+10. Ajustar parámetros de dificultad en `src/niveles.js` (tiempos de caída)
+11. Ajustar ventanas de acierto (perfecto/bien) en niveles Medio y Difícil
+12. Reescribir textos de "Cómo jugar" en `src/pantallas/ayuda.js`
+13. Agregar explicación de multiplicadores de combo en Ayuda
+14. Corregir descripciones de canciones existentes
+15. Implementar easter egg #4 en `src/pantallas/home.js` (5 toques al contador de estrellas)
+16. Implementar easter egg #5 en `src/pantallas/resultados.js` (mensaje si puntaje termina en 777)
+17. Documentar nuevos easter eggs en README
+
+**Steve** – Sonido, tema y documentación (archivos: `src/audio.js`, `src/estilos/base.css`, `src/pantallas/ajustes.js`, `src/main.js`, `docs/`):
+
+1. Cambiar frecuencia de `sonidoClic()` en `src/audio.js`
+2. Crear `sonidoAciertoB()` con tono alternativo
+3. Alternar entre dos sonidos de acierto
+4. Ajustar `sonidoFallo()` (más grave o corto)
+5. Agregar sonido al abrir pantalla de Ajustes
+6. Crear tema de color "solar" en `src/estilos/base.css` (colores naranja/amarillo)
+7. Agregar botón "Tema de color" en `src/pantallas/ajustes.js`
+8. Implementar cambio de tema con persistencia
+9. Aplicar tema guardado al iniciar en `src/main.js`
+10. Tomar capturas de ambos temas y guardar en `docs/capturas/`
+11. Crear `docs/manual-usuario.md` (parte 1: pantallas Splash, Inicio, Ajustes)
+12. Continuar manual (parte 2: Cómo jugar, Selección de canción/nivel)
+13. Continuar manual (parte 3: Juego, Pausa, Resultados, Puntajes, Créditos)
+14. Revisar ortografía del README y mejorar sección "Cómo jugar"
+15. Agregar sección "Preguntas frecuentes" al README
+
+**Pablo** – Documentación, tienda y pruebas (archivos: `docs/tienda/`, `docs/pruebas-celular.md`):
+
+1. Escribir título y descripción corta en `docs/tienda/titulo-y-descripcion.md`
+2. Escribir descripción larga para Google Play
+3. Escribir política de privacidad en `docs/tienda/politica-privacidad.md`
+4. Seleccionar y copiar 6 capturas para `docs/tienda/capturas/`
+5. Escribir notas sobre qué muestra cada captura de la tienda
+6. Compilar APK de prueba (`npm run build && npx cap sync android`)
+7. Instalar APK en celular Android real
+8. Probar todas las pantallas en celular y documentar en `docs/pruebas-celular.md`
+9. Probar las 7 canciones en celular (al menos 2 niveles cada una)
+10. Probar los 3 easter eggs documentados
+11. Documentar modelo de celular, versión Android y resultados de pruebas
+12. Crear issues en GitHub para errores encontrados
+13. Probar vibración y sonido con ajustes activados/desactivados
+14. Verificar persistencia (cerrar app, abrir, comprobar que se guarda el progreso)
+15. Documentar tiempos de carga y rendimiento en celular
+
+**Detalles completos en [`TAREAS_EQUIPO.md`](TAREAS_EQUIPO.md)**. Cada tarea debe ser un commit separado con mensaje en español.
 Los wireframes en papel y Figma están en [`docs/diseno/`](docs/diseno/).
 
 ## Diseño y tienda
@@ -156,7 +217,7 @@ Los wireframes en papel y Figma están en [`docs/diseno/`](docs/diseno/).
   - Gráfico de funciones: [`grafico-funciones-1024x500.png`](docs/tienda/grafico-funciones-1024x500.png).
   - 8 capturas de 1080×1920: [`capturas-1080x1920/`](docs/tienda/capturas-1080x1920/).
   - Textos de la ficha (descripción, clasificación, seguridad de datos): [`textos.md`](docs/tienda/textos.md).
-- **Política de privacidad:** https://juanval0308.github.io/Juego/politica-privacidad.html
+- **Política de privacidad:** https://juanval0308.github.io/NotaFlow/politica-privacidad.html
   (fuente: [`docs/politica-privacidad.md`](docs/politica-privacidad.md)). NotaFlow no recopila datos personales.
 
 ## Justificación del uso de IA y código comentado
