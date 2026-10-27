@@ -1,4 +1,7 @@
 // "María tenía un corderito" - melodía tradicional de dominio público.
+import { partitura } from './notacion.js';
+
+const A = 'E4 D4 C4 D4 E4 E4 E4:2';
 
 export default {
   id: 'maria-corderito',
@@ -9,6 +12,6 @@ export default {
   instrumento: 'piano',
   ritmo: 'suave',
   color: '#22e5ff',
-  melodia: [],
+  melodia: partitura(A),
   bajo: [],
 };
