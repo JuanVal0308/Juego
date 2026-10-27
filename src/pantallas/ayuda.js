@@ -16,10 +16,11 @@ export default {
         <div class="paso"><span class="num">1</span><p>Mira los <b>4 carriles</b> y sigue las notas que bajan.</p></div>
         <div class="paso"><span class="num">2</span><p>Toca un carril cuando su nota cruce la <b>línea brillante</b>.</p></div>
         <div class="paso"><span class="num">3</span><p>Un toque preciso da <b>Perfecto</b>; uno cercano da <b>Bien</b>.</p></div>
-        <div class="paso"><span class="num">4</span><p>Evita los fallos: cada uno reduce tu <b>vida</b>.</p></div>
-        <div class="paso"><span class="num">5</span><p>Obtén al menos <b>1 estrella</b> para desbloquear contenido.</p></div>
-        <div class="paso"><span class="num">6</span><p>En computador usa <b>D · F · J · K</b>. Pulsa <b>⏸</b> para pausar.</p></div>
-        <div class="paso"><span class="num">7</span><p>Explora la pantalla principal: el logo guarda un secreto. 🌈</p></div>
+        <div class="paso"><span class="num">4</span><p>Encadena aciertos: el combo multiplica el puntaje por <b>x2</b>, <b>x3</b> y hasta <b>x4</b>.</p></div>
+        <div class="paso"><span class="num">5</span><p>Evita los fallos: cada uno reduce tu <b>vida</b>.</p></div>
+        <div class="paso"><span class="num">6</span><p>Obtén al menos <b>1 estrella</b> para desbloquear contenido.</p></div>
+        <div class="paso"><span class="num">7</span><p>En computador usa <b>D · F · J · K</b>. Pulsa <b>⏸</b> para pausar.</p></div>
+        <div class="paso"><span class="num">8</span><p>Explora la pantalla principal: el logo guarda un secreto. 🌈</p></div>
       </div>`;
     el.querySelector('#atras').onclick = () => { sonidoAtras(); nav.volver(); };
   },
