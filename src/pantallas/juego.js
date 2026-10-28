@@ -12,7 +12,7 @@ import { Acompanamiento } from '../motor/acompanamiento.js';
 import { obtenerAjustes, registrarPartida, sumarNotasAcertadas } from '../almacenamiento.js';
 import { siguienteDe } from '../progreso.js';
 import {
-  iniciarAudio, tocarNota, tocarNotaMala, sonidoAcierto, sonidoCombo, sonidoCuentaAtras,
+  iniciarAudio, tocarNota, tocarNotaMala, sonidoAcierto, sonidoAciertoB, sonidoCombo, sonidoCuentaAtras,
   sonidoPausa, sonidoVictoria, sonidoDerrota, sonidoClic,
 } from '../audio.js';
 import { vibrar } from '../vibracion.js';
@@ -48,13 +48,19 @@ export default {
     let terminado = false;
     let ultimoCuenta = null;
     let temporizadorFin = null;
+    let contadorAcierto = 0; // alterna entre sonidoAcierto() y sonidoAciertoB()
 
     // Estado de la partida con los "oyentes" que reaccionan a cada evento
     const partida = crearPartida(cancion, nivelId, {
       alJuicio({ tipo, carril, nota }) {
         lienzo.efectoJuicio(tipo, carril, partida.tiempo);
         if (tipo === 'fallo') { tocarNotaMala(); vibrar('fallo'); }
-        else { tocarNota(nota.freq, cancion.instrumento, null, 0.6); sonidoAcierto(tipo === 'perfecto'); vibrar(tipo); }
+        else {
+          tocarNota(nota.freq, cancion.instrumento, null, 0.6);
+          contadorAcierto += 1;
+          (contadorAcierto % 2 === 0 ? sonidoAciertoB : sonidoAcierto)(tipo === 'perfecto');
+          vibrar(tipo);
+        }
         actualizarHud();
       },
       alCombo(mult) {
