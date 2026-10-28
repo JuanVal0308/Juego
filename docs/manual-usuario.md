@@ -32,3 +32,34 @@ Si es tu primera vez, te pide tu nombre para que aparezca en el ranking
 
 Explica en 8 pasos las reglas: los 4 carriles, cuándo tocar, la diferencia entre "Perfecto" y
 "Bien", el combo, la vida, las estrellas y los controles de teclado (**D F J K**).
+
+## Selección de canción
+
+![Selección de canción](capturas/06-canciones.png)
+
+Lista las 6 canciones normales (la secreta no aparece hasta desbloquearla). Cada tarjeta muestra
+artista, BPM y las estrellas conseguidas. Las canciones bloqueadas se ven con 🔒 y un mensaje de
+qué falta para abrirlas; tocarlas suena un aviso de "bloqueado" en vez de abrir el nivel.
+Progreso con candados: [`18-canciones-progreso.png`](capturas/18-canciones-progreso.png).
+
+## Selección de nivel
+
+![Selección de nivel](capturas/07-niveles.png)
+
+Elige **Fácil**, **Medio** o **Difícil** para la canción escogida. Cada fila muestra cuántas notas
+tiene, la velocidad, tu mejor puntaje/combo (si ya jugaste) y las estrellas ganadas. Un nivel
+bloqueado pide al menos ★ en el anterior. Niveles ya desbloqueados:
+[`13-niveles-desbloqueados.png`](capturas/13-niveles-desbloqueados.png).
+
+## Juego
+
+![Juego en curso](capturas/09-juego-en-curso.png)
+
+La pantalla principal: las notas caen por los **4 carriles** y hay que tocarlas (o usar **D F J K**)
+justo cuando llegan a la línea brillante. El HUD superior muestra el puntaje, el multiplicador de
+combo (x1-x4) y el botón de pausa ⏸; abajo, la barra de vida.
+
+- Cuenta regresiva antes de empezar: [`08-juego-cuenta-atras.png`](capturas/08-juego-cuenta-atras.png)
+- Combo alto: [`10-juego-combo.png`](capturas/10-juego-combo.png)
+- Un fallo (resta vida): [`14-juego-fallos.png`](capturas/14-juego-fallos.png)
+- Modo arcoíris (easter egg): [`20-juego-modo-arcoiris.png`](capturas/20-juego-modo-arcoiris.png)
