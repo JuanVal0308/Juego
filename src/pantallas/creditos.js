@@ -1,8 +1,6 @@
 // =====================================================================
 // creditos.js - Pantalla: Créditos del equipo
 // Incluye el EASTER EGG #2: tocar 5 veces "Hecho en UPB" lanza confeti.
-// TODO(equipo): Integrante 3 reemplaza su nombre real aquí
-// (ver TAREAS_EQUIPO.md).
 // =====================================================================
 import { sonidoAtras, sonidoSecreto, sonidoToqueLogo } from '../audio.js';
 import { vibrar } from '../vibracion.js';
@@ -14,7 +12,7 @@ import { desbloquearSecreto } from '../almacenamiento.js';
 const EQUIPO = [
   { nombre: 'Juan Pablo Martinez Romero', rol: 'Motor del juego, audio y Android' },
   { nombre: 'Zteve0', rol: 'Canciones, niveles y textos' },
-  { nombre: 'Integrante 3', rol: 'Documentación, tienda y pruebas' },
+  { nombre: 'Mariana Osorio Rojas', rol: 'Sonido, tema de color, documentación y tienda' },
 ];
 
 export default {

@@ -140,7 +140,7 @@ Las pruebas usan un reloj manual (`?test=1`) para que el resultado sea siempre e
 |------------|---------------------------|
 | Juan Pablo Martinez Romero | Motor del juego, audio, interfaz y empaquetado Android |
 | Integrante 2 | Canciones nuevas, ajuste de niveles, textos de ayuda y easter eggs |
-| Integrante 3 | Efectos de sonido, documentación, tema de color, textos de la tienda y pruebas en celular |
+| Mariana Osorio Rojas | Efectos de sonido, documentación, tema de color, textos de la tienda y pruebas en celular |
 
 El detalle paso a paso de lo que hace cada uno está en [`TAREAS_EQUIPO.md`](TAREAS_EQUIPO.md).
 Los wireframes en papel y Figma están en [`docs/diseno/`](docs/diseno/).
