@@ -26,6 +26,8 @@ export class Lienzo {
     this.pulsoBeat = 0;      // 0..1, destello de fondo al ritmo
     this.destelloFallo = 0;  // viñeta roja al fallar
     this.ultimoBeat = -1;
+    // En celular se toca con el dedo: las letras D/F/J/K solo tienen sentido con teclado físico.
+    this.mostrarTeclas = !('ontouchstart' in window) && matchMedia('(pointer: fine)').matches;
     this.estrellasFondo = Array.from({ length: 36 }, () => ({ x: Math.random(), y: Math.random(), v: 0.01 + Math.random() * 0.03, r: 0.6 + Math.random() * 1.4 }));
     this.redimensionar();
   }
@@ -147,10 +149,12 @@ export class Lienzo {
       ctx.lineWidth = 3; ctx.strokeStyle = color;
       ctx.shadowColor = color; ctx.shadowBlur = 12 + 14 * this.destelloCarril[c];
       ctx.stroke(); ctx.shadowBlur = 0;
-      // Letra de la tecla (útil al probar con teclado)
-      ctx.fillStyle = 'rgba(255,255,255,0.55)';
-      ctx.font = '700 14px "Trebuchet MS", sans-serif'; ctx.textAlign = 'center';
-      ctx.fillText(TECLAS[c], x, yGolpe + radio + 22);
+      // Letra de la tecla: solo en computador (con teclado físico), en celular estorba
+      if (this.mostrarTeclas) {
+        ctx.fillStyle = 'rgba(255,255,255,0.55)';
+        ctx.font = '700 14px "Trebuchet MS", sans-serif'; ctx.textAlign = 'center';
+        ctx.fillText(TECLAS[c], x, yGolpe + radio + 22);
+      }
     }
 
     // Notas que caen
