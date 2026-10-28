@@ -63,3 +63,27 @@ combo (x1-x4) y el botón de pausa ⏸; abajo, la barra de vida.
 - Combo alto: [`10-juego-combo.png`](capturas/10-juego-combo.png)
 - Un fallo (resta vida): [`14-juego-fallos.png`](capturas/14-juego-fallos.png)
 - Modo arcoíris (easter egg): [`20-juego-modo-arcoiris.png`](capturas/20-juego-modo-arcoiris.png)
+
+## Pausa
+
+![Pausa](capturas/11-pausa.png)
+
+Se abre con el botón ⏸ (o `Esc`/`P` en computador) y detiene la partida al instante. Desde aquí se
+puede **Continuar**, **Reiniciar** el intento o **Salir** al menú.
+
+## Resultados
+
+![Resultados: victoria](capturas/12-resultados-victoria.png)
+
+Al terminar la canción (la ganes o no) se muestra: estrellas conseguidas (1 a 3, según la
+precisión), el puntaje final (sube contando con animación), precisión, mejor combo, aciertos
+"Perfecto"/"Bien" y fallos. Si rompiste tu récord o desbloqueaste algo nuevo, aparece un aviso.
+Si te quedaste sin vida, se ve distinto: [`15-resultados-derrota.png`](capturas/15-resultados-derrota.png).
+
+## Puntajes
+
+![Puntajes: ranking](capturas/16-puntajes-ranking.png)
+
+Tiene dos pestañas: **🏆 Ranking** (todas tus partidas ganadas, ordenadas por puntaje) y
+**★ Mis mejores** (el mejor puntaje y estrellas por canción y nivel):
+[`17-puntajes-mejores.png`](capturas/17-puntajes-mejores.png).
