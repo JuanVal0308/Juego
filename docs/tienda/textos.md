@@ -12,8 +12,8 @@ Textos listos para copiar y pegar en la Play Console. Se indica la longitud de c
 | Categoría | **Juegos › Música** |
 | Idioma predeterminado | Español (Latinoamérica) – `es-419` |
 | Correo de contacto | juanpa.martinezro@gmail.com |
-| Política de privacidad | https://juanval0308.github.io/Juego/politica-privacidad.html |
-| Sitio web (opcional) | https://github.com/JuanVal0308/Juego |
+| Política de privacidad | https://juanval0308.github.io/NotaFlow/politica-privacidad.html |
+| Sitio web (opcional) | https://github.com/JuanVal0308/NotaFlow |
 | Precio | Gratis |
 
 ## Descripción breve (máx. 80)
@@ -99,7 +99,7 @@ Palabras clave para la descripción: juego de ritmo, guitar hero, piano tiles, j
 | ¿Se comparten datos con terceros? | No se comparte ningún dato |
 | ¿Los datos se cifran en tránsito? | No aplica (la app no envía datos) |
 | ¿Los usuarios pueden pedir que se borren sus datos? | No aplica: todo se guarda localmente y se borra al desinstalar o con *Borrar datos* |
-| Política de privacidad | https://juanval0308.github.io/Juego/politica-privacidad.html |
+| Política de privacidad | https://juanval0308.github.io/NotaFlow/politica-privacidad.html |
 
 Notas para responder: el nombre del jugador, los ajustes, las estrellas y los puntajes se guardan solo en el almacenamiento
 local del dispositivo (`localStorage`) y nunca salen de él. La app no integra SDK de anuncios, analítica ni de terceros.

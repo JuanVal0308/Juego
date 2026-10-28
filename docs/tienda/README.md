@@ -10,7 +10,7 @@ Material para la ficha de la tienda de NotaFlow (id `com.notaflow.juego`).
 | `textos.md` | Nombre, descripción breve y completa, categoría, etiquetas, clasificación de contenido, público objetivo y seguridad de los datos | Listo |
 | `../politica-privacidad.md` | Política de privacidad (versión publicada en la web) | Lista |
 
-**Política de privacidad (URL pública):** https://juanval0308.github.io/Juego/politica-privacidad.html
+**Política de privacidad (URL pública):** https://juanval0308.github.io/NotaFlow/politica-privacidad.html
 
 ## Cómo regenerar las imágenes
 
