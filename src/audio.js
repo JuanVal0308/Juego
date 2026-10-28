@@ -170,8 +170,8 @@ export function sonidoAtras() {
 export function sonidoFallo() {
   if (!audioDisponible()) return;
   const t = ctx.currentTime;
-  voz({ freq: 150, tipo: 'square', t, dur: 0.14, vol: 0.12, filtro: { inicio: 900, fin: 200 } });
-  voz({ freq: 120, tipo: 'square', t: t + 0.09, dur: 0.16, vol: 0.12, filtro: { inicio: 900, fin: 200 } });
+  voz({ freq: 110, tipo: 'square', t, dur: 0.1, vol: 0.12, filtro: { inicio: 900, fin: 200 } });
+  voz({ freq: 90, tipo: 'square', t: t + 0.07, dur: 0.11, vol: 0.12, filtro: { inicio: 900, fin: 200 } });
 }
 
 // TODO(equipo): Integrante 3 crea variaciones de los efectos (ver TAREAS_EQUIPO.md, "Efectos de sonido"):
