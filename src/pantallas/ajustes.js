@@ -79,6 +79,14 @@ export default {
     };
     $('#rango-volumen').onchange = () => tocarNota(659.25, 'piano', null, 0.4); // prueba de volumen
 
+    $('#btn-tema').onclick = () => {
+      const nuevo = obtenerAjustes().tema === 'solar' ? 'neon' : 'solar';
+      cambiarAjuste('tema', nuevo);
+      document.documentElement.dataset.tema = nuevo;
+      $('#btn-tema').textContent = nuevo === 'solar' ? 'Solar' : 'Neón';
+      sonidoClic();
+    };
+
     $('#guardar-nombre').onclick = () => {
       const v = $('#entrada-nombre').value.trim();
       if (!v) { aviso('Escribe un nombre'); return; }
