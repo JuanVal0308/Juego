@@ -43,7 +43,10 @@ export default {
             <button class="boton cian peque" id="guardar-nombre">Guardar</button>
           </div>
         </div>
-        <!-- TODO(equipo): Integrante 3 agrega aquí la opción "Tema de color" (ver TAREAS_EQUIPO.md) -->
+        <div class="tarjeta ajuste">
+          <div><b>🎨 Tema de color</b><small>Neón o Solar</small></div>
+          <button class="boton suave peque" id="btn-tema">${a.tema === 'solar' ? 'Solar' : 'Neón'}</button>
+        </div>
         <button class="boton suave" id="borrar" style="color:var(--rojo)">Borrar todo mi progreso</button>
       </div>`;
 
