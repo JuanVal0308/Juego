@@ -8,6 +8,7 @@ import './estilos/pantallas.css';
 import './estilos/juego.css';
 import './estilos/resultados.css';
 import { registrarPantalla, irA, pantallaActual, volver } from './enrutador.js';
+import { obtenerAjustes } from './almacenamiento.js';
 import { App } from '@capacitor/app';
 import { Capacitor } from '@capacitor/core';
 import splash from './pantallas/splash.js';
@@ -32,6 +33,7 @@ registrarPantalla('resultados', resultados);
 registrarPantalla('puntajes', puntajes);
 registrarPantalla('creditos', creditos);
 
+document.documentElement.dataset.tema = obtenerAjustes().tema; // aplica el tema guardado (neón o solar)
 irA('splash');
 
 // ---------------------------------------------------------------------
