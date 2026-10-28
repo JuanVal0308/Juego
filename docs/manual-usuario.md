@@ -87,3 +87,20 @@ Si te quedaste sin vida, se ve distinto: [`15-resultados-derrota.png`](capturas/
 Tiene dos pestañas: **🏆 Ranking** (todas tus partidas ganadas, ordenadas por puntaje) y
 **★ Mis mejores** (el mejor puntaje y estrellas por canción y nivel):
 [`17-puntajes-mejores.png`](capturas/17-puntajes-mejores.png).
+
+## Créditos
+
+![Créditos](capturas/21-creditos.png)
+
+Muestra al equipo y su rol, además de un aviso legal sobre la música. Tocar 5 veces
+"★ HECHO EN UPB ★" lanza confeti (easter egg):
+[`22-creditos-confeti.png`](capturas/22-creditos-confeti.png).
+
+## Ajustes
+
+![Ajustes: tema neón](capturas/24-ajustes-tema-neon.png)
+
+Desde aquí se controla: **Sonido** (encender/apagar), **Volumen**, **Vibración**, el
+**🎨 Tema de color** (Neón o Solar — ver [`25-ajustes-tema-solar.png`](capturas/25-ajustes-tema-solar.png)),
+tu **nombre** para el ranking y el botón para **borrar todo tu progreso** (pide confirmación).
+Si ya desbloqueaste el secreto, también aparece el interruptor de **🌈 Modo arcoíris**.
