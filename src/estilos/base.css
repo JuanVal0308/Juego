@@ -21,8 +21,17 @@
   --fuente: "Trebuchet MS", "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
 }
 
-/* TODO(equipo): Integrante 3 agrega aquí el tema de color alternativo
-   (ej. :root[data-tema="solar"] { ... }). Ver TAREAS_EQUIPO.md. */
+/* Tema alternativo "solar": paleta cálida naranja/amarillo en vez de morado/cian/magenta. */
+:root[data-tema="solar"] {
+  --fondo: #2b1606;
+  --fondo-2: #3a2109;
+  --cian: #ffb020;
+  --magenta: #ff5f2e;
+  --violeta: #ff8a3d;
+  --amarillo: #fff066;
+  --brillo-cian: 0 0 12px rgba(255, 176, 32, 0.7), 0 0 28px rgba(255, 176, 32, 0.35);
+  --brillo-magenta: 0 0 12px rgba(255, 95, 46, 0.7), 0 0 28px rgba(255, 95, 46, 0.35);
+}
 
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 html, body {
