@@ -13,8 +13,8 @@ grep -rn "TODO(equipo)" src
 ## 0. Preparación (todos)
 
 ```bash
-git clone https://github.com/JuanVal0308/Juego.git
-cd Juego
+git clone https://github.com/JuanVal0308/NotaFlow.git
+cd NotaFlow
 npm install
 npm run dev          # abre http://localhost:5173 (usa Ctrl+Shift+M en Chrome para vista de celular)
 ```
