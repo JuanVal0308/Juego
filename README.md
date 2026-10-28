@@ -173,6 +173,35 @@ Los wireframes en papel y Figma están en [`docs/diseno/`](docs/diseno/).
 - **Música**: las melodías son de **dominio público** (Estrellita, Himno a la Alegría, Para Elisa, Cascabeles) o
   **composiciones originales** del equipo, y se sintetizan por código; no se usan grabaciones.
 
+## Preguntas frecuentes
+
+**¿Necesito internet para jugar?**
+No. Todo el juego corre en el dispositivo (música, efectos y pantallas incluidos); solo hace falta
+internet la primera vez, para instalarlo.
+
+**No escucho ningún sonido, ¿qué hago?**
+Revisa que el interruptor **Sonido** esté activo en Ajustes y sube el volumen del celular. Además,
+por una regla de los navegadores, el audio solo se activa después de tu primer toque en la pantalla.
+
+**¿Dónde se guarda mi progreso?**
+En el propio dispositivo, con `localStorage` (ver "Persistencia de datos" más arriba). Si desinstalas
+la app o borras los datos del navegador, se pierde; también puedes borrarlo tú desde Ajustes.
+
+**¿Cómo desbloqueo canciones y niveles nuevos?**
+Consigue al menos ★ 1 estrella (50 % de precisión) en un nivel para abrir el siguiente; ganar al
+menos una estrella en el nivel Fácil también desbloquea la siguiente canción.
+
+**¿Cómo cambio el tema de color?**
+En **Ajustes → 🎨 Tema de color**, alterna entre **Neón** (morado/cian/magenta) y **Solar**
+(naranja/amarillo). El cambio se guarda solo y se mantiene la próxima vez que abras la app.
+
+**¿Funciona en iPhone/iOS?**
+Este repositorio empaqueta el juego para Android con Capacitor. Capacitor también soporta iOS,
+pero ese proyecto todavía no está incluido aquí.
+
+**Encontré un error, ¿qué hago?**
+Abre un "issue" en GitHub con un título claro y los pasos para repetirlo (ver `TAREAS_EQUIPO.md`).
+
 ## Licencia
 
 Proyecto académico – Universidad Pontificia Bolivariana (UPB). Hecho en UPB ★
