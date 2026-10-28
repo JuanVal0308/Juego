@@ -158,7 +158,7 @@ export function bajo(freq, t, dur = 0.4) {
 export function sonidoClic() {
   if (!audioDisponible()) return;
   const t = ctx.currentTime;
-  voz({ freq: 660, tipo: 'square', t, dur: 0.07, vol: 0.12, filtro: { inicio: 2500, fin: 800 } });
+  voz({ freq: 880, tipo: 'square', t, dur: 0.07, vol: 0.12, filtro: { inicio: 2500, fin: 800 } });
 }
 export function sonidoAtras() {
   if (!audioDisponible()) return;
