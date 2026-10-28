@@ -185,6 +185,14 @@ export function sonidoAcierto(perfecto) {
   if (perfecto) voz({ freq: 1760, tipo: 'sine', t, dur: 0.09, vol: 0.06 });
 }
 
+/** Segundo tono de acierto (timbre más redondo) para alternar con sonidoAcierto(). */
+export function sonidoAciertoB(perfecto) {
+  if (!audioDisponible()) return;
+  const t = ctx.currentTime;
+  rafagaRuido({ t, dur: 0.04, vol: perfecto ? 0.12 : 0.07, tipoFiltro: 'highpass', frecuencia: perfecto ? 5200 : 3400 });
+  if (perfecto) voz({ freq: 1480, tipo: 'triangle', t, dur: 0.1, vol: 0.07 });
+}
+
 /** Arpegio ascendente al subir el multiplicador de combo. */
 export function sonidoCombo(nivel) {
   if (!audioDisponible()) return;
