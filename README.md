@@ -101,8 +101,8 @@ NotaFlow/
 Requisitos: **Node.js 22+**, y para Android **JDK 21** y el **Android SDK** (Android Studio).
 
 ```bash
-git clone https://github.com/JuanVal0308/Juego.git
-cd Juego
+git clone https://github.com/JuanVal0308/NotaFlow.git
+cd NotaFlow
 npm install
 npm run dev            # abre el juego en el navegador (http://localhost:5173)
 ```
@@ -156,7 +156,7 @@ Los wireframes en papel y Figma están en [`docs/diseno/`](docs/diseno/).
   - Gráfico de funciones: [`grafico-funciones-1024x500.png`](docs/tienda/grafico-funciones-1024x500.png).
   - 8 capturas de 1080×1920: [`capturas-1080x1920/`](docs/tienda/capturas-1080x1920/).
   - Textos de la ficha (descripción, clasificación, seguridad de datos): [`textos.md`](docs/tienda/textos.md).
-- **Política de privacidad:** https://juanval0308.github.io/Juego/politica-privacidad.html
+- **Política de privacidad:** https://juanval0308.github.io/NotaFlow/politica-privacidad.html
   (fuente: [`docs/politica-privacidad.md`](docs/politica-privacidad.md)). NotaFlow no recopila datos personales.
 
 ## Justificación del uso de IA y código comentado
