@@ -166,6 +166,14 @@ export function sonidoAtras() {
   voz({ freq: 440, tipo: 'square', t, dur: 0.07, vol: 0.1, filtro: { inicio: 2000, fin: 600 } });
 }
 
+/** Campanita suave al abrir la pantalla de Ajustes. */
+export function sonidoAjustes() {
+  if (!audioDisponible()) return;
+  const t = ctx.currentTime;
+  voz({ freq: 523.25, tipo: 'triangle', t, dur: 0.12, vol: 0.14 });
+  voz({ freq: 659.25, tipo: 'triangle', t: t + 0.07, dur: 0.14, vol: 0.14 });
+}
+
 /** Zumbido corto de "no permitido" (canción o nivel bloqueado). */
 export function sonidoFallo() {
   if (!audioDisponible()) return;

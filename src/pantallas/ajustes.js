@@ -3,7 +3,7 @@
 // Todo se guarda al instante en localStorage (persistencia).
 // =====================================================================
 import { obtenerAjustes, cambiarAjuste, obtenerNombre, guardarNombre, reiniciarTodo, obtenerSecretos } from '../almacenamiento.js';
-import { actualizarVolumen, sonidoClic, sonidoAtras, iniciarAudio, tocarNota } from '../audio.js';
+import { actualizarVolumen, sonidoClic, sonidoAtras, sonidoAjustes, iniciarAudio, tocarNota } from '../audio.js';
 import { vibrar } from '../vibracion.js';
 import { aviso, esc } from '../util/dom.js';
 
@@ -11,6 +11,8 @@ export default {
   montar(el, _params, nav) {
     const a = obtenerAjustes();
     const hayArcoiris = obtenerSecretos().cancionSecreta;
+    iniciarAudio();
+    sonidoAjustes();
     el.innerHTML = `
       <div class="barra-superior">
         <button class="boton suave boton-icono" id="atras" aria-label="Volver">←</button>
